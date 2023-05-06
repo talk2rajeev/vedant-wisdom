@@ -18,10 +18,64 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
 }
+
+.logo-title {
+  color: #fbf6ef;
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-text-stroke-color: #000;
+  stroke: #000;
+  background-color: #ecaa67;
+}
+
+.service-box {
+  background: #fff5eb;
+  padding: 3em;
+  margin-bottom: 2em;
+  border-bottom: 12px solid #ffd2a4;
+  padding-bottom: 2em;
+}
+
+.service-box:hover {
+  -webkit-box-shadow: 3.346px 3.716px 22.5px rgb(0 0 0/7%);
+  box-shadow: 3.346px 3.716px 22.5px rgb(0 0 0/7%);
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+.slideInUp {
+  animation-name: slideInUp;
+}
+
+h3 {
+  -webkit-transition: all .3s ease-out 0s;
+  -moz-transition: all .3s ease-out 0s;
+  -ms-transition: all .3s ease-out 0s;
+  -o-transition: all .3s ease-out 0s;
+  transition: all .3s ease-out 0s;
+}
+
+desc {
+  display: -webkit-box!important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+}
+
+.read-more {
+  color: #de8d38;
+  font-size: 18px;
+}
+
