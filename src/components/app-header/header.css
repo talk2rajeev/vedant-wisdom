@@ -1,0 +1,14 @@
+.app-header {
+    color: #fbf6ef;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+.language-selector-wrapper  {
+    text-align: right;
+}
+.language-selector-wrapper > select {
+    width: 200px;
+}

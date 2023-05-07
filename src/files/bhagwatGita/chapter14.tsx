@@ -1,7 +1,7 @@
 export default {
-    chapter2: {
-        chapterNameHindi: 'सांख्य योग',
-        chapterNameEnglish: 'sankhya Yog',
+    chapter14: {
+        chapterNameHindi: 'गुण त्रय विभाग योग',
+        chapterNameEnglish: 'Gunatraya Vibhaga Yog',
         chapterDescription: '',
         slokas: [
             {

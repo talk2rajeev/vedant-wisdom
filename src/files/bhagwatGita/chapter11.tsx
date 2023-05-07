@@ -1,7 +1,7 @@
 export default {
-    chapter2: {
-        chapterNameHindi: 'सांख्य योग',
-        chapterNameEnglish: 'sankhya Yog',
+    chapter11: {
+        chapterNameHindi: 'विश्वरूप दर्शन योग',
+        chapterNameEnglish: 'Vishwaroop Darshan Yog',
         chapterDescription: '',
         slokas: [
             {

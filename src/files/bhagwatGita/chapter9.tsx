@@ -1,7 +1,7 @@
 export default {
-    chapter2: {
-        chapterNameHindi: 'सांख्य योग',
-        chapterNameEnglish: 'sankhya Yog',
+    chapter9: {
+        chapterNameHindi: 'राज विद्या योग (राजगुह्य योग)',
+        chapterNameEnglish: ' Rajvidya Yog',
         chapterDescription: '',
         slokas: [
             {

@@ -21,21 +21,11 @@ body {
   
 }
 
-.logo-title {
-  color: #fbf6ef;
-  font-size: 2em;
-  font-weight: 600;
-  text-transform: uppercase;
-  -webkit-text-stroke-color: #000;
-  stroke: #000;
-  background-color: #ecaa67;
-}
-
 .service-box {
-  background: #fff5eb;
+  background: #feeadf;
   padding: 3em;
   margin-bottom: 2em;
-  border-bottom: 12px solid #ffd2a4;
+  border-bottom: 12px solid #f89865;
   padding-bottom: 2em;
 }
 

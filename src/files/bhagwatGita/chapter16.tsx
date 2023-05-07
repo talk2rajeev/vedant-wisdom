@@ -1,7 +1,7 @@
 export default {
-    chapter2: {
-        chapterNameHindi: 'सांख्य योग',
-        chapterNameEnglish: 'sankhya Yog',
+    chapter16: {
+        chapterNameHindi: 'देवासुर संपद विभाग योग',
+        chapterNameEnglish: 'Daivasur Sampad Vibhag Yog',
         chapterDescription: '',
         slokas: [
             {

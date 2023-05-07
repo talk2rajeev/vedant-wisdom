@@ -1,7 +1,7 @@
 export default {
-    chapter2: {
-        chapterNameHindi: 'सांख्य योग',
-        chapterNameEnglish: 'sankhya Yog',
+    chapter13: {
+        chapterNameHindi: 'क्षेत्र क्षेत्रज्ञ विभाग योग (प्रकृति पुरुष विवेक योग)',
+        chapterNameEnglish: 'Ksetra Ksetrajna Vibhaaga Yog (Prakṛti Puruṣa Vivek Yog)',
         chapterDescription: '',
         slokas: [
             {

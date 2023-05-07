@@ -1,0 +1,16 @@
+.service-box {
+    background: #feeadf;
+    padding: 3em;
+    margin-bottom: 1em;
+    border-bottom: 12px solid #f89865;
+    padding-bottom: 2em;
+  }
+  
+  .service-box:hover {
+    -webkit-box-shadow: 3.346px 3.716px 22.5px rgb(0 0 0/7%);
+    box-shadow: 3.346px 3.716px 22.5px rgb(0 0 0/7%);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }

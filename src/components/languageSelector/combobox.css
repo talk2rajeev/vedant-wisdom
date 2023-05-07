@@ -1,0 +1,21 @@
+select {
+    padding: 0.4rem;
+    font-size: .9rem;
+    border: 1px solid #c55a21;
+    border-radius: 0.25rem;
+    background-color: #ffb48c;
+    cursor: pointer;
+    outline: none;
+    color: #313131;
+    vertical-align: middle;
+}
+  
+  option {
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  option:hover {
+    background-color: #ccc;
+  }

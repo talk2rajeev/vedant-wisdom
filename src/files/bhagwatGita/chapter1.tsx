@@ -8,6 +8,7 @@ export default {
                 slokaNumber: 1,
                 uvach: "धृतराष्ट्र उवाच |",
                 sanskritSloka: ["धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |", "मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ॥1॥"],
+                romanSloka: ["dharma-kṣetre kuru-kṣetre samavetā yuyutsavaḥ | ", "māmakāḥ pāṇḍavāś caiva kim akurvata sañjaya"],
                 wordsMeaning: [
                     {
                         sanskrit: "धर्मक्षेत्रे",
@@ -43,7 +44,7 @@ export default {
                     },
                 ],
                 meaningInHindi: "धृतराष्ट्र बोले- हे संजय! धर्मभूमि कुरुक्षेत्र की पवित्र भूमि पर युद्ध करने की इच्छा से एकत्रित, मेरे और पाण्डु के पुत्रों ने क्या किया?",
-                meaningInEnglish: "",
+                meaningInEnglish: "Addressing Sañjaya, Emperor Dhṛtarāṣṭra said: After assembling with great enthusiasm for battle at the holy place of Kurukṣetra (dharma-kṣetra), what did my sons and the sons of Pāṇḍu do?",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
@@ -51,6 +52,7 @@ export default {
                 slokaNumber: 2,
                 uvach: "सञ्जय उवाच ।",
                 sanskritSloka: ["दृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा ।", "आचार्यमुपसङ्गम्य राजा वचनमब्रवीत् ॥2॥"],
+                romanSloka: ["dṛṣṭvā tu pāṇḍavānīkaṁ vyūḍhaṁ duryodhanas tadā", "ācāryam upasaṅgamya rājā vacanam abravīt"],
                 wordsMeaning: [
                     {
                         sanskrit: "दृष्ट्वा",
@@ -82,7 +84,7 @@ export default {
                     }
                 ],
                 meaningInHindi: "संजय ने कहाः हे राजन्! पाण्डवों की सेना की व्यूहरचना का अवलोकन कर (देखकर) राजा दुर्योधन ने अपने गुरु द्रोणाचार्य के पास जाकर इस प्रकार के शब्द कहे।",
-                meaningInEnglish: "",
+                meaningInEnglish: "Sañjaya replied: O Emperor, at that time your son Duryodhana, after observing the military arrangements of the Pāṇḍavas, approached his mentor Droṇa and spoke as follows.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
@@ -90,6 +92,7 @@ export default {
                 slokaNumber: 3,
                 uvach: "",
                 sanskritSloka: ["पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।", "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ॥3॥"],
+                romanSloka: ["", ""],
                 wordsMeaning: [
                     {
                         sanskrit: "पश्य",
@@ -136,10 +139,17 @@ export default {
             {
                 slokaNumber: 4,
                 uvach: "",
-                sanskritSloka: [],
-                wordsMeaning: "",
-                meaning: "",
-                meaningAsItIs: '',
+                sanskritSloka: ["अत्र शूरा महेष्वासा भीमार्जुनसमा युधि ।", "युयुधानो विराटश्च द्रुपदश्च महारथः ॥४॥"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: ""
+                    },
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: "Within those ranks are great archers who are equal to Bhīma and Arjuna in war such as Sātyaki, Virāṭa and the powerful charioteer Drupada.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
             },
             {
                 slokaNumber: 5,
