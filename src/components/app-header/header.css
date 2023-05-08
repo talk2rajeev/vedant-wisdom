@@ -12,3 +12,16 @@
 .language-selector-wrapper > select {
     width: 200px;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
+    }  
+}
+

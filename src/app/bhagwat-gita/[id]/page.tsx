@@ -2,6 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import {default as PageHeader} from '../../../components/app-header';
 import {default as bhagwatGita} from '../../../files/bhagwatGita';
+import './style.css';
+
+export function getChapterText(lang: string) {
+    if(lang === 'Hinid') {
+      return `अध्याय`;
+    } else if(lang === 'English'){
+      return `Chapter`;
+    } else {
+      return `अध्याय`;
+    }
+  }
 
 type slokaType = typeof bhagwatGita.chapter1.slokas[1];
 
@@ -19,8 +30,10 @@ function parseIdString(id: string) {
 
 export default function Page({ params }: {params: {id: string}}) {
     const [selectedLanguage, setselectedLanguage] = useState<string>('Hindi');
+    const [chapterNo, setChapterNo] = useState<string>('');
     const [curChapter, setCurChapter] = useState<string>('');
     const [curSloka, setCurSloka] = useState<slokaType>();
+
 
 
     const handleLanguageChange =  (language: string) => {
@@ -38,34 +51,49 @@ export default function Page({ params }: {params: {id: string}}) {
         const {chapter, verse} = parseIdString(params.id);
         const chapterName: string = bhagwatGita[`chapter${chapter}`].chapterNameHindi;
         const sloka: slokaType = bhagwatGita[`chapter${chapter}`].slokas[(verse-1)];
-
-        
+        setChapterNo(`chapter${chapter}`);
         setCurChapter(chapterName);
         setCurSloka(sloka);
 
-        console.log(chapterName, sloka);
     }, []);
+
+    const slokas = bhagwatGita[chapterNo];
 
     return <div>
     <PageHeader languageChange={handleLanguageChange}/>
     
-    <div className="">
-        <div className="xl:flex">
-            <div className="xl:w-60">
-                <div className='p-3'>
-                    <div className="uppercase tracking-wide text-sm text-xl text-orange-700 font-bold">{curChapter}</div>
+    <div className="content-box">
+        <div className="resposive-box">
+            <div className='bdr-rt'>
+                <div className='p-3 chapter-title'>
+                    <div className="uppercase tracking-wide">
+                        <span className='text-sm text-xl text-orange-700 font-bold pb-2 mb-2'>{getChapterText(selectedLanguage)}:</span>
+                        <span className='text-sm text-xl text-orange-700 font-thin ml-2'>{curChapter}</span>
+                    </div>
+                    <div className='pt-3'>
+                        <div className='text-sm text-orange-700 font-bold mb-2'>slokas</div>
+                        {
+                            slokas?.slokas?.map(item => <span className='badge badge-link ' key={item.slokaNumber}>{item.slokaNumber}</span>)
+                        }
+                    </div>
                 </div>
             </div>
             <div className="p-2">
+                <div>
+                    <p className='text-xl text-center font-normal text-orange-700 opacity-70'>Verse: {curSloka?.slokaNumber} </p>
+                </div>
                 <div className='flex justify-center items-center'>
-                    <div className='w-5/12 p-6 text-center bg-white rounded-xl shadow-md overflow-hidden'>
-                        <p className='text-xl font-light text-orange-700'>
+                    <div className='max-w-5/12 p-6 text-center bg-white overflow-hidden'>
+                        <div className='text-xl font-light text-orange-700'>
                         { curSloka?.sanskritSloka?.map(slok => <div key={slok}>{slok}</div>)}
-                        </p>
+                        </div>
                     </div>
                 </div>
-                <p className="mt-2 text-slate-500">{curSloka?.meaningInEnglish}</p>
+                <p className="mt-2 text-slate-500 pl-10 pr-10 pt-3 pb-3">{curSloka?.meaningInEnglish}</p>
             </div>
+        </div>
+        <div className='right-sidebar'>
+                Right side bar
         </div>
     </div>
 </div> 

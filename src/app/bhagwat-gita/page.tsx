@@ -6,7 +6,7 @@ import {default as PageHeader} from '../../components/app-header';
 import {default as bhagwatGita} from '../../files/bhagwatGita';
 import './style.css';
 
-function getChapterText(lang: string, i: number) {
+export function getChapterText(lang: string, i: number) {
     if(lang === 'Hinid') {
       return `अध्याय ${i+1}`;
     } else if(lang === 'English'){
@@ -36,7 +36,7 @@ const Page = () => {
                 {
                     Object.keys(bhagwatGita).map((key, i) =>  <a
                         href={`${baseurl}chapter${i+1}-verse1`}
-                        className="service-box group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                        className="service-box group border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
                         rel="noopener noreferrer"
                         key={key}
                       >
