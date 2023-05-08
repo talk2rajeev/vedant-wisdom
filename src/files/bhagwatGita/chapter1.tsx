@@ -7,8 +7,8 @@ export default {
             {
                 slokaNumber: 1,
                 uvach: "धृतराष्ट्र उवाच |",
-                sanskritSloka: ["धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |", "मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ॥1॥"],
-                romanSloka: ["dharma-kṣetre kuru-kṣetre samavetā yuyutsavaḥ | ", "māmakāḥ pāṇḍavāś caiva kim akurvata sañjaya"],
+                sanskritSloka: ["धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः ॥", "मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ॥1॥"],
+                romanSloka: ["dharma-kṣetre kuru-kṣetre samavetā yuyutsavaḥ ॥ ", "māmakāḥ pāṇḍavāś caiva kim akurvata sañjaya ॥1॥"],
                 wordsMeaning: [
                     {
                         sanskrit: "धर्मक्षेत्रे",
