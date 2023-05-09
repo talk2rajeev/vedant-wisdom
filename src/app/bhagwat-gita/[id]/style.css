@@ -15,7 +15,7 @@
     grid-template-columns: 260px 1fr;
 }
 
-.badge {
+/* .badge {
     display: inline-block;
     padding: 0 8px;
     border: 1px solid #cdcdcd;
@@ -24,9 +24,23 @@
     
 }
 .badge-link{
-    background: #fe4c15;
+    background: #f3815f;
     cursor: pointer;
     color: #f1f1f1;
+    border-radius: 3px;
+} */
+
+.badge {
+    display: inline-block;
+    padding: 0 8px;
+    border: 1px solid #f0b97a;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+.badge-link {
+    background: #fed7aa;
+    cursor: pointer;
+    color: #c76531;
     border-radius: 3px;
 }
 
@@ -36,6 +50,30 @@
 
 .bdr-rt {
     border-right: 1px solid #fbe1d6;
+}
+.slok-meaning {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.word-meaning-grid  {
+    width: 80%;
+    margin: 20px auto 10px;
+    background-color: #fff1e2;
+}
+.word-meaning-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.word-meaning-grid > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+.word-meaning-grid > div > div{
+    font-size: 0.975rem !important;
 }
 
 @media (max-width: 1024px) {
@@ -54,5 +92,8 @@
     }
     .bdr-rt {
         border: none;
+    }
+    .slok-meaning, .word-meaning-grid{
+        width: 100%;
     }
 }

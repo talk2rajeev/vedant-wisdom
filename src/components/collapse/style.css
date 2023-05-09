@@ -1,0 +1,13 @@
+.collapsible-component{
+    display: grid;
+    grid-template-columns: 15px auto;
+    grid-gap: 7px;
+    cursor: pointer;
+
+    background: #faa886;
+    color: #7d665c;
+}
+
+.animation{
+    transition: all .2s;
+}

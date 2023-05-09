@@ -18,7 +18,6 @@ import {default as Chapter16} from './chapter16';
 import {default as Chapter17} from './chapter17';
 import {default as Chapter18} from './chapter18';
 
-
 export default {
     ...Chapter1,
     ...Chapter2,

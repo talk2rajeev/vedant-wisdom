@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import {default as PageHeader} from '../../../components/app-header';
 import {default as bhagwatGita} from '../../../files/bhagwatGita';
+import { default as Collapse } from '../../../components/collapse';
 import './style.css';
 
 export function getChapterText(lang: string) {
@@ -14,7 +15,12 @@ export function getChapterText(lang: string) {
     }
   }
 
-type slokaType = typeof bhagwatGita.chapter1.slokas[1];
+type slokaType = typeof bhagwatGita.chapter1.slokas[0];
+
+type WordsMeaningType = {
+    sanskrit: string;
+    meaning: string;
+}
 
 function parseIdString(id: string) {
     // id: chapter1-verse1
@@ -80,16 +86,43 @@ export default function Page({ params }: {params: {id: string}}) {
             </div>
             <div className="p-2">
                 <div>
-                    <p className='text-xl text-center font-normal text-orange-700 opacity-70'>Verse: {curSloka?.slokaNumber} </p>
+                    <p className='text-xl text-center font-normal text-orange-700 opacity-80'>verse: {curSloka?.slokaNumber} </p>
                 </div>
                 <div className='flex justify-center items-center'>
                     <div className='max-w-5/12 p-6 text-center bg-white overflow-hidden'>
+                        <div className='text-orange-600 mb-3  font-semibold'>
+                            {curSloka?.uvach}
+                        </div>
                         <div className='text-xl font-light text-orange-700'>
-                        { curSloka?.sanskritSloka?.map(slok => <div key={slok}>{slok}</div>)}
+                            { curSloka?.sanskritSloka?.map(slok => <div key={slok}>{slok}</div>)}
                         </div>
                     </div>
                 </div>
-                <p className="mt-2 text-slate-500 pl-10 pr-10 pt-3 pb-3">{curSloka?.meaningInEnglish}</p>
+                
+                <div>
+                    <div className='word-meaning-grid p-6 mt-6 mb-6'>
+                        {
+                            curSloka?.wordsMeaning?.map((item: WordsMeaningType)=> {
+                                return <div>
+                                        <div className='text-sm font-light font-semibold text-orange-600 opacity-80'>{item.sanskrit} - </div>
+                                        <div className='text-sm font-light font-thin text-orange-600 opacity-80'>{item.meaning}</div>
+                                    </div>
+                            }) 
+                        }
+                    </div>
+                </div>
+
+                <div className='slok-meaning'>    
+                    <Collapse show={true} title='Hindi Meaning'>
+                        <p className="mt-2 text-slate-500 pl-8 pr-8 pt-3 pb-3">{curSloka?.meaningInHindi}</p>
+                    </Collapse>
+                </div>
+                <div className='slok-meaning'>    
+                    <Collapse show={false} title='English Meaning'>
+                        <p className="mt-2 text-slate-500 pl-8 pr-8 pt-3 pb-3">{curSloka?.meaningInEnglish}</p>
+                    </Collapse>
+                </div>
+
             </div>
         </div>
         <div className='right-sidebar'>
