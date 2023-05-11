@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+
 import {default as PageHeader} from '../../../components/app-header';
 import {default as bhagwatGita} from '../../../files/bhagwatGita';
 import { default as Collapse } from '../../../components/collapse';
@@ -26,10 +27,10 @@ function parseIdString(id: string) {
     // id: chapter1-verse1
     const arr = id.split('-');
     const verseStr = arr.find(a => a.includes('verse'));
-    const verse = verseStr ? Number(verseStr?.substr(-1)) : 1;
+    const verse = verseStr ? Number(verseStr.split('verse')[1]) : 1;
 
     const chapterStr = arr.find(a => a.includes('chapter'));
-    const chapter = chapterStr ? Number(chapterStr?.substr(-1)) : 1;
+    const chapter = chapterStr ? Number(chapterStr.split('chapter')[1]) : 1;
 
     return {chapter, verse};
 }
@@ -68,7 +69,7 @@ export default function Page({ params }: {params: {id: string}}) {
     return <div>
     <PageHeader languageChange={handleLanguageChange}/>
     
-    <div className="content-box">
+    <div className="content-box" >
         <div className="resposive-box">
             <div className='bdr-rt'>
                 <div className='p-3 chapter-title'>
@@ -103,9 +104,9 @@ export default function Page({ params }: {params: {id: string}}) {
                     <div className='word-meaning-grid p-6 mt-6 mb-6'>
                         {
                             curSloka?.wordsMeaning?.map((item: WordsMeaningType)=> {
-                                return <div>
-                                        <div className='text-sm font-light font-semibold text-orange-600 opacity-80'>{item.sanskrit} - </div>
-                                        <div className='text-sm font-light font-thin text-orange-600 opacity-80'>{item.meaning}</div>
+                                return <div key={item.meaning}>
+                                        <div className='text-sm font-light font-semibold text-orange-700 opacity-80'>{item.sanskrit} - </div>
+                                        <div className='text-sm font-light font-thin text-orange-700 opacity-80'>{item.meaning}</div>
                                     </div>
                             }) 
                         }
@@ -114,12 +115,12 @@ export default function Page({ params }: {params: {id: string}}) {
 
                 <div className='slok-meaning'>    
                     <Collapse show={true} title='Hindi Meaning'>
-                        <p className="mt-2 text-slate-500 pl-8 pr-8 pt-3 pb-3">{curSloka?.meaningInHindi}</p>
+                        <p className="mt-2 text-orange-700 pl-8 pr-8 pt-3 pb-3">{curSloka?.meaningInHindi}</p>
                     </Collapse>
                 </div>
                 <div className='slok-meaning'>    
                     <Collapse show={false} title='English Meaning'>
-                        <p className="mt-2 text-slate-500 pl-8 pr-8 pt-3 pb-3">{curSloka?.meaningInEnglish}</p>
+                        <p className="mt-2 text-orange-700 pl-8 pr-8 pt-3 pb-3">{curSloka?.meaningInEnglish}</p>
                     </Collapse>
                 </div>
 

@@ -27,11 +27,7 @@ const Page = () => {
     const baseurl = 'http://localhost:3000/bhagwat-gita/';
     return <div>
         <PageHeader languageChange={handleLanguageChange} />
-        
-            <div>
-            <Img />
-            </div>
-        <main className="md:container md:mx-auto mt-6">
+        <main className="md:container md:mx-auto mt-6 content">
             <div className="grid grid-cols-4 gap-3">
                 {
                     Object.keys(bhagwatGita).map((key, i) =>  <a

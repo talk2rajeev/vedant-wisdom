@@ -1,10 +1,21 @@
 .content-box{
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 250px;
     height: 100vh;
     background: #ea580b0d;
 }
-
+/* .content-box::before {    
+    content: "";
+    background-image: url('/gita_updesh.webp');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+} */
 .right-sidebar {
     background-color: #fff;
     padding: 10px;
