@@ -696,7 +696,7 @@ export default {
                     },
                 ],
                 meaningInHindi: "ऋषीकेश भगवान् कृष्ण ने अपना पाञ्जन्य शंख बजाया, अर्जुन ने देवदत्त शंख तथा अतिभोजी एवं अति दुष्कर कार्य करने वाले भीम ने पौण्डू नामक भीषण शंख बजाया।",
-                meaningInEnglish: "rī Kṛṣṇa, the Master of the senses, blew his conch-shell called Pāñcajanya. Arjuna, the winner of great wealth, blew his conch-shell called Devadatta. Bhīma, the performer of great feats, blew his conch-shell Pauṇḍra.",
+                meaningInEnglish: "Shri Krishna, the Master of the senses, blew his conch-shell called Pāñcajanya. Arjuna, the winner of great wealth, blew his conch-shell called Devadatta. Bhīma, the performer of great feats, blew his conch-shell Pauṇḍra.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
@@ -848,7 +848,7 @@ export default {
                         meaning: "गर्जना करना",
                     },
                 ],
-                meaningInHindi: "और उस भयानक शब्द (शंखों से उत्पन्न ध्वनि) द्वारा आकाश और धरती के बीच हुई गर्जना ने धार्तराष्ट्रों के अर्थात आपके पक्षवालों के हृदय विदीर्ण कर दिए।",
+                meaningInHindi: "और उस भयानक शब्द (शंखों से उत्पन्न ध्वनि) द्वारा आकाश और धरती के बीच हुई गर्जना ने धृतराष्ट्र के पक्षवालों के हृदय विदीर्ण कर दिए।",
                 meaningInEnglish: "That tremendous sound of conches pierced the hearts of the sons of Dhrtarastra as it reverberated through the sky and the earth.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
@@ -1004,16 +1004,52 @@ export default {
             {
                 slokaNumber: 23,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["योत्स्यमानानवेक्षेऽहं य एतेऽत्र समागताः ।", "धार्तराष्ट्रस्य दुर्बुद्धेयुद्धे प्रियचिकीर्षवः ॥23॥"],
+                romanSloka: ["yotsyamānān avekṣe’haṁ ya ete’tra samāgatāḥ", "dhārtarāṣṭrasya durbuddher yuddhe priya-cikīrṣavaḥ"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "योत्स्यमानान्",
+                        meaning: "युद्ध करने के लिए आए योद्धाओं को",
+                    },
+                    {
+                        sanskrit: "अवेक्षे-अहम् ",
+                        meaning: "मै देखना चाहता हूँ",
+                    },
+                    {
+                        sanskrit: "ये",
+                        meaning: "जो",
+                    },
+                    {
+                        sanskrit: "एते",
+                        meaning: "वे",
+                    },
+                    {
+                        sanskrit: "अत्र",
+                        meaning: "यहाँ",
+                    },
+                    {
+                        sanskrit: "समागता: ",
+                        meaning: "एकत्र",
+                    },
+                    {
+                        sanskrit: "धार्तराष्ट्रस्य ",
+                        meaning: "धृतराष्ट्र के पुत्र",
+                    },
+                    {
+                        sanskrit: " दुर्बुद्धेः",
+                        meaning: "हीन मानसिकता वाले",
+                    },
+                    {
+                        sanskrit: "युद्धे",
+                        meaning: "युद्ध में",
+                    },
+                    {
+                        sanskrit: "प्रिय-चिकीर्षवः",
+                        meaning: "प्रसन्न करने वाले।",
                     },
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: "",
+                meaningInHindi: "मैं उन लोगों को देखने का इच्छुक हूँ जो यहाँ पर धृतराष्ट्र के दुश्चरित्र पुत्रों को प्रसन्न करने की इच्छा से युद्ध लड़ने के लिए एकत्रित हुए हैं।",
+                meaningInEnglish: "Let me see all those warriors who have assembled here and want to accomplish in the war what is dear to the perverted son of Dhrtarastra, I find them to be intent on fighting.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },

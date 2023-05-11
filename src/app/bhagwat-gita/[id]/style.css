@@ -54,6 +54,10 @@
     color: #c76531;
     border-radius: 3px;
 }
+.badge.selected{
+    background: #ea580b;
+    color: #fbf6ef;
+}
 
 .badge-link:hover{
     color: #fff;
@@ -86,6 +90,27 @@
 .word-meaning-grid > div > div{
     font-size: 0.975rem !important;
 }
+
+.left-arr {
+    position: absolute;
+    left: 0px;
+}
+.right-arr {
+    position: absolute;
+    right: 10px;
+}
+
+.left-arr,  .right-arr {
+    top: 9%;
+    cursor: pointer;
+    color: #c76531;
+    cursor: pointer;
+    color: #c76531;
+    width: 28px;
+    border-radius: 50%;
+    background: #fdcab4;
+}
+
 
 @media (max-width: 1024px) {
     .content-box{

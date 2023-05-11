@@ -35,11 +35,19 @@ function parseIdString(id: string) {
     return {chapter, verse};
 }
 
+const base_url = 'http://localhost:3000/bhagwat-gita/';
+
 export default function Page({ params }: {params: {id: string}}) {
     const [selectedLanguage, setselectedLanguage] = useState<string>('Hindi');
     const [chapterNo, setChapterNo] = useState<string>('');
+    const [verseNo, setVerseNo] = useState<string>('');
     const [curChapter, setCurChapter] = useState<string>('');
     const [curSloka, setCurSloka] = useState<slokaType>();
+
+    const [curChapterNumber, setCurChapterNumber] = useState<number>(1);
+    const [curVerseNumber, setCurVerseNumber] = useState<number>(1);
+
+
 
 
 
@@ -56,15 +64,23 @@ export default function Page({ params }: {params: {id: string}}) {
 
     useEffect(()=>{
         const {chapter, verse} = parseIdString(params.id);
+        setCurChapterNumber(chapter);
+        setCurVerseNumber(verse);
         const chapterName: string = bhagwatGita[`chapter${chapter}`].chapterNameHindi;
         const sloka: slokaType = bhagwatGita[`chapter${chapter}`].slokas[(verse-1)];
         setChapterNo(`chapter${chapter}`);
+        setVerseNo(`verse${verse}`);
         setCurChapter(chapterName);
         setCurSloka(sloka);
 
     }, []);
 
     const slokas = bhagwatGita[chapterNo];
+
+
+    const previous_url = `${base_url}chapter${curChapterNumber}-verse${curVerseNumber-1}`;
+    const next_url = `${base_url}chapter${curChapterNumber}-verse${curVerseNumber+1}`;
+
 
     return <div>
     <PageHeader languageChange={handleLanguageChange}/>
@@ -80,7 +96,7 @@ export default function Page({ params }: {params: {id: string}}) {
                     <div className='pt-3'>
                         <div className='text-sm text-orange-700 font-bold mb-2'>slokas</div>
                         {
-                            slokas?.slokas?.map(item => <span className='badge badge-link ' key={item.slokaNumber}>{item.slokaNumber}</span>)
+                            slokas?.slokas?.map(item => <a href={`${base_url}chapter${curChapterNumber}-verse${item.slokaNumber}`} className={`badge badge-link ${curVerseNumber === item.slokaNumber ? 'selected' : ''}`} key={item.slokaNumber}>{item.slokaNumber}</a>)
                         }
                     </div>
                 </div>
@@ -90,13 +106,15 @@ export default function Page({ params }: {params: {id: string}}) {
                     <p className='text-xl text-center font-normal text-orange-700 opacity-80'>verse: {curSloka?.slokaNumber} </p>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <div className='max-w-5/12 p-6 text-center bg-white overflow-hidden'>
+                    <div className='max-w-5/12 p-6 text-center bg-white overflow-hidden' style={{position: 'relative'}}>
                         <div className='text-orange-600 mb-3  font-semibold'>
                             {curSloka?.uvach}
                         </div>
                         <div className='text-xl font-light text-orange-700'>
                             { curSloka?.sanskritSloka?.map(slok => <div key={slok}>{slok}</div>)}
                         </div>
+                        <a href={previous_url} className="left-arr inline-block font-bold text-lg ml-3 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">&lt;-</a>
+                        <a href={next_url} className="right-arr inline-block font-bold text-lg ml-3 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</a>
                     </div>
                 </div>
                 
