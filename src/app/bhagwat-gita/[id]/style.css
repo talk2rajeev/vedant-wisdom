@@ -53,6 +53,8 @@
     cursor: pointer;
     color: #c76531;
     border-radius: 3px;
+    width: 35px;
+    text-align: center;
 }
 .badge.selected{
     background: #ea580b;
@@ -118,6 +120,9 @@
         padding: 0 10px;
         display: block;
     }  
+    .text-xl {
+        font-size: 1rem;
+    }
     .chapter-title {
         text-align: center;
     }
