@@ -1693,60 +1693,380 @@ export default {
             {
                 slokaNumber: 40,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः ।", "धर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत ॥40॥"],
+                romanSloka: ["kula-kṣhaye praṇaśhyanti kula-dharmāḥ sanātanāḥ", "dharme naṣhṭe kulaṁ kṛitsnam adharmo ’bhibhavaty uta"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "कुल-क्षये",
+                        meaning: "कुल का नाश, ",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "प्रणश्यन्ति",
+                        meaning: "विनष्ट हो जाती हैं",
+                    },
+                    {
+                        sanskrit: "कुल-धर्माः",
+                        meaning: "पारिवारिक परम्पराएं",
+                    },
+                    {
+                        sanskrit: "सनातनाः",
+                        meaning: "शाश्वत",
+                    },
+                    {
+                        sanskrit: "धर्मे-नष्टे",
+                        meaning: "धर्म नष्ट होने पर",
+                    },
+                    {
+                        sanskrit: "कुलम्",
+                        meaning: "परिवार को",
+                    },
+                    {
+                        sanskrit: "कृत्स्नम् ",
+                        meaning: "सम्पूर्ण",
+                    },
+                    {
+                        sanskrit: "अधर्म अभिभवति ",
+                        meaning: "अधर्म अभिभूत",
+                    },
+                    {
+                        sanskrit: " उत",
+                        meaning: "वास्तव में",
                     },
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: "",
+                meaningInHindi: "जब कुल का नाश हो जाता है तब इसकी कुल परम्पराएं भी नष्ट हो जाती हैं और कुल के शेष परिवार अधर्म में प्रवृत्त होने लगते हैं।",
+                meaningInEnglish: "From the ruin of the family are totally destroyed the traditional rites and duties of the family. When rites and duties are destroyed, vice overpowers the entire family also.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 41,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः ।", "स्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसङ्करः ॥41॥"],
+                romanSloka: ["adharmābhibhavāt kṛiṣhṇa praduṣhyanti kula-striyaḥ", "strīṣhu duṣhṭāsu vārṣhṇeya jāyate varṇa-saṅkaraḥ"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
+                        sanskrit: "कृष्ण हे कृष्ण!",
                         meaning: "",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अधर्माभिभवात् कुलस्त्रिायः",
+                        meaning: "पापके अधिक बढ़ जानेसे कुलकी स्त्रिायाँ",
+                    },
+                    {
+                        sanskrit: "प्रदुष्यन्ति",
+                        meaning: "अत्यन्त दूषित हो जाती हैं",
+                    },
+                    {
+                        sanskrit: "वाष्र्णेय",
+                        meaning: "हे वाष्र्णेंय",
+                    },
+                    {
+                        sanskrit: "स्त्राीषु",
+                        meaning: "स्त्रिायोंके",
+                    },
+                    {
+                        sanskrit: "दुष्टासु",
+                        meaning: "दूषित चरित्रा वाली हो जानेपर",
+                    },
+                    {
+                        sanskrit: "वर्णसंकर",
+                        meaning: "वर्णशंकर संतान",
+                    },
+                    {
+                        sanskrit: "जायते",
+                        meaning: "उत्पन्न होती है",
                     },
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: "",
+                meaningInHindi: "हे कृष्ण! पाप के अधिक बढ़ जाने से कुल की स्त्रियाँ अत्यन्त दूषित हो जाती हैं और हे वार्ष्णेय! स्त्रियों के दूषित हो जाने पर वर्णसंकर उत्पन्न होता है।",
+                meaningInEnglish: "O Krishna, when vice predominates, the women of the family become corrupt. when women become corrupted, it results in the intermingling of castes.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 42,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["सङ्करो नरकायैव कुलजानां कुलस्य च ।", "पतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः ॥42॥"],
+                romanSloka: ["saṅkaro narakāyaiva kula-ghnānāṁ kulasya cha", "patanti pitaro hy eṣhāṁ lupta-piṇḍodaka-kriyāḥ"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
+                        sanskrit: "सड्कर  कुलस्य–कुल के",
+                        meaning: "अवांछित बच्चे",
+                    },
+                    {
+                        sanskrit: "नरकाय, एव, कुल-धयानानं",
+                        meaning: "नारकीय, निश्चय ही, कुल का विनाश करने वालों के",
+                    },
+                    {
+                        sanskrit: "पतन्ति",
+                        meaning: "गिर जाते हैं",
+                    },
+                    {
+                        sanskrit: "पतिर, हि",
+                        meaning: "पितृगण, निश्चय ही",
+                    },
+                    {
+                        sanskrit: "एषाम् लुप्त",
+                        meaning: "उनके समाप्त",
+                    },
+                    {
+                        sanskrit: "पिण्ड-उदक-क्रिया",
+                        meaning: "पिण्डदान एवं तर्पण की क्रिया",
+                    },
+                ],
+                meaningInHindi: "अवांछित सन्तानों की वृद्धि के परिणामस्वरूप निश्चय ही परिवार और पारिवारिक परम्परा का विनाश करने वालों का जीवन नारकीय बन जाता है। जल तथा पिण्डदान की क्रियाओं से वंचित हो जाने के कारण ऐसे पतित कुलों के पित्तरों का भी पतन हो जाता है।",
+                meaningInEnglish: "And the intermingling in the family leads the ruiners of the family verily into hell. The forefathers of these fall down (into hell) because of being deprived of the offerings of rice-balls and water.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 43,
+                uvach: "",
+                sanskritSloka: ["दोषैरेतैः कुलजानां वर्णसङ्करकारकैः ।", "उत्साद्यन्ते जातिधर्माः कुलधर्माश्च शाश्वताः ॥43॥"],
+                romanSloka: ["doṣhair etaiḥ kula-ghnānāṁ varṇa-saṅkara-kārakaiḥ", "उत्साद्यन्ते जातिधर्मा: कुलधर्माश्च शाश्वता:"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "दोषै",
+                        meaning: "दुष्कर्मों से",
+                    },
+                    {
+                        sanskrit: "एतैः कुलघ्रनाम्",
+                        meaning: "इन सब अपने परिवार को नष्ट करने वालों का",
+                    },
+                    {
+                        sanskrit: "वर्ण-सङ्कर कारकैः",
+                        meaning: "अवांछित संतानों के कारणों से",
+                    },
+                    {
+                        sanskrit: "उत्साद्यन्ते",
+                        meaning: "नष्ट हो जाते हैं",
+                    },
+                    {
+                        sanskrit: "जाति-धर्माः",
+                        meaning: "सामुदायिक और परिवार कल्याण की योजनाएँ",
+                    },
+                    {
+                        sanskrit: "कुल-धर्माः ",
+                        meaning: "पारिवारिक परम्पराएँ",
+                    },
+                    {
+                        sanskrit: "शाश्वता:",
+                        meaning: "सनातन",
+                    },
+                ],
+                meaningInHindi: "अपने दुष्कर्मों से कुल परम्परा का विनाश करने वाले दुराचारियों के कारण समाज में अवांछित सन्तानों की वृद्धि होती है और विविध प्रकार की सामुदायिक और परिवार कल्याण की गतिविधियों का भी विनाश हो जाता है।",
+                meaningInEnglish: "Due to these misdeeds of the ruiners of the family, which cause intermingling of castes, the traditional rites and duties of the castes and families become destroyed.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 44,
+                uvach: "",
+                sanskritSloka: ["उत्सन्नकुलधार्माणां मनुष्याणां जनार्दन ।", "नरकेऽनियतं वासो भवतीत्यनुशुश्रुम ॥44॥"],
+                romanSloka: ["utsanna-kula-dharmāṇāṁ manuṣyāṇāṁ janārdana", "narake niyataṁ vāso bhavatīty-anuśuśruma"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "उत्सन्न",
+                        meaning: "विनष्ट",
+                    },
+                    {
+                        sanskrit: "कुल-धर्माणाम्",
+                        meaning: "जिनकी पारिवारिक परम्पराएं",
+                    },
+                    {
+                        sanskrit: "मनुष्याणाम्",
+                        meaning: "ऐसे मनुष्यों का",
+                    },
+                    {
+                        sanskrit: "जनाद्रन",
+                        meaning: "सभी जीवों के पालक, श्रीकृष्ण",
+                    },
+                    {
+                        sanskrit: "नरके",
+                        meaning: "नरक में",
+                    },
+                    {
+                        sanskrit: "अनियतम्",
+                        meaning: "अनिश्चितकाल",
+                    },
+                    {
+                        sanskrit: "वासः",
+                        meaning: "निवास",
+                    },
+                    {
+                        sanskrit: "भवति",
+                        meaning: "होता है",
+                    },
+                    {
+                        sanskrit: "इति",
+                        meaning: "इस प्रकार",
+                    },
+                    {
+                        sanskrit: "अनुशुश्रुम",
+                        meaning: "विद्वानों से मैंने सुना है।",
+                    },
+                ],
+                meaningInHindi: "हे जनार्दन! मैंने गुरुजनों से सुना है कि जो लोग कुल परंपराओं का विनाश करते हैं, वे अनिश्चितकाल के लिए नरक में डाल दिए जाते हैं।",
+                meaningInEnglish: "O Janardana, we have heard that living in hell becomes inevitable for those persons whose family duties get destroyed.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 45,
+                uvach: "",
+                sanskritSloka: ["अहो बत महत्पापं कर्तुं व्यवसिता वयम् ।", "यद्राज्यसुखलोभेन हन्तुं स्वजनमुद्यताः ॥45॥"],
+                romanSloka: ["aho bata mahat-pāpaṁ kartuṁ vyavasitā vayam", "yad rājya-sukha-lobhena hantuṁ svajanam udyatāḥ"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "अहो ओह",
                         meaning: "",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "बत",
+                        meaning: "कितना",
+                    },
+                    {
+                        sanskrit: "महत्",
+                        meaning: "महान",
+                    },
+                    {
+                        sanskrit: "पापम्, कर्तुम् ",
+                        meaning: "पाप कर्म, करने के लिए",
+                    },
+                    {
+                        sanskrit: "व्यवसिता",
+                        meaning: "निश्चय किया है",
+                    },
+                    {
+                        sanskrit: "वयम्",
+                        meaning: "हमने",
+                    },
+                    {
+                        sanskrit: "यत्",
+                        meaning: "क्योंकि",
+                    },
+                    {
+                        sanskrit: "राज्य-सुख-लोभेने",
+                        meaning: "राजसी सुख की इच्छा से",
+                    },
+                    {
+                        sanskrit: "हन्तुम्",
+                        meaning: "मारने के लिए",
+                    },
+                    {
+                        sanskrit: "स्वजनम्",
+                        meaning: "अपने सम्बन्धियों को",
+                    },
+                    {
+                        sanskrit: "उद्यता",
+                        meaning: "तत्पर",
                     },
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: "",
+                meaningInHindi: "ओह! कितने आश्चर्य की बात है कि हम लोग बुद्धिमान होकर भी महान पाप करने को तैयार हो गए हैं, जो राज्य और सुख के लोभ से स्वजनों को मारने के लिए उद्यत हो गए हैं।",
+                meaningInEnglish: "Oh, what wickedness we are determined to commit – simply due to our greed to enjoy royal pleasures we are prepared to kill our own relatives!",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 46,
+                uvach: "",
+                sanskritSloka: ["यदि मामप्रतीकारमशस्त्रं शस्त्रपाणयः ।", "धार्तराष्ट्रा रणे हन्युस्तन्मे क्षेमतरं भवेत् ॥46॥"],
+                romanSloka: ["yadi mām apratīkāram aśastraṁ śastra-pāṇayaḥ", "dhārtarāṣṭrā raṇe hanyus tan me kṣemataraṁ bhavet"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "यदि",
+                        meaning: "यदि",
+                    },
+                    {
+                        sanskrit: "माम्-मुझको;",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "अप्रतीकारम्",
+                        meaning: "प्रतिरोध न करने पर",
+                    },
+                    {
+                        sanskrit: "अशस्त्रम्",
+                        meaning: "बिना शास्त्र के",
+                    },
+                    {
+                        sanskrit: "शस्त्र-पाणयः",
+                        meaning: "वे जिन्होंने हाथों में शस्त्र धारण किए हुए हैं",
+                    },
+                    {
+                        sanskrit: "धार्तराष्ट्राः",
+                        meaning: "धृतराष्ट्र के पुत्र",
+                    },
+                    {
+                        sanskrit: "रणे",
+                        meaning: "युद्धभूमि में",
+                    },
+                    {
+                        sanskrit: "हन्यु",
+                        meaning: "मार देते है",
+                    },
+                    {
+                        sanskrit: "तत्",
+                        meaning: "वह",
+                    },
+                    {
+                        sanskrit: " मे, क्षेम, भवेत्",
+                        meaning: "मेरे लिए, तरम् श्रेयस्कर, होगा",
+                    },
+                ],
+                meaningInHindi: "यदि धृतराष्ट्र के शस्त्र युक्त पुत्र मुझ निहत्थे को रणभूमि में प्रतिरोध किए बिना भी मार देते हैं तब यह मेरे लिए श्रेयस्कर होगा।",
+                meaningInEnglish: "If the sons of Dhṛtarāṣṭra, with weapons in their hands, slay me unarmed and unresisting on this battlefield, that would be considered better by me.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 47,
+                uvach: "सञ्जय उवाच ।",
+                sanskritSloka: ["एवमुक्त्वार्जुनः सङ्खये रथोपस्थ उपाविशत् ।", "विसृज्य सशरं चापं शोकसंविग्नमानसः ॥47॥"],
+                romanSloka: ["evam uktvārjunaḥ saṅkhye rathopastha upāviśat", "visṛjya saśaraṁ cāpaṁ śoka-saṁvigna-mānasaḥ"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "संजयः उवाच",
+                        meaning: "संजय ने कहा",
+                    },
+                    {
+                        sanskrit: "एवम्- उक्त्वा",
+                        meaning: "इस प्रकार कहकर",
+                    },
+                    {
+                        sanskrit: "अर्जुन:",
+                        meaning: "अर्जुन",
+                    },
+                    {
+                        sanskrit: "संङ्ख",
+                        meaning: "ये युद्धभूमि में",
+                    },
+                    {
+                        sanskrit: "रथ उपस्थे",
+                        meaning: "रथ पर",
+                    },
+                    {
+                        sanskrit: "उपाविशत्",
+                        meaning: "बैठ गया",
+                    },
+                    {
+                        sanskrit: "विसृज्य",
+                        meaning: "एक ओर रखकर",
+                    },
+                    {
+                        sanskrit: "स-शरम्",
+                        meaning: "बाणों सहित",
+                    },
+                    {
+                        sanskrit: "चापम्",
+                        meaning: "धनुष",
+                    },
+                    {
+                        sanskrit: "शोकसंविग्न मानसः",
+                        meaning: "दुख से उद्विग्न (व्यथित) मन",
+                    },
+                ],
+                meaningInHindi: "संजय ने कहा-इस प्रकार यह कह कर अर्जुन ने अपना धनुष और बाणों को एक ओर रख दिया और शोकाकुल चित्त से अपने रथ के आसन पर बैठ गया, उसका मन व्यथा और दुख से भर गया।",
+                meaningInEnglish: "Sañjaya said: Having thus spoken these words, Arjuna cast aside his bow and arrows and sat on the chariot, his heart heavy with sorrow.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             }

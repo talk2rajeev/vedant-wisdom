@@ -6,25 +6,45 @@ export default {
         slokas: [
             {
                 slokaNumber: 1,
-                uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                uvach: "सञ्जय उवाच ।",
+                sanskritSloka: ["तं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम् ।", "विषीदन्तमिदं वाक्यमुवाच मधुसूदनः ॥1॥"],
+                romanSloka: ["taṁ tathā kṛpayāviṣṭam aśru-pūrṇākulekṣaṇam", "viṣīdantam idaṁ vākyam uvāca madhusūdanaḥ"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "संजयः उवाच",
+                        meaning: "संजय ने कहा",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "तम्",
+                        meaning: "उसे, अर्जुन को",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
-                    }
+                        sanskrit: "कृपया आविष्टम",
+                        meaning: "करुणा के साथ अभिभूत",
+                    },
+                    {
+                        sanskrit: "अश्रुपूर्ण",
+                        meaning: "आसुओं से भरे",
+                    },
+                    {
+                        sanskrit: "आकुल ईक्षणम्",
+                        meaning: "निराश नेत्र",
+                    },
+                    {
+                        sanskrit: "विषीदन्तम्",
+                        meaning: "शोकाकुल",
+                    },
+                    {
+                        sanskrit: "इदम् वाक्यम्",
+                        meaning: "ये शब्द",
+                    },
+                    {
+                        sanskrit: "उवाच",
+                        meaning: "कहा",
+                    },
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "संजय ने कहा-करुणा से अभिभूत, मन से शोकाकुल और अश्रुओं से भरे नेत्रों वाले अर्जुन को देख कर श्रीकृष्ण ने निम्नवर्णित शब्द कहे।",
+                meaningInEnglish: "Sanjaya said: To him who had been thus filled with pity, whose eyes were filled with tears and showed distress, and who was sorrowing, Madhusudana uttered these words:",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
