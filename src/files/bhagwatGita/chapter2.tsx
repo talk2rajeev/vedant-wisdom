@@ -49,11 +49,94 @@ export default {
                 meaningInMarathi: "",
             },
             {
-
+                slokaNumber: 2,
+                uvach: "श्रीभगवानुवाच ।",
+                sanskritSloka: ["कुतस्तवा कश्मलमिदं विषमे समुपस्थितम् ।", "अनार्यजुष्टमस्वय॑मकीर्तिकरमर्जुन ॥2॥"],
+                romanSloka: ["kutas tvā kaśmalam idaṁ viṣame samupasthitam", "anārya-juṣṭam asvargyam akīrti-karam arjuna"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "श्रीभगवान्-उवाच",
+                        meaning: "परमात्मा श्रीकृष्ण ने कहा",
+                    },
+                    {
+                        sanskrit: " कुत:-त्वा",
+                        meaning: "कहाँ से तुमको",
+                    },
+                    {
+                        sanskrit: "कश्मलम्-इदम्",
+                        meaning: "मोह अज्ञान, यह",
+                    },
+                    {
+                        sanskrit: "विषमे",
+                        meaning: "इस संकटकाल में",
+                    },
+                    {
+                        sanskrit: "समुपस्थितम्",
+                        meaning: "उत्पन्न हुआ",
+                    },
+                    {
+                        sanskrit: "अनार्यजुष्टम्",
+                        meaning: "यह अश्रेष्ठ पुरुषोंका चरित है ",
+                    },
+                    {
+                        sanskrit: "अस्वग्र्यम्",
+                        meaning: "न स्वर्गको देनेवाला है और",
+                    },
+                    {
+                        sanskrit: "अकीर्तिकरम्, अर्जुन",
+                        meaning: "अपकीर्तिको करनेवाला ही है, अर्जुन",
+                    }
+                ],
+                meaningInHindi: "परमात्मा श्रीकृष्ण ने कहाः मेरे प्रिय अर्जुन! इस संकट की घड़ी में तुम्हारे भीतर यह विमोह कैसे उत्पन्न हुआ? यह सम्माननीय लोगों के अनुकूल नहीं है। इससे उच्च लोकों की प्राप्ति नहीं होती अपितु अपयश प्राप्त होता है।",
+                meaningInEnglish: "Lord Shree Krishna said: O Arjuna, how has this infatuation overtaken you at this odd hour? It is shunned by noble souls; neither will it bring heaven, nor fame to you.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
             },
             {
-
+                slokaNumber: 3,
+                uvach: "",
+                sanskritSloka: ["क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते ।", "क्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप ॥3॥"],
+                romanSloka: ["klaibyaṁ mā sma gamaḥ pārtha naitat tvayy-upapadyate", "kṣudraṁ hṛdaya-daurbalyaṁ tyaktvottiṣṭha parantapa"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "क्लैब्यम्",
+                        meaning: "नपुंसकता",
+                    },
+                    {
+                        sanskrit: "मा-स्म",
+                        meaning: "न करना",
+                    },
+                    {
+                        sanskrit: "गमः",
+                        meaning: "प्राप्त हो",
+                    },
+                    {
+                        sanskrit: "पार्थ",
+                        meaning: "पृथापुत्र अर्जुन",
+                    },
+                    {
+                        sanskrit: "न-एतत्-त्वयि-उपपद्यते",
+                        meaning: "नहीं, कभी, यह तुमको, उपयुक्त (तुझमें यह उचित नहीं जान पड़ती)",
+                    },
+                    {
+                        sanskrit: "हृदय-दौर्बल्यम्",
+                        meaning: "हृदय की दुर्बलता",
+                    },
+                    {
+                        sanskrit: "त्यक्त्वा-उत्तिष्ठ",
+                        meaning: "त्याग कर खड़ा हो",
+                    },
+                    {
+                        sanskrit: "परम्-तप",
+                        meaning: "शत्रुओं का दमनकर्ता"
+                    },
+                ],
+                meaningInHindi: "हे पार्थ! अपने भीतर इस प्रकार की नपुंसकता का भाव लाना तुम्हें शोभा नहीं देता। हे शत्रु विजेता! हृदय की तुच्छ दुर्बलता का त्याग करो और युद्ध के लिए तैयार हो जाओ।",
+                meaningInEnglish: "O Parth, give up this unmanliness. It does not befit you. O chastiser of enemies, get up and do not yield to this petty weakness of heart.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
             },
+            
             {
                 slokaNumber: 4,
                 uvach: "अर्जुन उवाच",
@@ -102,6 +185,611 @@ export default {
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
+            {
+                slokaNumber: 5,
+                uvach: "",
+                sanskritSloka: ["गुरूनहत्वा हि महानुभावान् श्रेयो भोक्तुं भैक्ष्यमपीह लोके ।", "हत्वार्थकामांस्तु गुरूनिहैव भुजीय भोगान् रुधिरप्रदिग्धान् ॥5॥"],
+                romanSloka: ["gurūnahatvā hi mahānubhāvān śhreyo bhoktuṁ bhaikṣhyamapīha loke", "hatvārtha-kāmāṁstu gurūnihaiva bhuñjīya bhogān rudhira-pradigdhān"],
+                wordsMeaning: [
+                    
+                    {
+                        sanskrit: "गुरुन्, अहत्वा, हि",
+                        meaning: "गुरुजनोंको, न मारना, निःसंदेह;",
+                    },
+                    {
+                        sanskrit: "महा-अनुभावान्",
+                        meaning: "आदरणीय वयोवृद्ध को",
+                    },
+                    {
+                        sanskrit: "श्रेयः",
+                        meaning: "उत्तम",
+                    },
+                    {
+                        sanskrit: "भोक्तुम्",
+                        meaning: "जीवन का सुख भोगना",
+                    },
+                    {
+                        sanskrit: "भैक्ष्यम्, अपि, इह, लोके",
+                        meaning: "भीख माँगकर, भी, इस जीवन में, इस संसार में",
+                    },
+                    {
+                        sanskrit: "हत्वा, अर्थ, कामान्, तु",
+                        meaning: "वध कर, लाभ, इच्छा से, लेकिन",
+                    },
+                    {
+                        sanskrit: "गुरून्, इह, एव",
+                        meaning: "आदरणीय वयोवृद्ध, इस संसार में, निश्चय ही",
+                    },
+                    {
+                        sanskrit: " भुञ्जीय, भोगान्",
+                        meaning: "भोगना, सुख",
+                    },
+                    {
+                        sanskrit: "रूधिर, प्रदिग्धान्",
+                        meaning: "रक्त से, रंजित",
+                    },
+                ],
+                meaningInHindi: "इसलिए इन महानुभाव गुरुजनों को न मारकर मैं इस लोक में भिक्षा का अन्न भी खाना कल्याणकारक समझता हूँ क्योंकि गुरुजनों को मारकर भी इस लोक में रुधिर से सने हुए अर्थ और कामरूप भोगों को ही तो भोगूँगा।",
+                meaningInEnglish: "Rather than killing the noble-minded elders, it is better in this world to live even on alms. But, by killing the elders we shall only be enjoying here the pleasures of wealth and desirable things drenched in blood.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 6,
+                uvach: "",
+                sanskritSloka: ["न चैतद्विद्मः कतरन्नो गरीयो यद्वा जयेम यदि वा नो जयेयुः ।", "यानेव हत्वा न जिजीविषाम स्तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः ॥6॥"],
+                romanSloka: ["na caitad vidmaḥ kataranno garīyo yadvā jayema yadi vā no jayeyuḥ", "yān eva hatvā na jijīviṣāmas te’vasthitāḥ pramukhe dhārtarāṣṭrāḥ"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "न, च, एतत्, विद्यः ",
+                        meaning: "नहीं, और, यह, हम जानते हैं",
+                    },
+                    {
+                        sanskrit: "कतरत्, न:,  यदि",
+                        meaning: "जो, हमारे लिए, यदि",
+                    },
+                    {
+                        sanskrit: "गरीयः",
+                        meaning: "श्रेयस्कर",
+                    },
+                    {
+                        sanskrit: " यत्वा",
+                        meaning: "क्या",
+                    },
+                    {
+                        sanskrit: "जयेम",
+                        meaning: "वे विजयी हो",
+                    },
+                    {
+                        sanskrit: "यदि वा, नः, जयेयुः",
+                        meaning: "या, हमको वे, जीतेंगे",
+                    },
+                    {
+                        sanskrit: "यान्-एव",
+                        meaning: "जिनको-निश्चय ही",
+                    },
+                    {
+                        sanskrit: "हत्वा, न",
+                        meaning: "मारने के बाद, कभी नहीं",
+                    },
+                    {
+                        sanskrit: "जिजीविषामः",
+                        meaning: "हम जीवित रहना चाहेंगे",
+                    },
+                    {
+                        sanskrit: "ते",
+                        meaning: "वे सब",
+                    },
+                    {
+                        sanskrit: "अवस्थिताः",
+                        meaning: "खड़े हैं",
+                    },
+                    {
+                        sanskrit: "रमुखे",
+                        meaning: "हमारे सामने",
+                    },
+                    {
+                        sanskrit: " धार्तराष्ट्राः",
+                        meaning: "धृतराष्ट्र के पुत्र",
+                    }
+                ],
+                meaningInHindi: "हम यह भी नहीं जानते कि हमारे लिए युद्ध करना और न करना- इन दोनों में से कौन-सा श्रेष्ठ है, अथवा यह भी नहीं जानते कि उन्हें हम जीतेंगे या हमको वे जीतेंगे। और जिनको मारकर हम जीना भी नहीं चाहते, वे ही हमारे आत्मीय धृतराष्ट्र के पुत्र हमारे मुकाबले में खड़े हैं।",
+                meaningInEnglish: "I do not know what is better for us – to conquer them or be conquered by them. If we slay the sons of Dhṛtarāṣṭra who are assembled here before us, I have no desire to live.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 7,
+                uvach: "",
+                sanskritSloka: ["कार्पण्यदोषोपहतस्वभावः पृच्छामि त्वां धर्मसम्मूढचेताः ।", "यच्छ्रेयः स्यानिश्चितं ब्रूहि तन्मे शिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम् ॥7॥"],
+                romanSloka: ["kārpaṇya-doṣopahata-svabhāvaḥ pṛchhāmi tvāṁ dharma-sammūḍhachetāḥ", "yachhreyaḥ syān niścitaṁ brūhi tan me śiṣyaste’haṁ śādhi māṁ tvāṁ prapannam"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "कार्पण्यदोषोपहतस्वभावः",
+                        meaning: "कायरतारूप दोषसे उपहत हुए स्वभाववाला",
+                    },
+                    {
+                        sanskrit: "धर्मसम्मूढचेताः",
+                        meaning: "धर्मके विषयमें मोहितचित्त हुआ मैं",
+                    },
+                    {
+                        sanskrit: "त्वाम् पृच्छामि",
+                        meaning: "आपसे पूछता हूँ कि",
+                    },
+                    {
+                        sanskrit: "यत् निश्चितम्",
+                        meaning: "निश्चित जो साधन",
+                    },
+                    {
+                        sanskrit: "श्रेयः स्यात् तत्",
+                        meaning: "कल्याणकारक हो  वह",
+                    },
+                    {
+                        sanskrit: "मे",
+                        meaning: "मेरे लिए",
+                    },
+                    {
+                        sanskrit: "बू्रहि",
+                        meaning: "कहिये क्योंकि",
+                    },
+                    {
+                        sanskrit: "अहम् ते शिष्यः",
+                        meaning: "मैं आपका शिष्य हूँ",
+                    },
+                    {
+                        sanskrit: "त्वाम् ",
+                        meaning: "आपके ",
+                    },
+                    {
+                        sanskrit: "प्रपन्नम्",
+                        meaning: "शरण हुए",
+                    },
+                    {
+                        sanskrit: "माम् शाधि",
+                        meaning: "मुझको  शिक्षा दीजिये",
+                    },
+                ],
+                meaningInHindi: "मैं किंकर्तव्यविमूढ़ (कायरता रूप दोष से उपहत हुए स्वभाव) हो गया हूँ और गहन चिन्ता में डूब कर कायरता दिखा रहा हूँ। मैं आपका शिष्य हूँ और आपके शरणागत हूँ। कृपया मुझे निश्चय ही यह उपदेश दें कि मेरा हित किसमें है।",
+                meaningInEnglish: "My natural propensity as a warrior is weakening and I am bewildered as to what is righteous. Kindly tell me what is most beneficial for me. I am your disciple, surrendered unto You. Please instruct me.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 8,
+                uvach: "",
+                sanskritSloka: ["न हि प्रपश्यामि ममापनुद्याद् यच्छोकमुच्छोषणमिन्द्रियाणाम् ।", "अवाप्य भूमावसपत्नमृद्धं राज्यं सुराणामपि चाधिपत्यम् ॥8॥"],
+                romanSloka: ["na hi prapaśyāmi mamāpanudyād yac chokam ucchoṣaṇam indriyāṇām", "avāpya bhūmāv-asapatnam ṛddhaṁ rājyaṁ surāṇām api cādhipatyam"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "न",
+                        meaning: "नहीं",
+                    },
+                    {
+                        sanskrit: "हि",
+                        meaning: "निश्चय ही",
+                    },
+                    {
+                        sanskrit: "प्रपश्यामि",
+                        meaning: "मैं देखता हूँ",
+                    },
+                    {
+                        sanskrit: "मम",
+                        meaning: "मेरा",
+                    },
+                    {
+                        sanskrit: "अपनुद्यात्",
+                        meaning: "दूर कर सके",
+                    },
+                    {
+                        sanskrit: "यत्",
+                        meaning: "जो",
+                    },
+                    {
+                        sanskrit: "शोकम्, उच्छोषणम्",
+                        meaning: "शोक, सुखाने वाला",
+                    },
+                    {
+                        sanskrit: "इन्द्रियाणाम्",
+                        meaning: "इन्द्रियों को",
+                    },
+                    {
+                        sanskrit: "अवाप्य",
+                        meaning: "प्राप्त करके",
+                    },
+                    {
+                        sanskrit: "भूमौ",
+                        meaning: "पृथ्वी पर",
+                    },
+                    {
+                        sanskrit: "असपत्नम्; ऋद्धम्, राज्यम्",
+                        meaning: "शत्रुविहीन, समृद्ध, राज्य",
+                    },
+                    {
+                        sanskrit: "सुराणाम्",
+                        meaning: "स्वर्ग के देवताओं जैसा",
+                    },
+                    {
+                        sanskrit: "अपि, च, आधिपत्यम्",
+                        meaning: "चाहे, भी, रभुत्व",
+                    }
+                ],
+                meaningInHindi: "मुझे ऐसा कोई उपाय नहीं सूझता जो मेरी इन्द्रियों को सुखाने वाले इस शोक को दूर कर सके। यदि मैं धन सम्पदा से भरपूर इस पृथ्वी पर निष्कंटक राज्य प्राप्त कर लेता हूँ या देवताओं जैसा प्रभुत्व प्राप्त कर लेता हूँ तब भी मैं इस शोक को दूर करने में समर्थ नहीं हो पाऊँगा।",
+                meaningInEnglish: "Even if I gain a substantial kingdom beyond compare and the power of the demigods, I see nothing that can remove this grief that is eroding my senses.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 9,
+                uvach: "सञ्जय उवाच ।",
+                sanskritSloka: ["एवमुक्त्वा हृषीकेशं गुडाकेशः परन्तप ।", "न योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह ॥9॥"],
+                romanSloka: ["evam uktvā hṛṣīkeśaṁ guḍākeśaḥ parantapa", "na yotsya iti govindam uktvā tūṣṇīṁ babhūvaha"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "एवम्, उक्त्वा",
+                        meaning: "इस प्रकार, कहकर फिर",
+                    },
+                    {
+                        sanskrit: "हृषीकेशम्",
+                        meaning: "श्री कृष्ण से",
+                    },
+                    {
+                        sanskrit: "गुडाकेशः",
+                        meaning: "निद्राको जीतनेवाले अर्जुन",
+                    },
+                    {
+                        sanskrit: "परन्तप",
+                        meaning: "हे राजन्",
+                    },
+                    {
+                        sanskrit: "न योत्स्ये,  इति",
+                        meaning: "युद्ध नहीं करूँगा, यह",
+                    },
+                    {
+                        sanskrit: "गोविन्दम्,  ह, उक्त्वा ",
+                        meaning: "इन्द्रियों को सुख देने वाले श्री कृष्ण से,  स्पष्ट, कहकर",
+                    },
+                    {
+                        sanskrit: "तूष्णीम्",
+                        meaning: "चुप",
+                    },
+                    {
+                        sanskrit: "बभूव",
+                        meaning: "हो गये",
+                    }
+                ],
+                meaningInHindi: "संजय ने कहा- ऐसा कहने के पश्चात 'गुडाकेश' (शत्रुओं का दमन करने वाला अर्जुन), 'हृषीकेश' कृष्ण से बोला, हे गोविन्द! मैं युद्ध नहीं करूँगा और यह कहकर चुप हो गए।।",
+                meaningInEnglish: "Sanjaya said- Having thus addressed Shree Krishna, the vigilant conqueror of enemies Arjuna declared, “O Krishna, O Govinda, I will not fight!” and became silent.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 10,
+                uvach: "",
+                sanskritSloka: ["तमुवाच हृषीकेशं प्रहसन्निव भारत ।", "सेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः ॥10॥"],
+                romanSloka: ["tam uvāca hṛṣīkeśaḥ prahasann iva bhārata", "senayor ubhayor madhye viṣīdantam idaṁ vacaḥ"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "तम्-उवाच",
+                        meaning: "उससे कहा",
+                    },
+                    {
+                        sanskrit: "हृषीकेशं",
+                        meaning: "श्री कृष्ण से",
+                    },
+                    {
+                        sanskrit: "प्रहसन्, इव",
+                        meaning: "हँसते हुए से",
+                    },
+                    {
+                        sanskrit: "भारत",
+                        meaning: "हे भरतवंशी धृतराष्ट्र!",
+                    },
+                    {
+                        sanskrit: "उभयोः सेनयोः मध्ये ",
+                        meaning: "दोनों सेनाओंके बीचमें",
+                    },,
+                    {
+                        sanskrit: "विषीदन्तम्, तम्",
+                        meaning: "शोक करते हुए, उस अर्जुनको",
+                    },,
+                    {
+                        sanskrit: "इदम्, वचः, उवाच",
+                        meaning: "यह, वचन, बोले",
+                    },
+                ],
+                meaningInHindi: "हे भरतवंशी धृतराष्ट्र! तत्पश्चात दोनों पक्षों की सेनाओं के मध्य शोककुल अर्जुन से कृष्ण ने प्रसन्न होते हुए ये वचन कहे।",
+                meaningInEnglish: "O Descendant of Bharata, there, between the two armies, Shree Krishna smiled and spoke the following words to the grief-stricken Arjuna.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 11,
+                uvach: "श्री भगवानुवाच ।",
+                sanskritSloka: ["अशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे ।", "गतासूनगतासुंश्च नानुशोचन्ति पण्डिताः ॥11॥"],
+                romanSloka: ["śrī bhagavān uvāca – aśocyān anvaśocas tvaṁ prajñāvādāṁś ca bhāṣase", "gatāsūn agatāsūṁś ca nānuśocanti paṇḍitāḥ"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "श्रीभगवान् उवाच",
+                        meaning: "श्री भगवान बोले",
+                    },
+                    {
+                        sanskrit: "अशोच्यान्",
+                        meaning: "जो शोक के पात्र नहीं हैं",
+                    },
+                    {
+                        sanskrit: "अन्वशोच",
+                        meaning: "शोक करते हो",
+                    },
+                    {
+                        sanskrit: "त्वम्, प्रज्ञावादान्",
+                        meaning: "तुम, बुद्धिमता के वचन",
+                    },
+                    {
+                        sanskrit: "च, भाषसे",
+                        meaning: "भी, कहते हो",
+                    },
+                    {
+                        sanskrit: "गतासून्",
+                        meaning: "जिनके प्राण चले गये हैं",
+                    },
+                    {
+                        sanskrit: "अगतासून्",
+                        meaning: "जिनके प्राण नहीं गये",
+                    },
+                    {
+                        sanskrit: "च, न",
+                        meaning: "भी, कभी नहीं",
+                    },
+                    {
+                        sanskrit: "अनुशोचन्ति",
+                        meaning: "शोक करते हैं",
+                    },
+                    {
+                        sanskrit: "पण्डिताः",
+                        meaning: "बुद्धिमान लोग",
+                    }
+                ],
+                meaningInHindi: "श्री भगवान ने कहा- तुम विद्वतापूर्ण वचन कहकर भी उनके लिए शोक कर रहे हो जो शोक के पात्र नहीं हैं। बुद्धिमान पुरुष न तो जीवित प्राणी के लिए शोक करते हैं और न ही मृत के लिए।",
+                meaningInEnglish: "Bhagavan Shree Krishna said: While speaking like a wise man, you are actually grieving for that which is unworthy of grief. The wise lament for neither the living nor the dead.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 12,
+                uvach: "",
+                sanskritSloka: ["न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः ।", "न चैव न भविष्यामः सर्वे वयमतः परम् ॥12॥"],
+                romanSloka: ["na tv-evāhaṁ jātu nāsaṁ na tvaṁ neme janādhipāḥ", "na caiva na bhaviṣyāmaḥ sarve vayam ataḥ param"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "न, तु, एव",
+                        meaning: "नहीं, लेकिन, निश्चय ही",
+                    },
+                    {
+                        sanskrit: "अहम्, जातु, न, आसम्",
+                        meaning: "मैं, किसी समय में, नहीं, था",
+                    },
+                    {
+                        sanskrit: " न, त्वम्",
+                        meaning: "नहीं, तुम",
+                    },
+                    {
+                        sanskrit: "इमे, जन-अधिपा:",
+                        meaning: "ये सब, राजा गण",
+                    },
+                    {
+                        sanskrit: "न, एव भविष्यामः",
+                        meaning: "कभी नहीं, वास्तव में, रहेंगे",
+                    },
+                    {
+                        sanskrit: "सर्वे वयम् ",
+                        meaning: "हम सब",
+                    },
+                    {
+                        sanskrit: "अतः ",
+                        meaning: "इसके",
+                    },
+                    {
+                        sanskrit: "परम्",
+                        meaning: "आगे",
+                    }
+                ],
+                meaningInHindi: "ऐसा कोई समय नहीं था कि जब मैं नहीं था या तुम नहीं थे और ये सभी राजा न रहे हों और ऐसा भी नहीं है कि भविष्य में हम सब नहीं रहेंगे।",
+                meaningInEnglish: "There was never a time that you, nor I, nor all these warriors assembled here did not exist. Nor shall we ever cease to exist in the future.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 13,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 14,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 15,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 16,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 17,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 18,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 19,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 20,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            }
         ]
     }
 };
