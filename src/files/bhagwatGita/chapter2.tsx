@@ -601,192 +601,364 @@ export default {
             {
                 slokaNumber: 13,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा ।", "तथा देहान्तरप्राप्तिर्षीरस्तत्र न मुह्यति ॥13॥"],
+                romanSloka: ["dehino’smin yathā dehe kaumāraṁ yauvanaṁ jarā", "tathā dehāntara prāptir dhīras tatra na muhyati"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "यथा देहिनः",
+                        meaning: "जैसे देहधारी की",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अस्मिन्, देहे",
+                        meaning: "इस देहमें",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "कौमारम्",
+                        meaning: "बाल्यावस्था",
+                    },
+                    {
+                        sanskrit: "यौवनम्",
+                        meaning: "जवानी और",
+                    },
+                    {
+                        sanskrit: "जरा",
+                        meaning: "वृद्धावस्था",
+                    },
+                    {
+                        sanskrit: "तथा,  देहान्तरप्राप्तिः",
+                        meaning: "वैसे ही, अन्य शरीरकी प्राप्ति होती है",
+                    },
+                    {
+                        sanskrit: "तत्रा, धीरः",
+                        meaning: "उस विषयमें धीर पुरुष",
+                    },
+                    {
+                        sanskrit: "न, मुह्यति",
+                        meaning: "मोहित नहीं होता।",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "जैसे देहधारी की इस देह में बालकपन, जवानी और वृद्धावस्था होती है, वैसे ही अन्य शरीर की प्राप्ति होती है, उस विषय में धीर पुरुष मोहित नहीं होता।",
+                meaningInEnglish: "Just as in this body of a bodily being there is childhood, youth and old age, in the same way there is attainment of another body.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 14,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः ।", "आगमापायिनोऽनित्यास्तास्तितिक्षस्व भारत॥14॥"],
+                romanSloka: ["mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ", "āgamāpāyino’nityās tāṁs titikṣasva bhārata"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "मात्रा-स्पर्श-तु",
+                        meaning: "इन्द्रिय विषयों के साथ संपर्क वास्तव में",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "कौन्तेय",
+                        meaning: "हे कुन्तीपुत्र!",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "शीत-उष्ण",
+                        meaning: "सर्दी गर्मी",
+                    },
+                    {
+                        sanskrit: "सुख-दुःख-दाः",
+                        meaning: "सुख-दुःख को देनेवाले",
+                    },
+                    {
+                        sanskrit: "आगम-अपायि-अनित्या",
+                        meaning: "आना जाना क्षणिक",
+                    },
+                    {
+                        sanskrit: "तान्",
+                        meaning: "उनको",
+                    },
+                    {
+                        sanskrit: "तितिक्षस्व",
+                        meaning: "सहन करना",
+                    },
+                    {
+                        sanskrit: "भारत",
+                        meaning: "हे भरतवंशी",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "हे कुन्तीपुत्र! इन्द्रिय और उसके विषयों के संपर्क से उत्पन्न सुख तथा दुख का अनुभव क्षण भंगुर है। ये स्थायी न होकर सर्दी तथा गर्मी की ऋतुओं के के समान अनित्य (क्षणिक) हैं। हे भरतवंशी! उनको तू सहन कर।",
+                meaningInEnglish: "O son of Kunti, the interaction between the senses and the sense-objects produce the sensations of cold, heat, pleasure and pain. These feelings are temporary, always appearing and then disappearing. Thus, O descendant of Bharata, you must learn to tolerate them.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 15,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ ।", "समदुःखसुखं धीरं सोऽमृतत्वाय कल्पते ॥15॥"],
+                romanSloka: ["yaṁ hi na vyathayanty-ete puruṣaṁ puruṣarṣabha", " sama-duḥkha-sukhaṁ dhīraṁ so’mṛtatvāya kalpate"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "यम्",
+                        meaning: "जिस",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "हि, न",
+                        meaning: "निश्चित रूप से, कभी नहीं",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "व्यथयन्ति",
+                        meaning: "दुखी नहीं होते",
+                    },
+                    {
+                        sanskrit: "एते",
+                        meaning: "ये सब",
+                    },
+                    {
+                        sanskrit: "पुरुषम्",
+                        meaning: "मनुष्य को",
+                    },
+                    {
+                        sanskrit: "पुरुष-ऋषभ",
+                        meaning: "पुरुषों में श्रेष्ठ, अर्जुन",
+                    },
+                    {
+                        sanskrit: "सम",
+                        meaning: "अपरिवर्तनीय",
+                    },
+                    {
+                        sanskrit: "दुःख; सुखम्",
+                        meaning: "दुख में, तथा सुख में",
+                    },
+                    {
+                        sanskrit: "धीरम्",
+                        meaning: "धीर पुरुष",
+                    },
+                    {
+                        sanskrit: "सः",
+                        meaning: "वह पुरुष",
+                    },
+                    {
+                        sanskrit: "अमृतत्वाय, कल्पते",
+                        meaning: "मुक्ति के लिए पात्र हे",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "हे पुरुषो में श्रेष्ठ अर्जुन! जो मनुष्य सुख तथा दुख में स्थिर रहता है और इन दोनों परिस्थितियों में विचलित नहीं होता है, वह वास्तव मे मुक्ति का पात्र है।",
+                meaningInEnglish: "Oh best of men Arjun! a man who is equipoised (Stable) in both pleasure and pain and remains undisturbed is certainly qualified for liberation.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 16,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["नासतो विद्यते भावो नाभावो विद्यते सतः ।", "उभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः ॥16॥"],
+                romanSloka: ["nāsato vidyate bhāvo nābhāvo vidyate sataḥ", "ubhayor api dṛṣṭo’ntas tv-anayos tattva-darśibhiḥ"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "न–असतः-विद्यते",
+                        meaning: "नहीं, अस्थायी का, वहां है",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "भावः",
+                        meaning: "सत्ता है",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "न-अभावः-विद्यते",
+                        meaning: "कभी नहीं, अन्त, वहाँ है",
+                    },
+                    {
+                        sanskrit: "सतः",
+                        meaning: "शाश्वत का",
+                    },
+                    {
+                        sanskrit: "अभयोः",
+                        meaning: "दोनों का",
+                    },
+                    {
+                        sanskrit: "दृष्ट:",
+                        meaning: "देखा गया",
+                    },
+                    {
+                        sanskrit: "अन्तः",
+                        meaning: "निष्कर्ष",
+                    },
+                    {
+                        sanskrit: "तत्त्व, दर्शिभिः",
+                        meaning: "सत्य के, तत्त्वदर्शियों द्वारा",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "असत्‌ वस्तु की तो सत्ता नहीं है और सत्‌ का अभाव नहीं है अर्थात् अनित्य शरीर का चिरस्थायित्व नहीं है और शाश्वत आत्मा का कभी अन्त नहीं होता है। तत्त्वदर्शियों द्वारा भी इन दोनों की पुष्टि की गई है।",
+                meaningInEnglish: "Of that which is temporary there is no eternal existence. Of that which is eternal there is no destruction or change. Seers of the truth have realised the constitutional position of both.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 17,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["अविनाशि तु तद्विद्धि येन सर्वमिदं ततम् ।", "विनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति ॥17॥"],
+                romanSloka: ["avināśi tu tad viddhi yena sarvam idaṁ tatam", "vināśam avyayasyāsya na kaścit kartum arhati"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अविनाशि",
+                        meaning: "अक्षय नित्य (जिसका नाश न हो)",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "तत् विद्धि",
+                        meaning: "उसको, जान",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "येन् इदम् सर्वम्",
+                        meaning: "यह जिससे सम्पूर्ण जगत्",
+                    },
+                    {
+                        sanskrit: "ततम्",
+                        meaning: "व्याप्त है",
+                    },
+                    {
+                        sanskrit: "अस्य अव्ययस्य विनाशम्",
+                        meaning: "इस अविनाशीका विनाश",
+                    },
+                    {
+                        sanskrit: "कर्तुम् कश्चित",
+                        meaning: "करनेमें कोई भी ",
+                    },
+                    {
+                        sanskrit: "न, अर्हति",
+                        meaning: "समर्थ नहीं है",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "तू उसको अक्षय, अविनाशी (जिसका नाश न हो) समझो, जिससे यह सम्पूर्ण जगत्‌ व्याप्त है। इस अविनाशी का विनाश करने में कोई भी समर्थ नहीं है।",
+                meaningInEnglish: "Know for certain that individual consciousness, which pervades the whole body, is imperishable. Nobody can destroy the indestructible individual unit of consciousness.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 18,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः ।", "अनाशिनोऽप्रमेयस्य तस्माद्युध्यस्व भारत ॥18॥"],
+                romanSloka: ["avināśi tu tad viddhi yena sarvam idaṁ tatam", "vināśam avyayasyāsya na kaścit kartum arhati"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अन्तवन्त, इमे",
+                        meaning: "नष्ट होने वाला, ये",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "देहाः",
+                        meaning: "भौतिक शरीर",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "नित्यस्य, उक्ताः",
+                        meaning: "शाश्वत, कहा गया है",
+                    },
+                    {
+                        sanskrit: "शरीरिणः",
+                        meaning: "देहधारी आत्मा का",
+                    },
+                    {
+                        sanskrit: "अनाशिन, अप्रमेयस्य–",
+                        meaning: "अविनाशी, अपरिमेय अर्थात जिसे मापा जा सका",
+                    },
+                    {
+                        sanskrit: "तस्मात्-युध्यस्व",
+                        meaning: "इसलिए युद्ध करो",
+                    },
+                    {
+                        sanskrit: "भारत",
+                        meaning: "भरतवंशी अर्जुन",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "केवल भौतिक शरीर ही नश्वर है और शरीर में व्याप्त आत्मा अविनाशी, अपरिमेय तथा शाश्वत है। अतः हे भरतवंशी! युद्ध करो।",
+                meaningInEnglish:"Only the physical body is mortal and the Self (Atman) pervading the body is indestructible, immeasurable and eternal. Therefore O Arjuna, fight!",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 19,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम् ।", "उभौ तौ न विजानीतो नायं हन्ति न हन्यते ॥19॥"],
+                romanSloka: ["ya enaṁ vetti hantāraṁ yaścainaṁ manyate hatam", "ubhau tau na vijānīto nāyaṁ hanti na hanyate"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "यः एनम् हन्तारम्",
+                        meaning: "जो इसको  मारनेवाला ",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "वेत्ति च यः एनम्",
+                        meaning: "समझता है , तथा, जो, इसको",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "हतम्  मन्यते",
+                        meaning: "मरा मानता है",
+                    },
+                    {
+                        sanskrit: "तौ उभौ न विजानीतः",
+                        meaning: "वे दोनों ही नहीं जानते क्योंकि",
+                    },
+                    {
+                        sanskrit: "न",
+                        meaning: "न ही",
+                    },
+                    {
+                        sanskrit: "अयम्",
+                        meaning: "यह",
+                    },
+                    {
+                        sanskrit: "हन्ति",
+                        meaning: "मारता है",
+                    },
+                    {
+                        sanskrit: "न हन्यते",
+                        meaning: "नहीं मारा जाता है",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "वह जो यह सोचता है कि आत्मा को मारा जा सकता है या जो इसको मरा मानता है, वे दोनों ही अज्ञानी हैं। वास्तव में आत्मा न तो मरती है और न ही उसे मारा जा सकता है।",
+                meaningInEnglish: "One who thinks that the Self (Atman) can be killed or one who believes it to be dead, both are ignorant. In reality the Self (Atman) neither dies nor can it be killed.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 20,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["न जायते म्रियते वा कदाचि अजो नित्य: शाश्वतोऽयं पुराणो ।", "अजो नित्य: शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ॥20॥"],
+                romanSloka: ["na jāyate mriyate vā kadācin nāyaṁ bhūtvā bhavitā vā na bhūyaḥ", "ajo nityaḥ śāśvato’yaṁ purāṇo na hanyate hanyamāne śarīre"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "न-जायते ",
+                        meaning: "जन्म नहीं लेता",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "म्रियते",
+                        meaning: "मरता है",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: " वा, कदाचित् ",
+                        meaning: "या, किसी काल में भी",
+                    },
+                    {
+                        sanskrit: "न, अयम्",
+                        meaning: "यह, कभी नहीं",
+                    },
+                    {
+                        sanskrit: "भूत्वा, भविता",
+                        meaning: "होकर, होना",
+                    },
+                    {
+                        sanskrit: " भूयः",
+                        meaning: "आगे होने वाला",
+                    },
+                    {
+                        sanskrit: "अजः, नित्यः, शाश्वतः",
+                        meaning: "अजन्मा, सनातन, स्थायी",
+                    },
+                    {
+                        sanskrit: "अयम्, पुराणः",
+                        meaning: "यह, सबसे प्राचीन",
+                    },
+                    {
+                        sanskrit: "न, हन्यते",
+                        meaning: "नहीं, अविनाशी",
+                    },
+                    {
+                        sanskrit: " हन्यमाने, शरीरे",
+                        meaning: "नष्ट होना, शरीर में",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "आत्मा का न तो कभी जन्म होता है न ही मृत्यु होती है और न ही आत्मा किसी काल में जन्म लेती है और न ही कभी मृत्यु को प्राप्त होती है। आत्मा अजन्मा, शाश्वत, अविनाशी और चिरनूतन है। शरीर का विनाश होने पर भी इसका विनाश नहीं होता।",
+                meaningInEnglish: "The Self (Atman) is neither born nor dies, nor does the Self (Atman) take birth at any time, nor does it ever die. The Self (Atman) is unborn, eternal, indestructible and eternal. Even when the body is destroyed, it is not destroyed.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             }
