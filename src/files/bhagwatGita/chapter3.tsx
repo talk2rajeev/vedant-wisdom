@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'कर्मयोग',
         chapterNameEnglish: 'karma Yog',
         chapterDescription: '',
+        totalSlokas: 43,
         slokas: [
             {
                 slokaNumber: 1,

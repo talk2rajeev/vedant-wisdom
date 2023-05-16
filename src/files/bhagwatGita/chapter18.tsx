@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'मोक्ष योग',
         chapterNameEnglish: ' Moksha Yog',
         chapterDescription: '',
+        totalSlokas: 78,
         slokas: [
             {
                 slokaNumber: 1,

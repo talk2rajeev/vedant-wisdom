@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'विश्वरूप दर्शन योग',
         chapterNameEnglish: 'Vishwaroop Darshan Yog',
         chapterDescription: '',
+        totalSlokas: 55,
         slokas: [
             {
                 slokaNumber: 1,

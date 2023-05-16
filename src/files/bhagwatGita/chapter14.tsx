@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'गुण त्रय विभाग योग',
         chapterNameEnglish: 'Gunatraya Vibhaga Yog',
         chapterDescription: '',
+        totalSlokas: 27,
         slokas: [
             {
                 slokaNumber: 1,

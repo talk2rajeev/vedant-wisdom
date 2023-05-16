@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'राज विद्या योग (राजगुह्य योग)',
         chapterNameEnglish: ' Rajvidya Yog',
         chapterDescription: '',
+        totalSlokas: 34,
         slokas: [
             {
                 slokaNumber: 1,

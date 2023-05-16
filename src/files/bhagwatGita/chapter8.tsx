@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'अक्षर ब्रह्म योग',
         chapterNameEnglish: 'Akshar Brahma Yog',
         chapterDescription: '',
+        totalSlokas: 28,
         slokas: [
             {
                 slokaNumber: 1,

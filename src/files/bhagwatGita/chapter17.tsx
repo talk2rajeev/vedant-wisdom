@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'श्रद्धा त्रय विभाग योग',
         chapterNameEnglish: 'Sraddhatraya Vibhaga Yoga',
         chapterDescription: '',
+        totalSlokas: 28,
         slokas: [
             {
                 slokaNumber: 1,

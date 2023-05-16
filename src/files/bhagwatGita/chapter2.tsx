@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'सांख्य योग',
         chapterNameEnglish: 'sankhya Yog',
         chapterDescription: '',
+        totalSlokas: 72,
         slokas: [
             {
                 slokaNumber: 1,
@@ -158,10 +159,6 @@ export default {
                     {
                         sanskrit: "द्रोणम्",
                         meaning: "द्रोणाचार्य को",
-                    },
-                    {
-                        sanskrit: "मधुसूदन",
-                        meaning: "मधु राक्षस के दमनकर्ता",
                     },
                     {
                         sanskrit: "मधुसूदन",
@@ -959,6 +956,702 @@ export default {
                 ],
                 meaningInHindi: "आत्मा का न तो कभी जन्म होता है न ही मृत्यु होती है और न ही आत्मा किसी काल में जन्म लेती है और न ही कभी मृत्यु को प्राप्त होती है। आत्मा अजन्मा, शाश्वत, अविनाशी और चिरनूतन है। शरीर का विनाश होने पर भी इसका विनाश नहीं होता।",
                 meaningInEnglish: "The Self (Atman) is neither born nor dies, nor does the Self (Atman) take birth at any time, nor does it ever die. The Self (Atman) is unborn, eternal, indestructible and eternal. Even when the body is destroyed, it is not destroyed.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 21,
+                uvach: "",
+                sanskritSloka: ["वेदाविनाशिनं नित्यं य एनमजमव्ययम् ।", "कथं स पुरुषः पार्थ कं घातयति हन्ति कम् ॥21॥"],
+                romanSloka: ["vedāvināśinaṁ nityaṁ ya enam ajam avyayam", "kathaṁ sa puruṣaḥ pārtha kaṁ ghātayati hantikam"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "वेद",
+                        meaning: "जानता है",
+                    },
+                    {
+                        sanskrit: "अवनाशिनम्",
+                        meaning: "अविनाशी को",
+                    },
+                    {
+                        sanskrit: "नित्यम्",
+                        meaning: "शाश्वत",
+                    },
+                    {
+                        sanskrit: "यः, एनम्",
+                        meaning: "वह जो, इस",
+                    },
+                    {
+                        sanskrit: "अजम्, अव्यम्",
+                        meaning: "अपरिवर्तनीय, अजन्मा",
+                    },
+                    {
+                        sanskrit: "कथम्, सः, पुरुषः",
+                        meaning: "कैसे, वह, पुरुषः",
+                    },
+                    {
+                        sanskrit: "कम्",
+                        meaning: "किसको",
+                    },
+                    {
+                        sanskrit: "घातयति",
+                        meaning: "मारने का कारण",
+                    },
+                    {
+                        sanskrit: "हन्ति, कम्",
+                        meaning: "मारता है, किसको",
+                    }
+                ],
+                meaningInHindi: "हे पृथापुत्र अर्जुन! जो पुरुष इस आत्मा को नाशरहित, नित्य, अजन्मा और अपरिवर्तनीय जानता है, वह किसी को कैसे मार सकता है या कैसे किसी की मृत्यु का कारण हो सकता है?",
+                meaningInEnglish: "O Partha, considering that the individual unit of consciousness(Atman) is eternal, unborn, imperishable and indestructible, then how can a person kill anyone, and whom does he kill?",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 22,
+                uvach: "",
+                sanskritSloka: ["वासांसि जीर्णानि यथा विहाय नवानि गृह्वाति नरोऽपराणि ।", "तथा शरीराणि विहाय जीर्णा न्यन्यानि संयाति नवानि देही ॥22॥"],
+                romanSloka: ["vāsāṁsi jīrṇāni yathā vihāya navāni gṛhṇāti naro’parāṇi", "tathā śarīrāṇi vihāya jīrṇāny-anyāni saṁyāti navāni dehī"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "वासांसि",
+                        meaning: "वस्त्र",
+                    },
+                    {
+                        sanskrit: " यथा, विहाय",
+                        meaning: "जिस प्रकार, त्याग कर",
+                    },
+                    {
+                        sanskrit: "जीर्णानि, नवानि",
+                        meaning: "फटे पुराने, नये",
+                    },
+                    {
+                        sanskrit: "गृहणति, नर",
+                        meaning: "धारण करता है, मनुष्य",
+                    },
+                    {
+                        sanskrit: "अपराणि",
+                        meaning: "दूसरे",
+                    },
+                    {
+                        sanskrit: "शरीराणि, विहाय",
+                        meaning: "शरीर को, त्याग कर",
+                    },
+                    {
+                        sanskrit: "जीर्णानि, अन्यानि",
+                        meaning: "व्यर्थ, भिन्न",
+                    },
+                    {
+                        sanskrit: "संयाति",
+                        meaning: "प्रवेश करता है",
+                    },
+                    {
+                        sanskrit: "नवानि, देही",
+                        meaning: "नये, देहधारी आत्मा",
+                    }
+                ],
+                meaningInHindi: "जैसे मनुष्य पुराने वस्त्रों को त्यागकर दूसरे नए वस्त्रों को ग्रहण करता है, वैसे ही आत्मा पुराने शरीरों को त्यागकर दूसरे नए शरीरों को प्राप्त होता है।",
+                meaningInEnglish: "Just as one removes old clothes and accepts new ones, similarly the embodied unit of consciousness gives up old bodies and accepts new bodies.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 23,
+                uvach: "",
+                sanskritSloka: ["नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः ।", "न चैनं क्लेदयन्त्यापो न शोषयति मारुतः ॥23॥"],
+                romanSloka: ["nainaṁ chindanti śastrāṇi nainaṁ dahati pāvakaḥ", "na cainaṁ kledayanty-āpo na śoṣayati mārutaḥ"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "न–एनम्-छिन्दन्ति",
+                        meaning: "नहीं, इस आत्मा को, टुकड़े-टुकड़े",
+                    },
+                    {
+                        sanskrit: "शस्त्राणि",
+                        meaning: "शस्त्र द्वारा",
+                    },
+                    {
+                        sanskrit: " दहति, पावक",
+                        meaning: "जला सकता है, अग्नि",
+                    },
+                    {
+                        sanskrit: "क्लेदयन्ति",
+                        meaning: "भिगोया जा सकता है",
+                    },
+                    {
+                        sanskrit: "आपः, न",
+                        meaning: "जल, कभी नहीं",
+                    },
+                    {
+                        sanskrit: "शोषयति, मारूतः",
+                        meaning: "सुखाया जा सकता है, वायु",
+                    }
+                ],
+                meaningInHindi: "इस आत्मा को शस्त्र नहीं काट सकते, इसको आग नहीं जला सकती, इसको जल नहीं गला सकता और न ही वायु इसे सुखा सकती है।",
+                meaningInEnglish: "Weapons cannot cut the Aatman; it cannot be burned by fire; water cannot wet it and air cannot dry it.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 24,
+                uvach: "",
+                sanskritSloka: ["अच्छेद्योऽयमदाह्योऽयमक्लेद्योऽशोष्य एव च ।", "नित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः ॥24॥"],
+                romanSloka: ["acchedyo’yam adāhyo’yam akledyo’śoṣya eva ca", "nityaḥ sarva-gataḥ sthāṇur acalo’yaṁ sanātanaḥ"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "अच्छेद्य",
+                        meaning: "खण्डित न होने वाला",
+                    },
+                    {
+                        sanskrit: "अयम्",
+                        meaning: "यह आत्मा",
+                    },
+                    {
+                        sanskrit: "अदाह्य",
+                        meaning: "भिगोया न जा सकने वाला",
+                    },
+                    {
+                        sanskrit: "अयम्, अक्लेद्य",
+                        meaning: "यह आत्मा, गीला नहीं किया जा सकता",
+                    },
+                    {
+                        sanskrit: "अशोष्य",
+                        meaning: "सुखाया न जा सकने वाला",
+                    },
+                    {
+                        sanskrit: "एव, च",
+                        meaning: "वास्तव में, तथा",
+                    },
+                    {
+                        sanskrit: "नित्य, सर्वगत, स्थाणुः",
+                        meaning: "सनातन, सर्वव्यापी, अपरिवर्तनीय",
+                    },
+                    {
+                        sanskrit: "अचल",
+                        meaning: "जड़",
+                    },
+                    {
+                        sanskrit: "अयम्, सनातन",
+                        meaning: "यह आत्मा, सदा नित्य",
+                    },
+                ],
+                meaningInHindi: "आत्मा अखंडित और अज्वलनशील(जल नहीं सकता) है, इसे न तो गीला किया जा सकता है और न ही सुखाया जा सकता है। यह आत्मा शाश्वत, सर्वव्यापी, अपरिर्वतनीय, अचल और अनादि सनातन है।",
+                meaningInEnglish: "It (Atman) is indestructible, incombustible, insoluble and cannot be withered. It is eternal, all-pervading, unchanging, immovable and primeval.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 25,
+                uvach: "",
+                sanskritSloka: ["अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽयमुच्यते ।", "तस्मादेवं विदित्वैनं नानुशोचितुमर्हसि ॥25॥"],
+                romanSloka: ["avyakto’yam acintyo’yam avikāryo’yam ucyate", "tasmād evaṁ viditvainaṁ nānuśocitum arhasi"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "अव्यक्त",
+                        meaning: "अप्रकट",
+                    },
+                    {
+                        sanskrit: "अयम्",
+                        meaning: "यह आत्मा",
+                    },
+                    {
+                        sanskrit: "अचिन्त्य",
+                        meaning: "अकल्पनीय",
+                    },
+                    {
+                        sanskrit: "अयम्, अविकार्य",
+                        meaning: "यह आत्मा, अपरिवर्तित",
+                    },
+                    {
+                        sanskrit: "अयम्, उच्यते",
+                        meaning: "यह आत्मा, कहलाता है",
+                    },
+                    {
+                        sanskrit: "तस्मात्, एवम्",
+                        meaning: "इसलिए, इस प्रकार",
+                    },
+                    {
+                        sanskrit: "विदित्वा, एनम्",
+                        meaning: "जानकर, इस आत्मा में",
+                    },
+                    {
+                        sanskrit: "न, अनुशोचितुम्",
+                        meaning: "नहीं, शोक करना",
+                    },
+                    {
+                        sanskrit: "अर्हसि",
+                        meaning: "उचित",
+                    }
+                ],
+                meaningInHindi: "यह आत्मा अव्यक्त है, यह आत्मा अचिन्त्य है और यह आत्मा विकाररहित कहा जाता है। इससे हे अर्जुन! इस आत्मा को उपर्युक्त प्रकार से जानकर तुझे शोक नहीं करना चाहिए।",
+                meaningInEnglish: "This Atman is unmanifest, it is inconceivable and it is said to be disorderless. Because of this O Arjun! Knowing this Self (Atman), you should not grieve.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 26,
+                uvach: "",
+                sanskritSloka: ["अथ चैनं नित्यजातं नित्यं वा मन्यसे मृतम् ।", "तथापि त्वं महाबाहो नैवं शोचितुमर्हसि ॥26॥"],
+                romanSloka: ["atha cainaṁ nitya-jātaṁ nityaṁ vā manyase mṛtam", "tathāpi tvaṁ mahā-bāho nainaṁ śocitum arhasi"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "अथ, च, एनम्",
+                        meaning: "यदि, फिर भी, और आत्मा",
+                    },
+                    {
+                        sanskrit: "नित्य-जातम्",
+                        meaning: "निरन्तर जन्म लेने वाला",
+                    },
+                    {
+                        sanskrit: "नित्यम्, वा",
+                        meaning: "सदैव, अथवा",
+                    },
+                    {
+                        sanskrit: "मन्यसे",
+                        meaning: "तुम ऐसा सोचते हो",
+                    },
+                    {
+                        sanskrit: "मृतम, तथा-अपि",
+                        meaning: "निर्जीव, फिर भी",
+                    },
+                    {
+                        sanskrit: "त्वम्, महाबाहो",
+                        meaning: "तुम, बलिष्ठ भुजाओं वाला",
+                    },
+                    {
+                        sanskrit: " न, एवम्",
+                        meaning: "नहीं, इस प्रकार",
+                    },
+                    {
+                        sanskrit: "शोचितुम्, अर्हसि",
+                        meaning: "शोक, उचित",
+                    }
+                ],
+                meaningInHindi: "किन्तु यदि तुम यह सोचते हो कि आत्मा निरन्तर जन्म लेती है और मरती है तब ऐसी स्थिति में भी, हे महाबाहु अर्जुन! तुम्हें इस प्रकार से शोक नहीं करना चाहिए।",
+                meaningInEnglish: "Even if you believe that the individual consciousness is eternally subject to birth and death, still you have no reason to lament, O mighty-armed one.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 27,
+                uvach: "",
+                sanskritSloka: ["जातस्य हि ध्रुवो मृत्युर्बुवं जन्म मृतस्य च ।", "तस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि ॥27॥"],
+                romanSloka: ["jātasya hi dhruvo mṛtyur dhruvaṁ janma mṛtasya ca", "tasmād aparihārye’rthe na tvaṁ śocitum arhasi"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "जातस्य, ध्रुवः",
+                        meaning: "वह जो जन्म लेता है, निश्चय ही",
+                    },
+                    {
+                        sanskrit: "मृत्युः",
+                        meaning: "मृत्यु",
+                    },
+                    {
+                        sanskrit: "ध्रुवम्",
+                        meaning: "निश्चित है",
+                    },
+                    {
+                        sanskrit: "जन्म, मृतस्य",
+                        meaning: "जन्म, मृत प्राणी का",
+                    },
+                    {
+                        sanskrit: "तस्मात्",
+                        meaning: "इसलिए",
+                    },
+                    {
+                        sanskrit: "अपरिहार्य, अर्थे",
+                        meaning: "अपरिहार्य स्थिति मे (बिना उपायवाले, विषयमें)",
+                    },
+                    {
+                        sanskrit: "न, त्वम्",
+                        meaning: "नहीं, तुम",
+                    },
+                    {
+                        sanskrit: "शोचितुम्, अर्हसि",
+                        meaning: "शोक करना, उचित",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "जो जन्म लेता है उसकी मृत्यु निश्चित है और मृत्यु के पश्चात पुनर्जन्म भी अवश्यंभावी है। अतः तुम्हें अपरिहार्य (बिना उपाय वाले विषय) के लिए शोक नहीं करना चाहिए।",
+                meaningInEnglish: "For one who is born, death is certain. For one who is dead, birth is certain. Therefore, you should not grieve over that which is inevitable.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 28,
+                uvach: "",
+                sanskritSloka: ["अव्यक्तादीनि भूतानि व्यक्तमध्यानि भारत ।", "अव्यक्तनिधनान्येव तत्र का परिदेवना ॥28॥"],
+                romanSloka: ["avyaktādīni bhūtāni vyakta-madhyāni bhārata", "avyakta-nidhanāny-eva tatra kā paridevanā"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "अव्यक्त-आदीनि",
+                        meaning: "जन्म से पूर्व अप्रकट",
+                    },
+                    {
+                        sanskrit: "भूतानि, व्यक्त",
+                        meaning: "सभी जीव, प्रकट",
+                    },
+                    {
+                        sanskrit: "मध्यानि",
+                        meaning: "मध्य में",
+                    },
+                    {
+                        sanskrit: "भारत",
+                        meaning: "भरतवंशी, अर्जुन",
+                    },
+                    {
+                        sanskrit: "अव्यक्त",
+                        meaning: "अप्रकट",
+                    },
+                    {
+                        sanskrit: "निधानानि",
+                        meaning: "मृत्यु होने पर",
+                    },
+                    {
+                        sanskrit: "एव, तत्र",
+                        meaning: "वास्तव में, अतः",
+                    },
+                    {
+                        sanskrit: "का, परिदेवना",
+                        meaning: "क्या, शोक",
+                    },
+                ],
+                meaningInHindi: "हे अर्जुन! समस्त जीव जन्म से पहले अप्रकट थे, मृत्यु होने पर भी अप्रकट हो जाने वाले हैं, केवल बीच में ही प्रकट हैं  (जन्म होने पर प्रकट होते हैं), अतः ऐसे में शोक व्यक्त करने की क्या आवश्यकता है?",
+                meaningInEnglish: "O Bhārata, all living beings are unmanifest before birth, manifest between birth and death, and again unmanifest after death. What then is the reason for lamentation?",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 29,
+                uvach: "",
+                sanskritSloka: ["आश्चर्यवत्पश्यति कश्चिदेन माश्चर्यवद्वदति तथैव चान्यः ।", "आश्चर्यवच्चैनमन्यः शृणोति श्रुत्वाप्येनं वेद न चैव कश्चित् ॥29॥"],
+                romanSloka: ["āśhcharya-vat paśhyati kaśhchid enan āśhcharya-vad vadati tathaiva chānyaḥ", "āśhcharya-vach chainam anyaḥ śhṛiṇoti śhrutvāpyenaṁ veda na chaiva kaśhchit"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "आश्चर्यवत्",
+                        meaning: "आश्चर्य के रूप में",
+                    },
+                    {
+                        sanskrit: "पश्यति",
+                        meaning: "देखता है",
+                    },
+                    {
+                        sanskrit: "कश्चित्, एनम्",
+                        meaning: "कोई, इस आत्मा को",
+                    },
+                    {
+                        sanskrit: "आश्चर्यवत्",
+                        meaning: "आश्चर्य के समान",
+                    },
+                    {
+                        sanskrit: "वदति",
+                        meaning: "कहता है",
+                    },
+                    {
+                        sanskrit: "अन्यः",
+                        meaning: "दूसरा",
+                    },
+                    {
+                        sanskrit: "आश्चर्यवत्, च",
+                        meaning: "आश्चर्य, और",
+                    },
+                    {
+                        sanskrit: "शृणोति, श्रृत्वा, अपि",
+                        meaning: "सुनता है, सुनकर, भी",
+                    },
+                    {
+                        sanskrit: "वेद",
+                        meaning: "जानता है",
+                    },
+                    {
+                        sanskrit: "एव, कश्चित्",
+                        meaning: "नि:संदेह, कुछ",
+                    } 
+                ],
+                meaningInHindi: "कुछ लोग आत्मा को आश्चर्य की भाँति देखते हैं, कुछ लोग इसे आश्चर्य की भाँति वर्णन करते हैं और कुछ इसे आश्चर्य के रूप मे सुनते हैं जबकि अन्य लोग इसके विषय में सुनकर भी इसको नहीं जान पाते।",
+                meaningInEnglish: "Someone visualizes It as a wonder; and similarly indeed, someone else talks of It as a wonder; and someone else hears of It as a wonder. And someone else, indeed, does not realize It even after hearing about It.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 30,
+                uvach: "",
+                sanskritSloka: ["देही नित्यमवध्योऽयं देहे सर्वस्य भारत ।", "तस्मात्सर्वाणि भूतानि न त्वं शोचितुमर्हसि ॥30॥"],
+                romanSloka: ["dehī nityam avadhyo’yaṁ dehe sarvasya bhārata", "tasmāt sarvāṇi bhūtāni na tvaṁ śocitum arhasi"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "देही",
+                        meaning: "शरीर में निवास करने वाली जीवात्मा",
+                    },
+                    {
+                        sanskrit: "नित्यम्, अवध्य",
+                        meaning: "सदैव, अविनाशी",
+                    },
+                    {
+                        sanskrit: "अयम्, देहै",
+                        meaning: "यह आत्मा, शरीर में",
+                    },
+                    {
+                        sanskrit: "सर्वस्य, भारत",
+                        meaning: "प्रत्येक, भरतवंशी, अर्जुन",
+                    },
+                    {
+                        sanskrit: "तस्मात्, सर्वाणि, भूतानि",
+                        meaning: "इसलिए, समस्त, जीवित प्राणी",
+                    },
+                    {
+                        sanskrit: "त्वम्",
+                        meaning: "तुम",
+                    },
+                    {
+                        sanskrit: "शोचितुम्, अर्हसि",
+                        meaning: "शोक करना, चाहिए",
+                    }
+                ],
+                meaningInHindi: "हे अर्जुन! शरीर में निवास करने वाली आत्मा अविनाशी है इसलिए तुम्हें किसी प्राणी के लिए शोक नहीं करना चाहिए।",
+                meaningInEnglish: "O descendant of Bharata, the eternal individual consciousness that dwells within the bodies of all beings can never be slain. Thus, you should not lament for anyone.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 31,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 32,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 33,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 34,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 35,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 36,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 37,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 38,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 39,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 40,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             }

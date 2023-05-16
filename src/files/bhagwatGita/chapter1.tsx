@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: "अर्जुन विषाद योग",
         chapterNameEnglish: "Arjun Vishad Yog",
         chapterDescription: "",
+        totalSlokas: 47,
         slokas: [
             {
                 slokaNumber: 1,

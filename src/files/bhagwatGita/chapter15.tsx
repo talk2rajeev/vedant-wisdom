@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'पुरुषोत्तम योग',
         chapterNameEnglish: 'Purushottam Yog',
         chapterDescription: '',
+        totalSlokas: 20,
         slokas: [
             {
                 slokaNumber: 1,

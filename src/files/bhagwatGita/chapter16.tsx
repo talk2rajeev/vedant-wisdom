@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'देवासुर संपद विभाग योग',
         chapterNameEnglish: 'Daivasur Sampad Vibhag Yog',
         chapterDescription: '',
+        totalSlokas: 24,
         slokas: [
             {
                 slokaNumber: 1,

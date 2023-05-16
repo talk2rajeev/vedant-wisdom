@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'ज्ञान विज्ञान योग',
         chapterNameEnglish: ' Gyan Vigyan Yog',
         chapterDescription: '',
+        totalSlokas: 30,
         slokas: [
             {
                 slokaNumber: 1,

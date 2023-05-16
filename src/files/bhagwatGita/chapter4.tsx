@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'ज्ञानकर्मसन्यास योग',
         chapterNameEnglish: ' Gyan Karma Sanyas Yog (The Yoga of Knowledge)',
         chapterDescription: '',
+        totalSlokas: 42,
         slokas: [
             {
                 slokaNumber: 1,

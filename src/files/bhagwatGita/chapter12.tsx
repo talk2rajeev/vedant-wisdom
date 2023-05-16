@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'भक्ति योग',
         chapterNameEnglish: 'Bhakti Yog',
         chapterDescription: '',
+        totalSlokas: 20,
         slokas: [
             {
                 slokaNumber: 1,

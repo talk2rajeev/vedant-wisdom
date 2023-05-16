@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'विभूति योग',
         chapterNameEnglish: 'Vibhuti Yog',
         chapterDescription: '',
+        totalSlokas: 42,
         slokas: [
             {
                 slokaNumber: 1,

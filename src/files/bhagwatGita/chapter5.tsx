@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'कर्म संन्यास योग',
         chapterNameEnglish: ' Karma Sanyas Yog (The Yoga of Knowledge)',
         chapterDescription: '',
+        totalSlokas: 29,
         slokas: [
             {
                 slokaNumber: 1,

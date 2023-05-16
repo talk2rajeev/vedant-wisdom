@@ -3,6 +3,7 @@ export default {
         chapterNameHindi: 'ध्यानयोग योग',
         chapterNameEnglish: 'Dhyan Yog',
         chapterDescription: '',
+        totalSlokas: 47,
         slokas: [
             {
                 slokaNumber: 1,
