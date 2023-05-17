@@ -1418,168 +1418,328 @@ export default {
             {
                 slokaNumber: 31,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि ।", "धााद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते ॥31॥"],
+                romanSloka: ["svadharmam api cāvekṣya na vikampitum arhasi", "dharmyāddhi yuddhāc chreyo’nyat kṣatriyasya na vidyate"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
+                        sanskrit: "स्व-धर्मम्",
+                        meaning: "वेदों के अनुसार निर्धारित कर्त्तव्य",
+                    },
+                    {
+                        sanskrit: "अपि, च",
+                        meaning: "भी, और",
+                    },
+                    {
+                        sanskrit: "अवेक्ष्य, न",
+                        meaning: "विचार कर, नहीं",
+                    },
+                    {
+                        sanskrit: "विकम्पितुम्-त्यागना; अर्हसि-चाहिए;",
                         meaning: "",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "धात्, हि",
+                        meaning: "धर्म के लिए, वास्तव में",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "युद्धात्, श्रेयः",
+                        meaning: "युद्ध करने की अपेक्षा, श्रेष्ठ",
+                    },
+                    {
+                        sanskrit: "अन्यत्",
+                        meaning: "अन्य",
+                    },
+                    {
+                        sanskrit: "क्षत्रियस्य",
+                        meaning: "क्षत्रिय का",
+                    },
+                    {
+                        sanskrit: "न, विद्यते",
+                        meaning: "नहीं, है",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "इसके अलावा एक योद्धा के रूप में अपने कर्तव्य पर विचार करते हुए तुम्हें उसका त्याग नहीं करना चाहिए। क्योंकि क्षत्रिय के लिए धर्मयुक्त युद्ध से बढ़कर दूसरा कोई कल्याणकारी कर्तव्य नहीं है।",
+                meaningInEnglish: "Moreover, considering your natural duty, you should not waver as there is no better course of action for a warrior than a battle to uphold righteousness.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 32,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम् ।", "सुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम् ॥32॥"],
+                romanSloka: ["yadṛcchayā copapannaṁ svarga-dvāram apāvṛtam", "sukhinaḥ kṣatriyāḥ pārtha labhante yuddham īdṛśam"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "यदृच्छया",
+                        meaning: "अपने-आप",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "च, उपपन्नम्",
+                        meaning: "और, प्राप्त हुए",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
-                    }
+                        sanskrit: "स्वर्गद्वारम्-अपावृतम्",
+                        meaning: "स्वर्गके द्वाररूप, खुले हुए ",
+                    },
+                    {
+                        sanskrit: "ईदृशम्",
+                        meaning: "इस प्रकारके",
+                    },
+                    {
+                        sanskrit: "सुखिनः",
+                        meaning: "सुखी",
+                    },
+                    {
+                        sanskrit: "क्षत्रियाः",
+                        meaning: "क्षत्रियलोग ही", 
+                    },
+                    {
+                        sanskrit: "पार्थ",
+                        meaning: "पृथापुत्र, अर्जुन",
+                    },
+                    {
+                        sanskrit: "लभन्ते",
+                        meaning: "प्राप्त करते हैं",
+                    },
+                    {
+                        sanskrit: "युद्धम्",
+                        meaning: "युद्धको",
+                    },
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "हे पार्थ! वे क्षत्रिय भाग्यशाली होते हैं जिन्हें बिना इच्छा किए धर्म की रक्षा हेतु युद्ध के ऐसे अवसर प्राप्त होते हैं जिसके कारण उनके लिए स्वर्ग के द्वार खुल जाते हैं।",
+                meaningInEnglish: "O Parth, only the most fortunate warriors are favoured with the opportunity to engage in such a war, which has come of its own accord to you as an open door to the higher planets.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 33,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["अथ चेत्त्वमिमं धर्म्य संग्रामं न करिष्यसि ।", "ततः स्वधर्मं कीर्तिं च हित्वा पापमवाप्स्यसि ॥33॥"],
+                romanSloka: ["atha cet tvam imaṁ dharmyaṁ sangrāmaṁ na kariṣyasi", "tataḥ svadharmaṁ kīrtiṁ ca hitvā pāpam avāpsyasi"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अथ-चेत्",
+                        meaning: "यदि फिर भी",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "त्वम्, इमम्",
+                        meaning: "तुम, इस",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
-                    }
+                        sanskrit: "धर्म्यम्-संग्रामम्",
+                        meaning: "धर्म युद्ध को",
+                    },
+                    {
+                        sanskrit: "न, करिष्यसि",
+                        meaning: "नहीं, करोगे",
+                    },
+                    {
+                        sanskrit: "ततः",
+                        meaning: "तब",
+                    },
+                    {
+                        sanskrit: "स्व-धर्मम्",
+                        meaning: "वेदों के अनुसार मनुष्य के निर्धारित कर्त्तव्य",
+                    },
+                    {
+                        sanskrit: "कीर्तिम्",
+                        meaning: "प्रतिष्ठा",
+                    },
+                    {
+                        sanskrit: "हित्वा",
+                        meaning: "खोकर",
+                    },
+                    {
+                        sanskrit: "पापम्, अवाप्स्यसि",
+                        meaning: "पाप, प्राप्त करोगे",
+                    },
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "यदि फिर भी तुम इस धर्मयुक्त युद्ध को नहीं करोगे तब तुम्हें निश्चित रूप से स्वधर्म (वेदों के अनुसार मनुष्य के निर्धारित कर्त्तव्य) न करने का पाप लगेगा और तुम अपनी प्रतिष्ठा खोकर पाप को प्राप्त होगे।",
+                meaningInEnglish: "But if you decide not to take part in this war of righteousness, your principles of dharma will be lost, fame will abandon you and impiety will be incurred.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 34,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम् ।", "सम्भावितस्य चाकीर्ति मरणादतिरिच्यते ॥34॥"],
+                romanSloka: ["akīrtiṁ cāpi bhūtāni kathayiṣyanti te’vyayām", "sambhāvitasya cākīrtir maraṇād atiricyate"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अकीर्तिम्, च, अपि",
+                        meaning: "अपयश, और, भी",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "भूतानि",
+                        meaning: "लोगः",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "कथयिष्यन्ति, ते",
+                        meaning: "कहेंगे, तुम्हारे",
+                    },
+                    {
+                        sanskrit: "अव्ययाम्",
+                        meaning: "सदा के लिए",
+                    },
+                    {
+                        sanskrit: "सम्भावितस्य",
+                        meaning: "सम्मानित व्यक्ति के लिए",
+                    },
+                    {
+                        sanskrit: "अकीर्तिः",
+                        meaning: "अपमान",
+                    },
+                    {
+                        sanskrit: "मरणात्",
+                        meaning: "मृत्यु की तुलना में",
+                    },
+                    {
+                        sanskrit: "अतिरिच्यते",
+                        meaning: "से बढ़कर होता है",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "लोग तुम्हें कायर और भगोड़ा कहेंगे। एक सम्माननीय व्यक्ति के लिए अपयश मृत्यु से बढ़कर है।",
+                meaningInEnglish: "For all time to come, people will speak of your infamy, and for one who is great, infamy is worse than death.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 35,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः ।", "येषां च त्वं बहुमतो भूत्वा यास्यसि लाघवम् ॥35॥"],
+                romanSloka: ["bhayād raṇād uparataṁ maṁsyante tvāṁ mahā-rathāḥ", "yeṣāṁ ca tvaṁ bahu-mato bhūtvā yāsyasi lāghavam"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "भयात्",
+                        meaning: "भय के कारण",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "रणात्",
+                        meaning: "युद्धभूमि से",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "उपरतम्",
+                        meaning: "भाग जाना",
+                    },
+                    {
+                        sanskrit: "मस्यन्ते",
+                        meaning: "सोचेंगे",
+                    },
+                    {
+                        sanskrit: "त्वाम्",
+                        meaning: "तुमको ",
+                    },
+                    {
+                        sanskrit: "महारथाः",
+                        meaning: "महारथी",
+                    },
+                    {
+                        sanskrit: "येषाम,  बहुमत",
+                        meaning: "जिनकी, अति सम्मानित",
+                    },
+                    {
+                        sanskrit: "भूत्वा, यास्यसि",
+                        meaning: "हो कर, तुम गवा दोगे",
+                    },
+                    {
+                        sanskrit: "लाघवम्",
+                        meaning: "तुच्छ श्रेणी के",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "जिन महान योद्धाओं ने तुम्हारे नाम और यश की सराहना की है, वे सब यह सोचेंगे कि तुम भय के कारण युद्धभूमि से भाग गये और उनकी दृष्टि में तुम अपना सम्मान गंवा दोगे।",
+                meaningInEnglish: "Illustrious warriors will believe that you ceased fighting out of fear. You will fall into disgrace in the eyes of those that hold you in great esteem.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 36,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["अवाच्यवादांश्च बहून्वदिष्यन्ति तवाहिताः ।", "निन्दन्तस्तव सामर्थ्य ततो दुःखतरं नु किम् ॥36॥"],
+                romanSloka: ["avācya-vādāṁś ca bahūn vadiṣyanti tavāhitāḥ", "nindantas tava sāmarthyaṁ tato duḥkhataraṁ nu kim"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अवाच्य-वादान",
+                        meaning: "न कहने योग्य",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "बहून्, वदिष्यन्ति",
+                        meaning: "कई, कहेंगे",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "तब, अहिताः",
+                        meaning: "तुम्हारे, शत्रु",
+                    },
+                    {
+                        sanskrit: "निन्दन्त, तब",
+                        meaning: "निन्दा, तुम्हारी",
+                    },
+                    {
+                        sanskrit: "सामर्थ्यम्",
+                        meaning: "शक्ति को",
+                    },
+                    {
+                        sanskrit: "ततः",
+                        meaning: "उसकी अपेक्षा",
+                    },
+                    {
+                        sanskrit: "दुःख",
+                        meaning: "तरम्-अति पीड़ादायक",
+                    },
+                    {
+                        sanskrit: "नु",
+                        meaning: "निसन्देह",
+                    },
+                    {
+                        sanskrit: "किम्",
+                        meaning: "क्या",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "तुम्हारे शत्रु तुम्हारी निन्दा करेंगे और कटु शब्दों से तुम्हारा मानमर्दन करेंगे और तुम्हारी सामर्थ्य का उपहास उड़ायेंगें। तुम्हारे लिए इससे पीड़ादायक और क्या हो सकता है?",
+                meaningInEnglish: "Your enemies will insult you with slanderous words, condemning your prowess. Alas, what could be more painful than that?",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 37,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् ।", "तस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः ॥37॥x"],
+                romanSloka: ["hato vā prāpsyasi svargaṁ jitvā vā bhokṣyase mahīm", "tasmād uttiṣṭha kaunteya yuddhāya kṛta-niścayaḥ"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "हत:, वा",
+                        meaning: "मारे जाना, या तो",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "प्राप्स्यसि, स्वर्गम्",
+                        meaning: "प्राप्त करोगे, स्वर्गलोक को",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "जित्वा- वा",
+                        meaning: "विजयी होकर, अथवा",
+                    },
+                    {
+                        sanskrit: "भोक्ष्यसे, महीम्",
+                        meaning: "तुम भोगोगे, पृथ्वी लोक का सुख",
+                    },
+                    {
+                        sanskrit: "तस्मात्",
+                        meaning: "इसलिए",
+                    },
+                    {
+                        sanskrit: "उत्तिष्ठ, कौन्तेय",
+                        meaning: "उठो, कुन्तीपुत्र, अर्जुन",
+                    },
+                    {
+                        sanskrit: "युद्धाय",
+                        meaning: "युद्ध के लिए",
+                    },
+                    {
+                        sanskrit: "कृत-निश्चय",
+                        meaning: "दृढ़ संकल्प",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "हे कुन्ती पुत्र! यदि तुम युद्ध करते हो फिर या तो तुम मारे जाओगे और स्वर्ग लोक प्राप्त करोगे या विजयी होने पर पृथ्वी के साम्राज्य का सुख भोगोगे। इसलिए हे कुन्ती पुत्र! उठो और दृढ़ संकल्प के साथ युद्ध करो।",
+                meaningInEnglish: "O son of Kunti, if you are killed you will attain the higher planets, and if you are victorious you will enjoy the Earth. Therefore, be confident of your success – stand up and fight!",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },

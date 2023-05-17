@@ -62,6 +62,39 @@ export default function Page({ params }: {params: {id: string}}) {
             setselectedLanguage(lang);
     }, []);
 
+    const navigateToUrl = (navType: 'Next' | 'Prev') => {
+        let curVerseIndex = curVerseNumber;
+
+        // curVerseNumber
+        if(navType === 'Next') {
+            const totalSlokas = bhagwatGita[`chapter${curChapterNumber}`].totalSlokas;
+            if(curVerseNumber < totalSlokas) {
+                curVerseIndex = curVerseIndex+1;
+                setCurVerseNumber(curVerseIndex);
+                const sloka: slokaType = bhagwatGita[`chapter${curChapterNumber}`].slokas[(curVerseIndex)];
+                setCurSloka(sloka);
+            }
+        } else {
+            if(curVerseIndex > 1) {
+                curVerseIndex= curVerseIndex -1;
+                setCurVerseNumber(curVerseIndex);
+                const sloka: slokaType = bhagwatGita[`chapter${curChapterNumber}`].slokas[(curVerseIndex-1)];
+                setCurSloka(sloka);
+            }
+        }
+    }
+
+    const navigateToVerse = (verseNo: number) => {
+        setCurVerseNumber(verseNo);
+        const sloka: slokaType = bhagwatGita[`chapter${curChapterNumber}`].slokas[(verseNo-1)];
+        setCurSloka(sloka);
+    }
+
+    useEffect(()=>{
+        const path = `/bhagwat-gita/chapter${curChapterNumber}-verse${curVerseNumber}`;
+        window.history.pushState(null, "", path);
+    }, [curVerseNumber]);    
+
     useEffect(()=>{
         const {chapter, verse} = parseIdString(params.id);
         setCurChapterNumber(chapter);
@@ -72,7 +105,6 @@ export default function Page({ params }: {params: {id: string}}) {
         setVerseNo(`verse${verse}`);
         setCurChapter(chapterName);
         setCurSloka(sloka);
-
     }, []);
 
     const slokas = bhagwatGita[chapterNo];
@@ -96,7 +128,7 @@ export default function Page({ params }: {params: {id: string}}) {
                     <div className='pt-3'>
                         <div className='text-sm text-orange-700 font-bold mb-2'>slokas</div>
                         {
-                            slokas?.slokas?.map(item => <a href={`${base_url}chapter${curChapterNumber}-verse${item.slokaNumber}`} className={`badge badge-link ${curVerseNumber === item.slokaNumber ? 'selected' : ''}`} key={item.slokaNumber}>{item.slokaNumber}</a>)
+                            slokas?.slokas?.map(item => <span onClick={()=>navigateToVerse(item.slokaNumber)} className={`badge badge-link ${curVerseNumber === item.slokaNumber ? 'selected' : ''}`} key={item.slokaNumber}>{item.slokaNumber}</span>)
                         }
                     </div>
                 </div>
@@ -113,8 +145,8 @@ export default function Page({ params }: {params: {id: string}}) {
                         <div className='text-xl font-light text-orange-700'>
                             { curSloka?.sanskritSloka?.map(slok => <div key={slok}>{slok}</div>)}
                         </div>
-                        <a href={previous_url} className="left-arr inline-block font-bold text-lg ml-3 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">&lt;-</a>
-                        <a href={next_url} className="right-arr inline-block font-bold text-lg ml-3 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</a>
+                        <span onClick={()=>navigateToUrl('Prev')} className="left-arr inline-block font-bold text-lg ml-3 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">&lt;-</span>
+                        <span onClick={()=>navigateToUrl('Next')} className="right-arr inline-block font-bold text-lg ml-3 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</span>
                     </div>
                 </div>
                 
