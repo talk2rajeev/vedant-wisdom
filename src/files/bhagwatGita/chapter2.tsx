@@ -1702,7 +1702,7 @@ export default {
             {
                 slokaNumber: 37,
                 uvach: "",
-                sanskritSloka: ["हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् ।", "तस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः ॥37॥x"],
+                sanskritSloka: ["हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् ।", "तस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः ॥37॥"],
                 romanSloka: ["hato vā prāpsyasi svargaṁ jitvā vā bhokṣyase mahīm", "tasmād uttiṣṭha kaunteya yuddhāya kṛta-niścayaḥ"],
                 wordsMeaning: [
                     {
@@ -1746,47 +1746,91 @@ export default {
             {
                 slokaNumber: 38,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ ।", "ततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि ॥38॥"],
+                romanSloka: ["sukha-duḥkhe same kṛtvā lābhālābhau jayājayau", "tato yuddhāya yujyasva naivaṁ pāpam avāpsyasi"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "सुखदुःखे",
+                        meaning: "सुख-दुःख में",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "समेकृत्वा",
+                        meaning: "समभाव से",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "लाभ-अलाभौ",
+                        meaning: "लाभ तथा हानि",
+                    },
+                    {
+                        sanskrit: "जय-अजयौ",
+                        meaning: "विजय तथा पराजय",
+                    },
+                    {
+                        sanskrit: "ततः, युद्धाय",
+                        meaning: "तत्पश्चात, युद्ध के लिए",
+                    },
+                    {
+                        sanskrit: "युज्यस्व",
+                        meaning: "तैयार हो जाओ",
+                    },
+                    {
+                        sanskrit: "न, एवम्",
+                        meaning: "इस प्रकार, कभी नहीं",
+                    },
+                    {
+                        sanskrit: "पापम्, अवाप्स्यसि",
+                        meaning: "पाप, अर्जित करेंगे",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "सुख-दुख, लाभ-हानि और जय-पराजय को समान समझकर, उसके बाद युद्ध के लिए तैयार हो जा, इस प्रकार युद्ध करने से तू पाप को नहीं प्राप्त होगा।",
+                meaningInEnglish: "Maintain equanimity when faced with happiness and distress, gain and loss, victory and defeat – fight, and in this way you will not incur impiety.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 39,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["एषा तेऽभिहिता साङ्ख्ये बुद्धिर्योगे त्विमां शृणु ।", "बुद्ध्या युक्तो यया पार्थ कर्मबन्धं प्रहास्यसि ॥39॥"],
+                romanSloka: ["eṣā te’bhihitā sāṅkhye buddhir-yoge tv-imāṁ śṛṇu", "buddhyā yukto yayā pārtha karma-bandhaṁ prahāsyasi"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "एषा, ते",
+                        meaning: "अबतक, तुम्हारे लिए",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अभिहिता",
+                        meaning: "वर्णन किया",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "सांख्ये",
+                        meaning: "वैश्लेषिक ज्ञान द्वारा",
+                    },
+                    {
+                        sanskrit: "बुद्धिः, तु",
+                        meaning: "योगे-बुद्धि योग से, वास्तव में",
+                    },
+                    {
+                        sanskrit: "इमाम्, शृणु",
+                        meaning: "इसे, सुनो",
+                    },
+                    {
+                        sanskrit: "बुद्धया,  युक्तः, यया",
+                        meaning: "बुद्धि से, एकीकृत, जिससे",
+                    },
+                    {
+                        sanskrit: "पार्थ",
+                        meaning: "पृथापुत्र,अर्जुन",
+                    },
+                    {
+                        sanskrit: "कर्म-बन्धाम्",
+                        meaning: "कर्म के बन्धन से",
+                    },
+                    {
+                        sanskrit: "प्रहास्यसि",
+                        meaning: "तुम मुक्त हो जाओगे",
                     }
                 ],
-                meaningInHindi: "",
+                meaningInHindi: "हे पार्थ! अब तक मैंने तुम्हें सांख्य योग (आत्मा की प्रकृति) के संबंध में वैश्लेषिक ज्ञान से अवगत कराया है। अब मैं कर्मयोग के विषय में ज्ञान प्रकट कर रहा हूँ, उसे सुनो। जब तुम ऐसे ज्ञान के साथ कर्म करोगे तब कर्मों के बंधन से स्वयं को मुक्त कर पाओगे।",
                 meaningInEnglish: '',
                 meaningInGujrati: "",
                 meaningInMarathi: "",
@@ -1794,24 +1838,44 @@ export default {
             {
                 slokaNumber: 40,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते ।", "स्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात् ॥40॥"],
+                romanSloka: ["nehābhikrama nāśo’sti pratyavāyo na vidyate", "svalpam apyasya dharmasya trāyate mahato bhayāt"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "न, इह",
+                        meaning: "नहीं, इस मे",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अभिक्रम, नाश:",
+                        meaning: "प्रयत्न, हानि",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अस्ति, प्रत्यवायः, न",
+                        meaning: "है, प्रतिकूल परिणाम, कभी नहीं",
+                    },
+                    {
+                        sanskrit: "विद्यते, सु-अल्पम्, अपि",
+                        meaning: "है, थोड़ा, यद्यपि",
+                    },
+                    {
+                        sanskrit: "अस्य",
+                        meaning: "इसका",
+                    },
+                    {
+                        sanskrit: "धर्मस्य",
+                        meaning: "व्यवसाय",
+                    },
+                    {
+                        sanskrit: "त्रयते",
+                        meaning: "रक्षा करता है",
+                    },
+                    {
+                        sanskrit: "महतः, भयात्",
+                        meaning: "महान, भय से",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "इस चेतनावस्था में कर्म करने से किसी प्रकार की हानि या प्रतिकूल परिणाम प्राप्त नहीं होते अपितु इस प्रकार से किया गया अल्प प्रयास भी बड़े से बड़े भय से हमारी रक्षा करता है।",
+                meaningInEnglish: "There is no loss, nor is there any diminution of result in performing this dharma. Even the slightest effort saves one from the greatest fear.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             }
