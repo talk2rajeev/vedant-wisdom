@@ -1850,8 +1850,8 @@ export default {
                         meaning: "प्रयत्न, हानि",
                     },
                     {
-                        sanskrit: "अस्ति, प्रत्यवायः, न",
-                        meaning: "है, प्रतिकूल परिणाम, कभी नहीं",
+                        sanskrit: "अस्ति, प्रत्यवायः",
+                        meaning: "है, प्रतिकूल परिणाम",
                     },
                     {
                         sanskrit: "विद्यते, सु-अल्पम्, अपि",
@@ -1876,6 +1876,450 @@ export default {
                 ],
                 meaningInHindi: "इस चेतनावस्था में कर्म करने से किसी प्रकार की हानि या प्रतिकूल परिणाम प्राप्त नहीं होते अपितु इस प्रकार से किया गया अल्प प्रयास भी बड़े से बड़े भय से हमारी रक्षा करता है।",
                 meaningInEnglish: "There is no loss, nor is there any diminution of result in performing this dharma. Even the slightest effort saves one from the greatest fear.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 41,
+                uvach: "",
+                sanskritSloka: ["व्यवसायत्मिका बुद्धिरेकेह कुरुनन्दन ।", "बहुशाखा ह्यनन्ताश्च बुद्धयोऽव्यवसायिनाम् ॥41॥"],
+                romanSloka: ["vyavasāyātmikā buddhir ekeha kuru-nandana", "bahu-śākhā hy-anantāś ca buddhayo’vyavasāyinām"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "व्यवसाय आत्मिका",
+                        meaning: "दृढ़ संकल्प",
+                    },
+                    {
+                        sanskrit: "बुद्धि-एका",
+                        meaning: "बुद्धि-एकमात्र",
+                    },
+                    {
+                        sanskrit: "इह",
+                        meaning: "इस मार्ग पर",
+                    },
+                    {
+                        sanskrit: "कुरु",
+                        meaning: "नन्दन-कुरु वंशी",
+                    },
+                    {
+                        sanskrit: "बहु-शाखा",
+                        meaning: "अनेक शाखा",
+                    },
+                    {
+                        sanskrit: " हि, अनन्ता",
+                        meaning: "निश्चय ही, असीमित",
+                    },
+                    {
+                        sanskrit: "च, बुद्धयः",
+                        meaning: "भी, वुद्धि",
+                    },
+                    {
+                        sanskrit: "अव्यवसायिनाम्",
+                        meaning: "संकल्प रहित",
+                    },
+                ],
+                meaningInHindi: "हे कुरुवंशी! जो इस मार्ग का अनुसरण करते हैं, उनकी बुद्धि निश्चयात्मक होती है और उनका एकमात्र लक्ष्य होता है लेकिन जो मनुष्य संकल्पहीन, विवेकहीन, सकाम होते हैं उनकी बुद्धि अनेक शाखाओं मे विभक्त रहती है।",
+                meaningInEnglish: "O descendant of the Kurus, spiritual intelligence is one-pointed and exclusive. However, the intelligence of those that desire mundane enjoyment is many branched.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 42,
+                uvach: "",
+                sanskritSloka: ["यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः ।", "वेदवादरताः पार्थ नान्यदस्तीति वादिनः ॥42॥"],
+                romanSloka: ["yām imāṁ puṣpitāṁ vācaṁ pravadanty-avipaścitaḥ", "veda-vāda-ratāḥ pārtha nānyad astīti vādinaḥ"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "याम् इमाम्",
+                        meaning: "ये सब",
+                    },
+                    {
+                        sanskrit: "पुष्पिताम्, वाचम्",
+                        meaning: "बनावटी शब्द",
+                    },
+                    {
+                        sanskrit: "प्रवदन्ति",
+                        meaning: "कहते हैं",
+                    },
+                    {
+                        sanskrit: "अविपश्चित",
+                        meaning: "अल्पज्ञान वाले मनुष्य",
+                    },
+                    {
+                        sanskrit: "वेदवादरताः",
+                        meaning: "वेदों के अलंकारिक शब्दों में आसक्ति रखने वाले",
+                    },
+                    {
+                        sanskrit: "पार्थ",
+                        meaning: "पृथा का पुत्र, अर्जुन",
+                    },
+                    {
+                        sanskrit: "न-अन्यत्-अस्ति;",
+                        meaning: "दूसरा-कोई नहीं-है",
+                    },
+                    {
+                        sanskrit: "इति–वादिनः",
+                        meaning: "इस प्रकार-अनुशंसा करना",
+                    },
+                ],
+                meaningInHindi: "हे पार्थ, छोटी बुद्धि वाले वेदों की गलत व्याख्या करते हैं (वेदों की आलंकारिक शब्दों पर अत्यधिक आसक्त रहते हैं) और दावा करते हैं कि सृष्टि में कोई दिव्य सिद्धांत नहीं है (अर्थात जो यह मानते हैं कि इन वेदों में कोई उच्च सिद्धान्तों का वर्णन नहीं किया गया है)। इस प्रकार वे वेदों के केवल उन्हीं कथनों का महिमामंडन करते हैं जो इंद्रियों को भाते हैं।",
+                meaningInEnglish: "O Parth, those of small intelligence misinterpret the Vedas and claim that there is no divine principle in creation. Thus they glorify those statements that are pleasing to the senses.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 43,
+                uvach: "",
+                sanskritSloka: [ "कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदाम् ।", "क्रियाविशेषबहुला भोगैश्वर्यगति प्रति ॥43॥"],
+                romanSloka: ["kāmātmānaḥ svarga-parā janma-karma-phala-pradām", "kriyā-viśeṣa-bahulāṁ bhogaiśvarya-gatiṁ prati"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "काम-आत्मानः",
+                        meaning: "इन्द्रियतृप्ति के इच्छुक",
+                    },
+                    {
+                        sanskrit: "स्वर्गपरा:",
+                        meaning: "स्वर्गलोक की प्राप्ति का लक्ष्य रखने वाले",
+                    },
+                    {
+                        sanskrit: "जन्म-कर्म-फलप्रदाम",
+                        meaning: "उत्तम जन्म तथा कर्मफल देनेवाली",
+                    },
+                    {
+                        sanskrit: "क्रियाविशेष",
+                        meaning: "आडम्बरपूर्ण धार्मिक अनुष्ठान करना",
+                    },
+                    {
+                        sanskrit: "बहुलाम्, भोग",
+                        meaning: "विभिन्न, इन्द्रिय तृप्ति",
+                    },
+                    {
+                        sanskrit: "भोग",
+                        meaning: "इन्द्रिय तृप्ति",
+                    },
+                    {
+                        sanskrit: "ऐश्वर्य",
+                        meaning: "वैभव",
+                    },
+                    {
+                        sanskrit: "गतिम्, प्रति",
+                        meaning: "उन्नति, की ओर",
+                    }
+                ],
+                meaningInHindi: "उनका हृदय इच्छाओं से भरा हुआ है और उनका लक्ष्य स्वर्गलोक की प्राप्ति हैं, वे कई आडम्बरपूर्ण धार्मिक अनुष्ठान करते हैं जो उच्च जन्म, धन और शक्ति प्रदान करते हैं और आनंद और ऐश्वर्य की ओर ले जाते हैं।",
+                meaningInEnglish: "Their hearts are filled with selfish desires and their goal is the heaven, they prescribe many rituals that award higher birth, wealth and power and lead to enjoyment and opulence.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 44,
+                uvach: "",
+                sanskritSloka: ["भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम् |", "व्यवसायात्मिका बुद्धि: समाधौ न विधीयते || 44||"],
+                romanSloka: ["bhogaiśvarya-prasaktānāṁ tayāpahṛta-cetasām", "vyavasāyātmikā buddhiḥ samādhau na vidhīyate"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "भोग",
+                        meaning: "तृप्ति",
+                    },
+                    {
+                        sanskrit: "ऐश्वर्य",
+                        meaning: "विलासता",
+                    },
+                    {
+                        sanskrit: "प्रसक्तानाम्",
+                        meaning: "द्योर आसक्त पुरुष",
+                    },
+                    {
+                        sanskrit: "तया",
+                        meaning: "ऐसे पदार्थों से",
+                    },
+                    {
+                        sanskrit: "अपहृत-चेतसाम्",
+                        meaning: "भ्रमित बुद्धि वाले",
+                    },
+                    {
+                        sanskrit: "व्यवसाय-आत्मिका, बुद्धि",
+                        meaning: "दृढ़ निश्चय, बुद्धि",
+                    },
+                    {
+                        sanskrit: "समाधौ",
+                        meaning: "पूरा करना",
+                    },
+                    {
+                        sanskrit: "न",
+                        meaning: "नहीं",
+                    },
+                    {
+                        sanskrit: "विधीयते",
+                        meaning: "घटित होती है",
+                    }
+                ],
+                meaningInHindi: "जो भोग और ऐश्वर्य (इन्द्रियतृप्ति और सांसारिक सुखों) में अत्यन्त आसक्त हैं, ये लोग अपने मन को परमेश्वर में स्थिर करने में असमर्थ होते हैं।",
+                meaningInEnglish: "By such ideas these persons, contemplating sense gratification and mundane pleasures, do not attain the resolve to fix their minds on the Supreme.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 45,
+                uvach: "",
+                sanskritSloka: ["त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन ।", "निर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान् ॥45॥"],
+                romanSloka: ["traiguṇya-viṣayā vedā nistraiguṇyo bhavārjuna", "nirdvandvo nitya-sattva-stho niryoga-kṣema ātmavān"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "त्रै-गुण्य",
+                        meaning: "प्रकृति के तीन गुण",
+                    },
+                    {
+                        sanskrit: "विषयाः",
+                        meaning: "विषयों में",
+                    },
+                    {
+                        sanskrit: "वेदाः",
+                        meaning: "वैदिक ग्रंथ",
+                    },
+                    {
+                        sanskrit: "निस्त्रैगुण्यः, भव-अर्जुन",
+                        meaning: "गुणतीत (प्रकृति के तीनों गुणों से परे), होना, अर्जुन",
+                    },
+                    {
+                        sanskrit: "निर्द्वन्द्वः",
+                        meaning: "द्वैतभाव से मुक्त",
+                    },
+                    {
+                        sanskrit: "नित्य-सत्त्व-रथ:",
+                        meaning: "नित्य सत्य में स्थिर",
+                    },
+                    {
+                        sanskrit: "निर्योग-क्षेमः",
+                        meaning: "लाभ तथा रक्षा के भावों से मुक्त",
+                    },
+                    {
+                        sanskrit: "आत्मवान्",
+                        meaning: "आत्मलीन",
+                    },
+                ],
+                meaningInHindi: "हे अर्जुन! वेदों में प्रकृति के तीन गुणों (सत्त्व, रज और तम) का वर्णन मिलता है। प्रकृति के इन गुणों से ऊपर उठकर विशुद्ध आध्यात्मिक चेतना मे स्थित हो जाओ। परम सत्य में स्थित होकर सभी प्रकार के द्वैतों से स्वयं को मुक्त करते हुए भौतिक लाभ-हानि और सुरक्षा की चिन्ता किए बिना आत्मलीन हो जाओ।",
+                meaningInEnglish: "O Arjun! The description of the three gunas (Sattva, Raja and Tama) of nature is found in the Vedas. Rise above these modes of nature and become situated in the spiritual pure consciousness. Being situated in the Absolute Truth, liberating oneself from all kinds of dualities, merge in oneself without worrying about material gain-loss and security.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 46,
+                uvach: "",
+                sanskritSloka: ["यावानर्थ उदपाने सर्वतः सम्प्लुतोदके ।", "तावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः ॥46॥"],
+                romanSloka: ["yāvān artha udapāne sarvataḥ samplutodake", "tāvān sarveṣu vedeṣu brāhmaṇasya vijānataḥ"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "यावान्, अर्थः",
+                        meaning: "जितना भी, प्रयोजन",
+                    },
+                    {
+                        sanskrit: "उदपाने",
+                        meaning: "जलकूप में",
+                    },
+                    {
+                        sanskrit: "सर्वतः",
+                        meaning: "सभी प्रकार से",
+                    },
+                    {
+                        sanskrit: "सम्प्लुत",
+                        meaning: "उदके-विशाल जलाशय में",
+                    },
+                    {
+                        sanskrit: "तावान्, सर्वेषु",
+                        meaning: "उसी तरह, समस्त",
+                    },
+                    {
+                        sanskrit: "वेदेषु, ब्राह्मणस्य",
+                        meaning: "वेदों में, परम सत्य को जानने वाला",
+                    },
+                    {
+                        sanskrit: "विजानतः",
+                        meaning: "पूर्ण ज्ञानी",
+                    }
+                ],
+                meaningInHindi: "जैसे एक छोटे जलकूप का समस्त कार्य सहजता से सभी प्रकार से विशाल जलाशय से तत्काल पूर्ण हो जाता है। इसी तरह, जो परम सत्य को जानने वाला है, वह वेदों में पाए जाने वाले सभी प्रयोजन को पूर्ण करते हैं।",
+                meaningInEnglish: "A large lake serves all the purposes served by a small pond. Similarly, one who is the knower of the Absolute Truth realises all the purposes found within the Vedas.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 47,
+                uvach: "",
+                sanskritSloka: ["कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।", "मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥47॥"],
+                romanSloka: ["karmaṇy-evādhikāraste mā phaleṣu kadācana", "mā karma-phala-hetur bhūr mā te saṅgo’stv-akarmaṇi"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "कर्मणि-एव-अधिकार-ते",
+                        meaning: "कर्म करनेमें, ही, अधिकार है, तुम्हारा",
+                    },
+                    {
+                        sanskrit: "मा-फलेषु-कदाचन",
+                        meaning: "नहीं, कर्मफल मे, किसी भी समय",
+                    },
+                    {
+                        sanskrit: "मा, कर्म-फल",
+                        meaning: "कभी नहीं, कर्म के परिणामस्वरूप फल",
+                    },
+                    {
+                        sanskrit: "हेतुः",
+                        meaning: "कारण",
+                    },
+                    {
+                        sanskrit: "भू:",
+                        meaning: "होना",
+                    },
+                    {
+                        sanskrit: "मा",
+                        meaning: "नहीं",
+                    },
+                    {
+                        sanskrit: "ते",
+                        meaning: "तुम्हारी",
+                    },
+                    {
+                        sanskrit: "सङ्गः, अस्तु",
+                        meaning: "आसक्ति, हो",
+                    },
+                    {
+                        sanskrit: "अकर्मणि",
+                        meaning: "अकर्मा रहने में",
+                    },
+                ],
+                meaningInHindi: "तेरा कर्म करने में ही अधिकार है, उसके फलों पर कदापि नहीं। इसलिए तुम स्वयं को अपने कर्मों के फलों का कारण मत मानो (अपने कर्मों के फल से कभी भी अभिप्रेरित न हों), तथा तेरी कर्म न करने में भी आसक्ति न हो ।",
+                meaningInEnglish: "our right is to perform your work, but never to the results. Never be motivated by the results of your actions, nor should you be attached to not performing your prescribed duties.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 48,
+                uvach: "",
+                sanskritSloka: ["योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।", "सिद्ध्यसिद्धयोः समो भूत्वा समत्वं योग उच्यते ॥48॥"],
+                romanSloka: ["yogasthaḥ kuru karmāṇi saṅgaṁ tyaktvā dhanañjaya", "siddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga ucyate"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "योगस्थः",
+                        meaning: "योग में स्थिर होकर",
+                    },
+                    {
+                        sanskrit: "कुरु, कर्मणि",
+                        meaning: "करो, कर्त्तव्यः",
+                    },
+                    {
+                        sanskrit: "सङ्गम्-त्यक्त्वा",
+                        meaning: "आसक्ति को, त्याग कर",
+                    },
+                    {
+                        sanskrit: "धनञ्जय",
+                        meaning: "अर्जुन",
+                    },
+                    {
+                        sanskrit: "सिद्धि-असिद्धयोः",
+                        meaning: "सफलता तथा विफलता में",
+                    },
+                    {
+                        sanskrit: "समः-भूत्वा;",
+                        meaning: "समभाव, होकर",
+                    },
+                    {
+                        sanskrit: "समत्वम्",
+                        meaning: "समभाव",
+                    },
+                    {
+                        sanskrit: "योग–उच्यते",
+                        meaning: "योग, कहा जाता है",
+                    }
+                ],
+                meaningInHindi: "हे अर्जुन! सफलता और असफलता की आसक्ति को त्याग कर तुम दृढ़ता से अपने कर्तव्य का पालन करो। समत्व ही योग कहलाता है। (समत्व का अर्थ है - जो कुछ भी कर्म किया जाए, उसके पूर्ण होने और न होने में तथा उसके फल में समभाव रखना।)",
+                meaningInEnglish: "O Dhananjay, stand firm in yoga, perform your activities giving up attachment and be equipoised in both success and failure. Such balance is known as yoga.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 49,
+                uvach: "",
+                sanskritSloka: ["दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय ।", "बुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः ॥49॥"],
+                romanSloka: ["dūreṇa hy-avaraṁ karma buddhi-yogād dhanañjaya", "buddhau śaraṇam anviccha kṛpaṇāḥ phala-hetavaḥ"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "दूरेण-हि",
+                        meaning: "दूर से त्यागना, निश्चय ही",
+                    },
+                    {
+                        sanskrit: "अवरम्-कर्म",
+                        meaning: "निष्कृष्ट, कामनायुक्त कर्म",
+                    },
+                    {
+                        sanskrit: "बुद्धि योगात्",
+                        meaning: "दिव्य ज्ञान में स्थित बुद्धि के साथ",
+                    },
+                    {
+                        sanskrit: "धनञ्जय",
+                        meaning: "अर्जुन",
+                    },
+                    {
+                        sanskrit: "बुद्धौ",
+                        meaning: "दिव्य ज्ञान और अंतर्दृष्टि",
+                    },
+                    {
+                        sanskrit: "शरणम्",
+                        meaning: "शरण ग्रहण करना",
+                    },
+                    {
+                        sanskrit: "अन्विच्छ",
+                        meaning: "शरण ग्रहण करो",
+                    },
+                    {
+                        sanskrit: "कृपणा:",
+                        meaning: "कंजूस",
+                    },
+                    {
+                        sanskrit: "फल-हैतवः",
+                        meaning: "कर्म का फल प्राप्त करने की इच्छा वाले",
+                    }
+                ],
+                meaningInHindi: "हे धनञ्जय, सकाम कर्म समत्वरूप ज्ञानयोग (समत्व- कर्मफल में समभाव रखना) से बहुत हीन हैं। इसलिए समभाव के ज्ञान का आश्रय लें। जो लोग अपने कार्यों के सकारात्मक परिणामों से प्रेरित होते हैं वे कंजूस होते हैं।",
+                meaningInEnglish: "O Dhananjaya, fruitive activities are by far inferior to the yoga of wisdom. Therefore, take shelter in the wisdom of equanimity. Those that are motivated by the fruitive results of their actions are misers.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 50,
+                uvach: "",
+                sanskritSloka: ["बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।", "तस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ॥50॥"],
+                romanSloka: ["buddhi-yukto jahātīha ubhe sukṛta-duṣkṛte", "tasmād yogāya yujyasva yogaḥ karmasu kauśalam"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "बुद्धि-युक्त",
+                        meaning: "बुद्धि से युक्त",
+                    },
+                    {
+                        sanskrit: "जहाति",
+                        meaning: "मुक्त हो सकता है",
+                    },
+                    {
+                        sanskrit: "इह-उभे",
+                        meaning: "दोनों, इस जीवन मे",
+                    },
+                    {
+                        sanskrit: "सुकृत-दुष्कृते",
+                        meaning: "शुभ तथा अशुभ कर्म",
+                    },
+                    {
+                        sanskrit: "तस्मात् ",
+                        meaning: "इसलिए",
+                    },
+                    {
+                        sanskrit: "योगाय, युज्यस्व",
+                        meaning: "योग के लिए, प्रयास करना",
+                    },
+                    {
+                        sanskrit: "योगः-कर्मसु-कौशलम्",
+                        meaning: "योगः कुशलता से कार्य करने की कला",
+                    },
+                ],
+                meaningInHindi: "समबुद्धियुक्त पुरुष पुण्य और पाप दोनों को इसी लोक में त्याग देता है अर्थात उनसे मुक्त हो जाता है। इससे तू समत्व रूप योग में लग जा, यह समत्व रूप योग ही कर्मों में कुशलता है अर्थात कर्मबंध से छूटने का उपाय है।",
+                meaningInEnglish: "A wise man refrains from performing both good and bad actions in this world. Thus, engage in yoga, as yoga is the best of all activities.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             }
