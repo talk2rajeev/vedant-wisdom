@@ -2322,6 +2322,246 @@ export default {
                 meaningInEnglish: "A wise man refrains from performing both good and bad actions in this world. Thus, engage in yoga, as yoga is the best of all activities.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 51,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 52,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 53,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 54,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 55,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 56,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 57,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 58,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 59,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 60,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
             }
         ]
     }
