@@ -1,4 +1,6 @@
-export default {
+import {ChapterIndexType, ChapterInterface} from './index';
+
+const Chapter4: {[ChapterIndexType.Chapter4]: ChapterInterface } = { 
     chapter4: {
         chapterNameHindi: 'ज्ञानकर्मसन्यास योग',
         chapterNameEnglish: ' Gyan Karma Sanyas Yog (The Yoga of Knowledge)',
@@ -32,3 +34,4 @@ export default {
         ]
     }
 };
+export default Chapter4;

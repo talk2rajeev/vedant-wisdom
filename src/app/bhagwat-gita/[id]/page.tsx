@@ -4,10 +4,11 @@ import React, { useState, useEffect } from 'react';
 import {default as PageHeader} from '../../../components/app-header';
 import {default as bhagwatGita} from '../../../files/bhagwatGita';
 import { default as Collapse } from '../../../components/collapse';
+import {ChapterIndexType, ChapterInterface} from '../../../files/bhagwatGita';
 import './style.css';
 
 export function getChapterText(lang: string) {
-    if(lang === 'Hinid') {
+    if(lang === 'Hindi') {
       return `अध्याय`;
     } else if(lang === 'English'){
       return `Chapter`;
@@ -37,10 +38,31 @@ function parseIdString(id: string) {
 
 const base_url = 'http://localhost:3000/bhagwat-gita/';
 
+const getChapterIndex = (chapterNo: number) => {
+    if(chapterNo === 1) return ChapterIndexType.Chapter1;
+    if(chapterNo === 2) return ChapterIndexType.Chapter2;
+    if(chapterNo === 3) return ChapterIndexType.Chapter3;
+    if(chapterNo === 4) return ChapterIndexType.Chapter4;
+    if(chapterNo === 5) return ChapterIndexType.Chapter5;
+    if(chapterNo === 6) return ChapterIndexType.Chapter6;
+    if(chapterNo === 7) return ChapterIndexType.Chapter7;
+    if(chapterNo === 8) return ChapterIndexType.Chapter8;
+    if(chapterNo === 9) return ChapterIndexType.Chapter9;
+    if(chapterNo === 10) return ChapterIndexType.Chapter10;
+    if(chapterNo === 11) return ChapterIndexType.Chapter11;
+    if(chapterNo === 12) return ChapterIndexType.Chapter12;
+    if(chapterNo === 13) return ChapterIndexType.Chapter13;
+    if(chapterNo === 14) return ChapterIndexType.Chapter14;
+    if(chapterNo === 15) return ChapterIndexType.Chapter15;
+    if(chapterNo === 16) return ChapterIndexType.Chapter16;
+    if(chapterNo === 17) return ChapterIndexType.Chapter17;
+    if(chapterNo === 18) return ChapterIndexType.Chapter18;
+    
+    return ChapterIndexType.Chapter1;
+}
+
 export default function Page({ params }: {params: {id: string}}) {
     const [selectedLanguage, setselectedLanguage] = useState<string>('Hindi');
-    const [chapterNo, setChapterNo] = useState<string>('');
-    const [verseNo, setVerseNo] = useState<string>('');
     const [curChapter, setCurChapter] = useState<string>('');
     const [curSloka, setCurSloka] = useState<slokaType>();
 
@@ -62,31 +84,34 @@ export default function Page({ params }: {params: {id: string}}) {
             setselectedLanguage(lang);
     }, []);
 
+    
+
     const navigateToUrl = (navType: 'Next' | 'Prev') => {
         let curVerseIndex = curVerseNumber;
+        const chapter = getChapterIndex(curChapterNumber);
 
-        // curVerseNumber
         if(navType === 'Next') {
-            const totalSlokas = bhagwatGita[`chapter${curChapterNumber}`].totalSlokas;
+            const totalSlokas = bhagwatGita[chapter].totalSlokas;
             if(curVerseNumber < totalSlokas) {
                 curVerseIndex = curVerseIndex+1;
                 setCurVerseNumber(curVerseIndex);
-                const sloka: slokaType = bhagwatGita[`chapter${curChapterNumber}`].slokas[(curVerseIndex)];
+                const sloka: slokaType = bhagwatGita[chapter].slokas[(curVerseIndex-1)];
                 setCurSloka(sloka);
             }
         } else {
             if(curVerseIndex > 1) {
                 curVerseIndex= curVerseIndex -1;
                 setCurVerseNumber(curVerseIndex);
-                const sloka: slokaType = bhagwatGita[`chapter${curChapterNumber}`].slokas[(curVerseIndex-1)];
+                const sloka: slokaType = bhagwatGita[chapter].slokas[(curVerseIndex-1)];
                 setCurSloka(sloka);
             }
         }
     }
 
     const navigateToVerse = (verseNo: number) => {
+        const chapter = getChapterIndex(curChapterNumber);
         setCurVerseNumber(verseNo);
-        const sloka: slokaType = bhagwatGita[`chapter${curChapterNumber}`].slokas[(verseNo-1)];
+        const sloka: slokaType = bhagwatGita[chapter].slokas[(verseNo-1)];
         setCurSloka(sloka);
     }
 
@@ -99,20 +124,15 @@ export default function Page({ params }: {params: {id: string}}) {
         const {chapter, verse} = parseIdString(params.id);
         setCurChapterNumber(chapter);
         setCurVerseNumber(verse);
-        const chapterName: string = bhagwatGita[`chapter${chapter}`].chapterNameHindi;
-        const sloka: slokaType = bhagwatGita[`chapter${chapter}`].slokas[(verse-1)];
-        setChapterNo(`chapter${chapter}`);
-        setVerseNo(`verse${verse}`);
+        const chapterNum = getChapterIndex(curChapterNumber);
+        const chapterName: string = bhagwatGita[chapterNum].chapterNameHindi;
+        const sloka: slokaType = bhagwatGita[chapterNum].slokas[(verse-1)];
         setCurChapter(chapterName);
         setCurSloka(sloka);
     }, []);
 
-    const slokas = bhagwatGita[chapterNo];
 
-
-    const previous_url = `${base_url}chapter${curChapterNumber}-verse${curVerseNumber-1}`;
-    const next_url = `${base_url}chapter${curChapterNumber}-verse${curVerseNumber+1}`;
-
+    const slokas = bhagwatGita[getChapterIndex(curChapterNumber)];
 
     return <div>
     <PageHeader languageChange={handleLanguageChange}/>

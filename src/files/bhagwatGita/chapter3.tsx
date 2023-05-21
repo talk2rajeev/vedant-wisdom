@@ -1,4 +1,6 @@
-export default {
+import {ChapterIndexType, ChapterInterface} from './index';
+
+const Chapter3: {[ChapterIndexType.Chapter3]: ChapterInterface } = {    
     chapter3: {
         chapterNameHindi: 'कर्मयोग',
         chapterNameEnglish: 'karma Yog',
@@ -32,3 +34,5 @@ export default {
         ]
     }
 };
+
+export default Chapter3;
