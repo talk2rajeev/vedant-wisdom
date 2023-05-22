@@ -487,11 +487,11 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
                     {
                         sanskrit: "उभयोः सेनयोः मध्ये ",
                         meaning: "दोनों सेनाओंके बीचमें",
-                    },,
+                    },
                     {
                         sanskrit: "विषीदन्तम्, तम्",
                         meaning: "शोक करते हुए, उस अर्जुनको",
-                    },,
+                    },
                     {
                         sanskrit: "इदम्, वचः, उवाच",
                         meaning: "यह, वचन, बोले",
@@ -2329,72 +2329,132 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
             {
                 slokaNumber: 51,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः ।", "जन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम् ॥51॥"],
+                romanSloka: ["karma-jaṁ buddhi yuktā hi phalaṁ tyaktvā manīṣiṇaḥ", "janma-bandha-vinirmuktāḥ padaṁ gacchanty-anāmayam"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "कर्मजम्",
+                        meaning: "सकाम कर्मों से उत्पन्न",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "बुद्धि-युक्ताः, हि",
+                        meaning: "समबुद्धि युक्त, निश्चय ही",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "फलम्, त्यक्त्वा",
+                        meaning: "फल, त्याग कर",
+                    },
+                    {
+                        sanskrit: " मनीषिणः",
+                        meaning: "बड़े-बड़े ऋषि मुनिः",
+                    },
+                    {
+                        sanskrit: "जन्मबन्ध-विनिर्मुक्ताः",
+                        meaning: "जन्म एवं मृत्यु के बन्धन से मुक्ति",
+                    },
+                    {
+                        sanskrit: "पदं",
+                        meaning: "अवस्था पर",
+                    },
+                    {
+                        sanskrit: "गच्छन्ति",
+                        meaning: "पहुँचते हैं",
+                    },
+                    {
+                        sanskrit: "अनामयम्",
+                        meaning: "कष्ट रहित",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "समबुद्धि युक्त ज्ञानीजन अपने कर्मों के फल को त्याग देते हैं और इस तरह खुद को भौतिक जन्म और मृत्यु के बंधन से मुक्त कर लेते हैं। इस प्रकार वे निर्विकार परम पद को प्राप्त हो जाते हैं ( निर्विकार परम पद वो अवस्था है जो सभी दुखों से परे है)।",
+                meaningInEnglish: "The wise give up the results of their actions and thus liberate themselves from the bondage of material birth and death. Thus they attain the plane beyond all suffering.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 52,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति ।", "तदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च ॥52॥"],
+                romanSloka: ["yadā te moha-kalilaṁ buddhir vyatitariṣyati", "tadā gantāsi nirvedaṁ śrotavyasya śrutasya ca"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "यदा, ते, मोह",
+                        meaning: "जब, तुम्हारा, मोह",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "कलिलम्",
+                        meaning: "दलदल",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "बुद्धिः",
+                        meaning: "बुद्धि",
+                    },
+                    {
+                        sanskrit: "व्यतितरिष्यति",
+                        meaning: "पार करना",
+                    },
+                    {
+                        sanskrit: "तदा, गन्तासि",
+                        meaning: "तब, तुम प्राप्त करोगे",
+                    },
+                    {
+                        sanskrit: "निर्वेदम्",
+                        meaning: "उदासीनता",
+                    },
+                    {
+                        sanskrit: "श्रोतव्यस्य",
+                        meaning: "सुनने योग्य",
+                    },
+                    {
+                        sanskrit: "श्रुतस्य, च",
+                        meaning: "सुने हुए को, और",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "जब तुम्हारी बुद्धि मोह के दलदल को पार करे जाएगी, तब तुम सुने हुए और सुनने में आने वाले इस लोक और परलोक के सभी भोगों के प्रति उदासीन हो जाओगे।",
+                meaningInEnglish: "Once your intelligence is able to pass through the dense jungle of illusion, you will become indifferent to all that has been heard and all that is yet to be heard.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 53,
                 uvach: "",
-                sanskritSloka: ["", ""],
+                sanskritSloka: ["श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला ।", "समाधावचला बुद्धिस्तदा योगमवाप्स्यसि ॥53॥"],
                 romanSloka: ["", ""],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "श्रुतिविप्रतिपन्ना",
+                        meaning: "वेदों के साकाम कर्मकाण्डों को सुनने से विचलित हुई",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "ते",
+                        meaning: "तुम्हारा",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "यदा",
+                        meaning: "जब",
+                    },
+                    {
+                        sanskrit: "स्थास्यति",
+                        meaning: "स्थिर हो जाएगा",
+                    },
+                    {
+                        sanskrit: " निश्चला,  समाधौ",
+                        meaning: "अस्थिर, दिव्य चेतना",
+                    },
+                    {
+                        sanskrit: "अचला, बुद्धिः",
+                        meaning: "स्थिर, बुद्धि",
+                    },
+                    {
+                        sanskrit: "तदा, योगम्",
+                        meaning: "तब, योग",
+                    },
+                    {
+                        sanskrit: "अवाप्स्यसि",
+                        meaning: "तुम प्राप्त करोगे",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "जब तुम्हारा मन वेदों की मिथ्या व्याख्याओं से प्रभावित नहीं होगा, तब तुम योग की सिद्ध अवस्था को प्राप्त करोगे।",
+                meaningInEnglish: "When your mind is no longer affected by the false interpretations of the Vedas, then you will attain the perfect stage of yoga.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
