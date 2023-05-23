@@ -2460,169 +2460,345 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
             },
             {
                 slokaNumber: 54,
-                uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                uvach: "अर्जुन उवाच ।",
+                sanskritSloka: ["स्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव ।", "स्थितधीः किं प्रभाषेत किमासीत व्रजेत किम् ॥54॥"],
+                romanSloka: ["sthita-prajñasya kā bhāṣā samādhi-sthasya keśava", "sthita-dhīḥ kiṁ prabhāṣeta kim āsīta vrajeta kim"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अर्जुन उवाच",
+                        meaning: "अर्जुन ने कहा",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "स्थित-प्रज्ञस्य",
+                        meaning: "स्थिर बुद्धि वाला व्यक्ति",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "का, भाषा",
+                        meaning: "क्या, बोलना",
+                    },
+                    {
+                        sanskrit: "समाधिस्थस्य",
+                        meaning: "दिव्य चेतना में स्थित मनुष्य का",
+                    },
+                    {
+                        sanskrit: "केशव",
+                        meaning: "केशी राक्षस का दमन करने वाले, श्रीकृष्ण",
+                    },
+                    {
+                        sanskrit: "स्थितधी:",
+                        meaning: "प्रबुद्ध व्यक्ति",
+                    },
+                    {
+                        sanskrit: " किम्, प्रभाषेत ",
+                        meaning: "क्या, बोलता है",
+                    },
+                    {
+                        sanskrit: "किम्",
+                        meaning: "कैसे",
+                    },
+                    {
+                        sanskrit: "आसीत",
+                        meaning: "बैठता है",
+                    },
+                    {
+                        sanskrit: "व्रजेत, किम्",
+                        meaning: "चलता है, कैसे",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "अर्जुन ने कहा: हे केशव, समाधि में स्थित परमात्मा को प्राप्त हुए स्थिरबुद्धि पुरुष के क्या लक्षण हैं जो पूरी तरह से दिव्य ज्ञान (समाधि)  में स्थित है? वह कैसे बोलता है? वह कैसे बैठता है? वह कैसे चलता है?",
+                meaningInEnglish: "Arjun said: O Kesav, what are the characteristics of that person who is perfectly situated in divine wisdom and fully absorbed in pure spiritual consciousness (samādhi)? How does he speak? How does he sit? How does he walk?",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 55,
-                uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                uvach: "श्रीभगवानुवाच ।",
+                sanskritSloka: ["प्रजहाति यदा कामान्सर्वान्पार्थ मनोगतान् ।", "आत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ॥55॥"],
+                romanSloka: ["prajahāti yadā kāmān sarvān pārtha manogatān", "ātmany-evātmanā tuṣṭaḥ sthita-prajñas tadocyate"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "श्रीभगवान्-उवाच",
+                        meaning: "परमात्मा श्रीकृष्ण ने कहा",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "प्रजहाति",
+                        meaning: "परित्याग करता है",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "यदा, कामान्",
+                        meaning: "जब, स्वार्थयुक्त",
+                    },
+                    {
+                        sanskrit: "सर्वान्",
+                        meaning: "सभी",
+                    },
+                    {
+                        sanskrit: "पार्थ",
+                        meaning: "पृथापुत्र, अर्जुन",
+                    },
+                    {
+                        sanskrit: "मनः गतान्, आत्मनि",
+                        meaning: "-मन की, आत्मा की",
+                    },
+                    {
+                        sanskrit: "एव, आत्मना",
+                        meaning: "केवल, शुद्ध मन से",
+                    },
+                    {
+                        sanskrit: "तुष्टः",
+                        meaning: "सन्तुष्ट",
+                    },
+                    {
+                        sanskrit: "स्थितप्रज्ञः",
+                        meaning: "स्थिर(स्थाई) बुद्धि युक्त",
+                    },
+                    {
+                        sanskrit: "तदा",
+                        meaning: "तब",
+                    },
+                    {
+                        sanskrit: "उच्यत",
+                        meaning: "कहा जाता है",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "श्री भगवान्‌ बोले- हे अर्जुन! जिस काल में यह पुरुष मन में स्थित सम्पूर्ण कामनाओं को भलीभाँति त्याग देता है और आत्मज्ञान को अनुभव कर संतुष्ट हो जाता है तब ऐसे मानव को स्थितप्रज्ञ (दिव्य चेतना में स्थित) कहा जाता है।",
+                meaningInEnglish: "Bhagavan Shree Krishna said: O Partha, When the living being abandons all material desires that enter the mind and becomes self-satisfied within, then that person is said to be situated in divine knowledge.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 56,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः ।", "वीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते ॥56॥"],
+                romanSloka: ["duḥkheṣv-anudvigna manāḥ sukheṣu vigata-spṛhaḥ", "vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "दुःखेषु",
+                        meaning: "दुखों में",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अनुद्वि-ग्रमना:",
+                        meaning: "जिसका मन विचलित नहीं होता",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "सुखेषु",
+                        meaning: "सुख में",
+                    },
+                    {
+                        sanskrit: "विगत-स्पृहः",
+                        meaning: "बिना लालसा के",
+                    },
+                    {
+                        sanskrit: "वीत",
+                        meaning: "मुक्त",
+                    },
+                    {
+                        sanskrit: "राग, भय, क्रोधः",
+                        meaning: "आसक्ति, भय, क्रोध से",
+                    },
+                    {
+                        sanskrit: "स्थित-धी:",
+                        meaning: "प्रबुद्ध मनुष्य",
+                    },
+                    {
+                        sanskrit: "मुनि:",
+                        meaning: "मुनि",
+                    },
+                    {
+                        sanskrit: "उच्यते",
+                        meaning: "कहलाता है",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "जो मनुष्य किसी प्रकार के दुखों में क्षुब्ध नहीं होता जो सुख की लालसा नहीं करता और जो आसक्ति, भय और क्रोध से मुक्त रहता है, वह स्थिर मन वाला मुनि कहलाता है।",
+                meaningInEnglish: "One whose mind remains undisturbed by distress, who has no desire for pleasure, who is free from mundane attachment, fear and anger, is a sage of steady mind.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 57,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम् ।", "नाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता ॥57॥"],
+                romanSloka: ["yaḥ sarvatrānabhisnehas tat tat prāpya śubhāśubham", "nābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "यः, सर्वत्र",
+                        meaning: "जो, सभी जगह",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अनभिस्नेहः",
+                        meaning: "अनासक्त",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
-                    }
+                        sanskrit: "तत्, प्राप्य",
+                        meaning: "उस, प्राप्त करके",
+                    },
+                    {
+                        sanskrit: "शुभ, अशुभम्",
+                        meaning: "अच्छा, बुरा",
+                    },
+                    {
+                        sanskrit: "न, अभिनन्दति",
+                        meaning: "न तो, हर्षित होता है",
+                    },
+                    {
+                        sanskrit: "न, द्वेष्टि",
+                        meaning: "न ही, द्वेष करता है",
+                    },
+                    {
+                        sanskrit: "तस्य",
+                        meaning: "उसका",
+                    },
+                    {
+                        sanskrit: "प्रज्ञा, प्रतिष्ठिता",
+                        meaning: "ज्ञान, स्थिर",
+                    },
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "जो सभी परिस्थितियों में अनासक्त रहता है और न ही शुभ फल की प्राप्ति से हर्षित होता है और न ही विपत्ति से उदासीन होता है वही पूर्ण ज्ञानावस्था में स्थित मुनि है।",
+                meaningInEnglish: "One who is unattached to anything in this world and who does not become joyful or resentful on attaining good or evil, is firmly established in wisdom.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 58,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः ।", "इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥58॥"],
+                romanSloka: ["yadā saṁharate cāyaṁ kūrmo’ṅgānīva sarvaśaḥ", "indriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "यदा",
+                        meaning: "जब",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "संहरते",
+                        meaning: "संकुचित कर लेता है",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अयम्, कूर्म:",
+                        meaning: "यह, कछुआ",
+                    },
+                    {
+                        sanskrit: "अड्गानि, इव",
+                        meaning: "अंग, वैसे ही",
+                    },
+                    {
+                        sanskrit: "सर्वशः",
+                        meaning: "पूरी तरह",
+                    },
+                    {
+                        sanskrit: "इन्द्रियाणि, इन्द्रिय-अर्थभ्यः",
+                        meaning: "इन्द्रियाँ, इन्द्रियविषयों से",
+                    },
+                    {
+                        sanskrit: "तस्य",
+                        meaning: "उसकी",
+                    },
+                    {
+                        sanskrit: "प्रज्ञा, प्रतिष्ठिता",
+                        meaning: "बुद्धि (दिव्य चेतना), स्थित",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "जिस प्रकार कछुवा सब ओर से अपने अंगों को जैसे समेट लेता है, वैसे ही जब पुरुष इन्द्रियों के विषयों से इन्द्रियों को हटा लेता है, तब उसकी बुद्धि स्थिर है (ऐसा समझना चाहिए)।",
+                meaningInEnglish: "When one is able to withdraw the senses from sense-objects, just as a tortoise withdraws its limbs, then he is firmly established in wisdom.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 59,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["विषया विनिवर्तन्ते निराहारस्य देहिनः ।", "रसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते ॥59॥"],
+                romanSloka: ["viṣayā vinivartante nirāhārasya dehinaḥ", "rasa-varjaṁ raso’pyasya paraṁ dṛṣṭvā nivartate"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "विषयाः",
+                        meaning: "इन्द्रिय विषय",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "विनिवर्तन्ते",
+                        meaning: "रोकना",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "निराहारस्य",
+                        meaning: "स्वयं को दूर रखने का अभ्यास",
+                    },
+                    {
+                        sanskrit: "देहिनः",
+                        meaning: "देहधारी जीव के लिए",
+                    },
+                    {
+                        sanskrit: "रस-वर्जम",
+                        meaning: "भोग का त्याग करना",
+                    },
+                    {
+                        sanskrit: "रस:",
+                        meaning: "भोग विलास",
+                    },
+                    {
+                        sanskrit: "अपि, अस्य",
+                        meaning: "यद्यपि, उसका",
+                    },
+                    {
+                        sanskrit: "परम",
+                        meaning: "सर्वोत्तम",
+                    },
+                    {
+                        sanskrit: "दृष्टा",
+                        meaning: "अनुभव होने पर",
+                    },
+                    {
+                        sanskrit: "निवर्तते",
+                        meaning: "वह समाप्त हो जाता है",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "देहधारी जीव विषयों का त्याग तो कर सकता है, पर उन्हें भोगने की रुचि बनी रहती है। फिर भी, जो सर्वोच्च(परमात्मा का साक्षात्कार) को महसूस करता है यह (इन्द्रिय विषयों को भोगने की लालसा) भी उसके लिए समाप्त हो जाता है ।",
+                meaningInEnglish: "An embodied living being may renounce sense-objects, but the taste for enjoying them remains. However, this too also ceases for one who realises the Supreme.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 60,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः ।", "इन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः ॥60॥"],
+                romanSloka: ["yatato hy-api kaunteya puruṣasya vipaścitaḥ", "indriyāṇi pramāthīni haranti prasabhaṁ manaḥ"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "यततः",
+                        meaning: "आत्म नियंत्रण का अभ्यास करते हुए",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "हि, अपि",
+                        meaning: "के लिए, तथपि",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "कौन्तेय",
+                        meaning: "कुन्तीपुत्र, अर्जुन",
+                    },
+                    {
+                        sanskrit: "पुरुषस्य",
+                        meaning: "मनुष्य की",
+                    },
+                    {
+                        sanskrit: "विपश्चितः, इन्द्रियाणि",
+                        meaning: "विवेक से युक्त, इन्द्रियाँ",
+                    },
+                    {
+                        sanskrit: "प्रमाथीन",
+                        meaning: "अशांत",
+                    },
+                    {
+                        sanskrit: "हरन्ति",
+                        meaning: "वश मे करना",
+                    },
+                    {
+                        sanskrit: "प्रसभम्",
+                        meaning: "बलपूर्वक",
+                    },
+                    {
+                        sanskrit: "मनः",
+                        meaning: "मन",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "हे कुन्तीपुत्र, अशांत इन्द्रियाँ एक बुद्धिमान (विवेक से युक्त) व्यक्ति के मन को भी बलपूर्वक चुरा सकती हैं।",
+                meaningInEnglish: "Yet the turbulent senses can forcibly steal the mind of even a wise man of sound judgment, O son of Kunti.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             }
