@@ -62,12 +62,15 @@ const getChapterIndex = (chapterNo: number) => {
 }
 
 export default function Page({ params }: {params: {id: string}}) {
+    
+    const {chapter, verse} = parseIdString(params.id);
+
     const [selectedLanguage, setselectedLanguage] = useState<string>('Hindi');
     const [curChapter, setCurChapter] = useState<string>('');
     const [curSloka, setCurSloka] = useState<slokaType>();
 
-    const [curChapterNumber, setCurChapterNumber] = useState<number>(1);
-    const [curVerseNumber, setCurVerseNumber] = useState<number>(1);
+    const [curChapterNumber, setCurChapterNumber] = useState<number>(chapter);
+    const [curVerseNumber, setCurVerseNumber] = useState<number>(verse);
 
 
 
