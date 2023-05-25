@@ -2801,7 +2801,411 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
                 meaningInEnglish: "Yet the turbulent senses can forcibly steal the mind of even a wise man of sound judgment, O son of Kunti.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
-            }
+            },
+            {
+                slokaNumber: 61,
+                uvach: "",
+                sanskritSloka: ["तानि सर्वाणि संयम्य युक्त आसीत मत्परः ।", "वशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता ॥61॥"],
+                romanSloka: ["tāni sarvāṇi saṁyamya yukta āsīta mat-paraḥ", "vaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "तानि, सर्वाणि",
+                        meaning: "उन्हें, समस्त",
+                    },
+                    {
+                        sanskrit: "संयम्य, युक्तः",
+                        meaning: "वश में करना, एक हो जाना",
+                    },
+                    {
+                        sanskrit: "आसीत",
+                        meaning: "स्थित होना चाहिए",
+                    },
+                    {
+                        sanskrit: "मत्-परः",
+                        meaning: "मुझमें (श्रीकृष्ण)",
+                    },
+                    {
+                        sanskrit: "वशे, हि",
+                        meaning: "वश में, निश्चय ही",
+                    },
+                    {
+                        sanskrit: "यस्य",
+                        meaning: "जिसकी",
+                    },
+                    {
+                        sanskrit: "इन्द्रियाणि",
+                        meaning: "इन्द्रियाँ",
+                    },
+                    {
+                        sanskrit: "तस्य",
+                        meaning: "उनकी",
+                    },
+                    {
+                        sanskrit: "प्रज्ञा",
+                        meaning: "पूर्ण ज्ञान",
+                    },
+                    {
+                        sanskrit: "प्रतिष्ठिता",
+                        meaning: "स्थिर",
+                    }
+                ],
+                meaningInHindi: "वे जो अपनी इन्द्रियों को वश में कर लेते हैं और अपने मन को मुझमें (कृष्ण) में स्थिर कर देते हैं (जो आत्मस्थ हो गए ), वे दिव्य ज्ञान में दृढ़ रूप से स्थित होते हैं।",
+                meaningInEnglish: "Restraining all the senses, a self-controlled person should fix his mind upon Me. Thus he becomes firmly situated in divine knowledge.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 62,
+                uvach: "",
+                sanskritSloka: ["ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते ।", "सङ्गत्सञ्जायते कामः कामात्क्रोधोऽभिजायते ॥62॥"],
+                romanSloka: ["dhyāyato viṣayān puṁsaḥ saṅgas teṣūpajāyate", "saṅgāt sañjāyate kāmaḥ kāmāt krodho’bhijāyate"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "ध्यायत:",
+                        meaning: "चिन्तन करते हुए",
+                    },
+                    {
+                        sanskrit: "अभिजायते",
+                        meaning: "उत्पन्न होता है",
+                    },
+                    {
+                        sanskrit: "विषयान्",
+                        meaning: "इन्द्रिय विषय",
+                    },
+                    {
+                        sanskrit: "पुंस:",
+                        meaning: "मनुष्य की",
+                    },
+                    {
+                        sanskrit: "सङ्गः-तेषु",
+                        meaning: "आसक्ति, उन विषयोंमें ",
+                    },
+                    {
+                        sanskrit: "उपजायते",
+                        meaning: "उत्पन्न हो जाती है",
+                    },
+                    {
+                        sanskrit: "सङ्गात्",
+                        meaning: "आसक्ति से",
+                    },
+                    {
+                        sanskrit: "सञ्जायते",
+                        meaning: "उत्पन्न होती है",
+                    },
+                    {
+                        sanskrit: "कामः",
+                        meaning: "इच्छा",
+                    },
+                    {
+                        sanskrit: "कामात्, क्रोध:",
+                        meaning: "कामना से, क्रोध",
+                    },
+                    {
+                        sanskrit: "अभिजायते",
+                        meaning: "उत्पन्न होता है",
+                    }
+                ],
+                meaningInHindi: "इन्द्रिय-वस्तुओं का चिंतन करने से मनुष्य उनमें आसक्त हो जाता है, और आसक्ति से उन विषयों की कामना उत्पन्न होती है और कामना से क्रोध उत्पन्न होता है।",
+                meaningInEnglish: "By contemplating upon sense-objects, one becomes attached to them. From attachment desire appears and from desire anger manifests.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 63,
+                uvach: "",
+                sanskritSloka: ["क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः ।", "स्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ॥63॥"],
+                romanSloka: ["krodhād bhavati saṁmohaḥ saṁmohāt smṛti-vibhramaḥ", "smṛti-bhraṁśād buddhi-nāśo buddhi-nāśāt praṇaśyati"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "क्रोधात्-भवति",
+                        meaning: "क्रोध से, उत्पन्न हो जाता है",
+                    },
+                    {
+                        sanskrit: "सम्मोहः",
+                        meaning: "मूढ़भाव या अविवेक (निर्णय लेने की क्षमता क्षीण होना)",
+                    },
+                    {
+                        sanskrit: "सम्मोहात्",
+                        meaning: "मूढ़भाव से (अविवेक से)",
+                    },
+                    {
+                        sanskrit: "स्मृति, विभ्रमः",
+                        meaning: "स्मरणशक्ति, भ्रमित",
+                    },
+                    {
+                        sanskrit: "स्मृतिभ्रंशात्",
+                        meaning: "स्मृति का भ्रम होने से",
+                    },
+                    {
+                        sanskrit: "बुद्धिनाश:",
+                        meaning: "बुद्धि का विनाश",
+                    },
+                    {
+                        sanskrit: "बुद्धिनाशात्",
+                        meaning: "बुद्धि के विनाश से",
+                    },
+                    {
+                        sanskrit: "प्रणश्यति",
+                        meaning: "पतन होना",
+                    }
+                ],
+                meaningInHindi: "क्रोध से मूढ़ भाव (जो निर्णय लेने की क्षमता को क्षीण करता है) उत्पन्न हो जाता है, जिसके कारण स्मृति भ्रम हो जाता है। जब स्मृति भ्रमित हो जाती है तब बुद्धि का नाश हो जाता है और बुद्धि के नष्ट होने से मनुष्य का पतन हो जाता है।",
+                meaningInEnglish: "Delusion manifests from anger. Delusion causes bewilderment of memory. Bewilderment of memory causes loss of intelligence and when intelligence is lost, one is destroyed.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 64,
+                uvach: "",
+                sanskritSloka: ["रागद्वेषवियुक्तैस्तु विषयानिन्द्रियैश्चरन् ।", "आत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति ॥64॥"],
+                romanSloka: ["rāga-dveṣa-vimuktais tu viṣayān indriyaiś caran", "ātma-vaśyair vidheyātmā prasādam adhigacchati"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "रागद्वेषवियुक्तैः",
+                        meaning: "राग(आसक्ति) और द्वेषसे रहित",
+                    },
+                    {
+                        sanskrit: "विषयान्",
+                        meaning: "इन्द्रिय विषयों को",
+                    },
+                    {
+                        sanskrit: "इन्द्रियैः",
+                        meaning: "इन्द्रियों द्वारा",
+                    },
+                    {
+                        sanskrit: "चरन्",
+                        meaning: "भोग करते हुए",
+                    },
+                    {
+                        sanskrit: "आत्मवश्यैः",
+                        meaning: "मन को अपने वश में करने वाला",
+                    },
+                    {
+                        sanskrit: "विधेय-आत्मा",
+                        meaning: "मन को नियत्रित करता है",
+                    },
+                    {
+                        sanskrit: "प्रसादम्",
+                        meaning: "भगवतकृपा को",
+                    },
+                    {
+                        sanskrit: "अधिगच्छति",
+                        meaning: "प्राप्त करता है",
+                    }
+                ],
+                meaningInHindi: "लेकिन जो मन को वश में रखता है वह इन्द्रियों के विषयों का भोग करने पर भी राग और द्वेष से मुक्त रहता है और  भगवद्कृपा (अन्तःकरण की प्रसन्नता) को प्राप्त करता है।",
+                meaningInEnglish: "But one who controls the mind remains free from attachment and aversion even after enjoying the objects of the senses, attains divine grace.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 65,
+                uvach: "",
+                sanskritSloka: ["प्रसादे सर्वदुःखानां हानिरस्योपजायते ।", "प्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते ॥65॥"],
+                romanSloka: ["prasāde sarva-duḥkhānāṁ hānir asyopajāyate", "prasanna-cetaso hy-āśu buddhiḥ paryavatiṣṭhate"],
+                wordsMeaning: [
+                    {
+                        sanskrit: "प्रसादे",
+                        meaning: "भगवद्कृपा द्वारा",
+                    },
+                    {
+                        sanskrit: "सर्व-दुःखनाम्",
+                        meaning: "सभी दुखों का",
+                    },
+                    {
+                        sanskrit: "हानि:-अस्य-उपजायते",
+                        meaning: "क्षय, उसके, हो जाता है ",
+                    },
+                    {
+                        sanskrit: "प्रसन्न-चेतसः",
+                        meaning: "प्रसन्न-चित्तवाले (शांत मनवाले) कर्मयोगीकी",
+                    },
+                    {
+                        sanskrit: "आशु",
+                        meaning: "शीघ्र",
+                    },
+                    {
+                        sanskrit: "बुद्धि",
+                        meaning: "बुद्धि",
+                    },
+                    {
+                        sanskrit: "परि-अवतिष्ठते",
+                        meaning: "दृढ़ता से स्थित",
+                    },
+                ],
+                meaningInHindi: "भगवद्कृपा (अन्तःकरण की प्रसन्नता) होने पर इसके सम्पूर्ण दुःखों का अभाव हो जाता है और ऐसे कर्मयोगी की बुद्धि शीघ्र ही परमात्मा में स्थिर हो जाती है।",
+                meaningInEnglish: "With divine grace, all its miseries vanish, and the intellect of such a Karmayogi soon becomes fixed in the Supreme.",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 66,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 67,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 68,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 69,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 70,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 71,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 72,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
         ]
     }
 };
