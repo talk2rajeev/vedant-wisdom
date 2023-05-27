@@ -2409,7 +2409,7 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
                         meaning: "सुने हुए को, और",
                     }
                 ],
-                meaningInHindi: "जब तुम्हारी बुद्धि मोह के दलदल को पार करे जाएगी, तब तुम सुने हुए और सुनने में आने वाले इस लोक और परलोक के सभी भोगों के प्रति उदासीन हो जाओगे।",
+                meaningInHindi: "जब तुम्हारी बुद्धि मोहरूपी दलदल को पार कर जाएगी, तब तुम सुने हुए और सुनने में आने वाले सभी भोगों के प्रति वैराग्य को प्राप्त हो जाओगे, अर्थात् वे विषय तुम्हारे लिए निरर्थक हो जायेंगे।",
                 meaningInEnglish: "Once your intelligence is able to pass through the dense jungle of illusion, you will become indifferent to all that has been heard and all that is yet to be heard.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
@@ -3009,11 +3009,11 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
                         meaning: "भगवद्कृपा द्वारा",
                     },
                     {
-                        sanskrit: "सर्व-दुःखनाम्",
+                        sanskrit: "सर्व दुःखनाम्",
                         meaning: "सभी दुखों का",
                     },
                     {
-                        sanskrit: "हानि:-अस्य-उपजायते",
+                        sanskrit: "हानि: अस्य उपजायते",
                         meaning: "क्षय, उसके, हो जाता है ",
                     },
                     {
@@ -3041,24 +3041,48 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
             {
                 slokaNumber: 66,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना ।", "न चाभावयतः शान्तिरशान्तस्य कुतः सुखम् ॥66॥"],
+                romanSloka: ["nāsti buddhir ayuktasya na cāyuktasya bhāvanā", "na cābhāvayataḥ śāntir aśāntasya kutaḥ sukham"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "न अस्ति",
+                        meaning: "नहीं है",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "बुद्धिः",
+                        meaning: "बुद्धि",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "अयुक्तस्य",
+                        meaning: "भगवान में स्थित न होना",
+                    },
+                    {
+                        sanskrit: "अयुक्तस्य",
+                        meaning: "भगवान में स्थित न रहने वाले",
+                    },
+                    {
+                        sanskrit: "भावना",
+                        meaning: "चिन्तन",
+                    },
+                    {
+                        sanskrit: "न च",
+                        meaning: "नहीं और",
+                    },
+                    {
+                        sanskrit: "अभावयतः",
+                        meaning: "जो स्थिर नहीं है उसके",
+                    },
+                    {
+                        sanskrit: "शान्तिः, अशान्तस्य",
+                        meaning: "शान्ति, अशान्त",
+                    },
+                    {
+                        sanskrit: " कृतः, सुखम्",
+                        meaning: "कहाँ है, सुख",
                     }
                 ],
                 meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInEnglish: "",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },

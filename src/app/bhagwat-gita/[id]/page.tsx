@@ -7,7 +7,7 @@ import { default as Collapse } from '../../../components/collapse';
 import {ChapterIndexType, ChapterInterface} from '../../../files/bhagwatGita';
 import './style.css';
 
-export function getChapterText(lang: string) {
+function getChapterText(lang: string) {
     if(lang === 'Hindi') {
       return `अध्याय`;
     } else if(lang === 'English'){
@@ -60,6 +60,17 @@ const getChapterIndex = (chapterNo: number) => {
     
     return ChapterIndexType.Chapter1;
 }
+
+// export function generateStaticParams() {
+//     const arr = [];
+//     for(let i=1; i<=18; i++) {
+//         const chapter = getChapterIndex(i);
+//         for(let j=1; j<=bhagwatGita[chapter].totalSlokas; j++) {
+//             arr.push({id: `chapter${chapter}-verse${j}`});
+//         }
+//     }
+//     return arr;
+//   }
 
 export default function Page({ params }: {params: {id: string}}) {
     

@@ -4,9 +4,11 @@ import Image from 'next/image';
 import { default as Img } from './Img';
 import {default as PageHeader} from '../../components/app-header';
 import {default as bhagwatGita} from '../../files/bhagwatGita';
+import {ChapterIndexType, ChapterInterface} from '../../files/bhagwatGita';
+
 import './style.css';
 
-export function getChapterText(lang: string, i: number) {
+function getChapterText(lang: string, i: number) {
     if(lang === 'Hinid') {
       return `अध्याय ${i+1}`;
     } else if(lang === 'English'){
@@ -15,6 +17,29 @@ export function getChapterText(lang: string, i: number) {
       return `अध्याय ${i+1}`;
     }
   }
+
+  const getChapterIndex = (chapterNo: string) => {
+    if(chapterNo === 'chapter1') return ChapterIndexType.Chapter1;
+    if(chapterNo === 'chapter2') return ChapterIndexType.Chapter2;
+    if(chapterNo === 'chapter3') return ChapterIndexType.Chapter3;
+    if(chapterNo === 'chapter4') return ChapterIndexType.Chapter4;
+    if(chapterNo === 'chapter5') return ChapterIndexType.Chapter5;
+    if(chapterNo === 'chapter6') return ChapterIndexType.Chapter6;
+    if(chapterNo === 'chapter7') return ChapterIndexType.Chapter7;
+    if(chapterNo === 'chapter8') return ChapterIndexType.Chapter8;
+    if(chapterNo === 'chapter9') return ChapterIndexType.Chapter9;
+    if(chapterNo === 'chapter10') return ChapterIndexType.Chapter10;
+    if(chapterNo === 'chapter11') return ChapterIndexType.Chapter11;
+    if(chapterNo === 'chapter12') return ChapterIndexType.Chapter12;
+    if(chapterNo === 'chapter13') return ChapterIndexType.Chapter13;
+    if(chapterNo === 'chapter14') return ChapterIndexType.Chapter14;
+    if(chapterNo === 'chapter15') return ChapterIndexType.Chapter15;
+    if(chapterNo === 'chapter16') return ChapterIndexType.Chapter16;
+    if(chapterNo === 'chapter17') return ChapterIndexType.Chapter17;
+    if(chapterNo === 'chapter18') return ChapterIndexType.Chapter18;
+    
+    return ChapterIndexType.Chapter1;
+}  
 
 const Page = () => {
     const [selectedLanguage, setselectedLanguage] = useState<string>('Hindi');
@@ -43,7 +68,7 @@ const Page = () => {
                           </span>
                         </p>
                         <h2 className={`mb-3 text-slate-600 text-lg font-semibold`}>
-                            {selectedLanguage === 'Hindi' ? bhagwatGita[key].chapterNameHindi : bhagwatGita[key].chapterNameEnglish}
+                            {selectedLanguage === 'Hindi' ? bhagwatGita[getChapterIndex(key)].chapterNameHindi : bhagwatGita[getChapterIndex(key)].chapterNameEnglish}
                         </h2>
                         
                       </a>
