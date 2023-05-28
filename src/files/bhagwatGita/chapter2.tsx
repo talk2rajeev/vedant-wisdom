@@ -3081,8 +3081,8 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
                         meaning: "कहाँ है, सुख",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: "",
+                meaningInHindi: "जो आत्म-संयम से विहीन है वह ज्ञान प्राप्त नहीं कर सकता। ज्ञान के बिना कोई कभी ध्यान नहीं कर सकता। जो ध्यान नहीं कर सकता वह शांति प्राप्त नहीं कर सकता, और शांति के बिना कोई सुख कैसे प्राप्त कर सकता है?",
+                meaningInEnglish: "One who is bereft of self-control cannot attain wisdom. Without wisdom one can never meditate. One who cannot meditate cannot achieve peace, and without peace how can one attain happiness?",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
