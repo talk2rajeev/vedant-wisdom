@@ -1,4 +1,5 @@
 
+import { Old_Standard_TT } from 'next/font/google';
 import {ChapterIndexType, ChapterInterface} from './index';
 
 const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {    
@@ -850,7 +851,7 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
                     },
                     {
                         sanskrit: "अनाशिन, अप्रमेयस्य–",
-                        meaning: "अविनाशी, अपरिमेय अर्थात जिसे मापा जा सका",
+                        meaning: "अविनाशी, अपरिमेय अर्थात् जिसे मापा जा सका",
                     },
                     {
                         sanskrit: "तस्मात्-युध्यस्व",
@@ -1965,7 +1966,7 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
                         meaning: "इस प्रकार-अनुशंसा करना",
                     },
                 ],
-                meaningInHindi: "हे पार्थ, छोटी बुद्धि वाले वेदों की गलत व्याख्या करते हैं (वेदों की आलंकारिक शब्दों पर अत्यधिक आसक्त रहते हैं) और दावा करते हैं कि सृष्टि में कोई दिव्य सिद्धांत नहीं है (अर्थात जो यह मानते हैं कि इन वेदों में कोई उच्च सिद्धान्तों का वर्णन नहीं किया गया है)। इस प्रकार वे वेदों के केवल उन्हीं कथनों का महिमामंडन करते हैं जो इंद्रियों को भाते हैं।",
+                meaningInHindi: "हे पार्थ, छोटी बुद्धि वाले वेदों की गलत व्याख्या करते हैं (वेदों की आलंकारिक शब्दों पर अत्यधिक आसक्त रहते हैं) और दावा करते हैं कि सृष्टि में कोई दिव्य सिद्धांत नहीं है (अर्थात् जो यह मानते हैं कि इन वेदों में कोई उच्च सिद्धान्तों का वर्णन नहीं किया गया है)। इस प्रकार वे वेदों के केवल उन्हीं कथनों का महिमामंडन करते हैं जो इंद्रियों को भाते हैं।",
                 meaningInEnglish: "O Parth, those of small intelligence misinterpret the Vedas and claim that there is no divine principle in creation. Thus they glorify those statements that are pleasing to the senses.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
@@ -2321,7 +2322,7 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
                         meaning: "योगः कुशलता से कार्य करने की कला",
                     },
                 ],
-                meaningInHindi: "समबुद्धियुक्त पुरुष पुण्य और पाप दोनों को इसी लोक में त्याग देता है अर्थात उनसे मुक्त हो जाता है। इससे तू समत्व रूप योग में लग जा, यह समत्व रूप योग ही कर्मों में कुशलता है अर्थात कर्मबंध से छूटने का उपाय है।",
+                meaningInHindi: "समबुद्धियुक्त पुरुष पुण्य और पाप दोनों को इसी लोक में त्याग देता है अर्थात् उनसे मुक्त हो जाता है। इससे तू समत्व रूप योग में लग जा, यह समत्व रूप योग ही कर्मों में कुशलता है अर्थात कर्मबंध से छूटने का उपाय है।",
                 meaningInEnglish: "A wise man refrains from performing both good and bad actions in this world. Thus, engage in yoga, as yoga is the best of all activities.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
@@ -3089,144 +3090,296 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
             {
                 slokaNumber: 67,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते ।", "तदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि ॥67॥"],
+                romanSloka: ["indriyāṇāṁ hi caratāṁ yan mano’nuvidhīyate", "tad asya harati prajñāṁ vāyur nāvam ivāmbhasi"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "इन्द्रियाणाम्",
+                        meaning: "इन्द्रियों के",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "हि",
+                        meaning: "वास्तव में",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "चरताम्",
+                        meaning: "चिन्तन करते हुए",
+                    },
+                    {
+                        sanskrit: "यत्, मन:, अनुविधीयते",
+                        meaning: "जिसके, मन, निरन्तर रत रहता है",
+                    },
+                    {
+                        sanskrit: "तत्, अस्य",
+                        meaning: "वह, इसकी",
+                    },
+                    {
+                        sanskrit: "हरति",
+                        meaning: "हर लेना (वश मे करना)",
+                    },
+                    {
+                        sanskrit: "प्रज्ञाम्",
+                        meaning: "बुद्धि के",
+                    },
+                    {
+                        sanskrit: "वायुः, नावम्",
+                        meaning: "वायु, नाव को",
+                    },
+                    {
+                        sanskrit: "इव, अम्भसि",
+                        meaning: "जैसे, जल पर",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "जिस प्रकार वायु अपने वेग से नाव को वश में कर लेती है  (बहा कर ले जाती है),  उसी प्रकार से अनियंत्रित इन्द्रियों मे से कोई भी एक इंद्री जिसमें मन अधिक लिप्त रहता है, बुद्धि को हर लेती है (अर्थात् बुद्धि का विनाश कर देती है)।",
+                meaningInEnglish: "As the wind controls a boat, in the same way any one of the uncontrolled senses in which the mind is more involved takes away the intelligence (i.e. destroys the intelligence).",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 68,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः ।", "इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥68॥"],
+                romanSloka: ["tasmād yasya mahā-bāho nigṛhītāni sarvaśaḥ", "indriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "तस्मात्, यस्य",
+                        meaning: "इसलिए, जिसकी",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "महाबाहो",
+                        meaning: "महाबलशाली",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
-                    }
+                        sanskrit: "निगृहीतानि",
+                        meaning: "विरक्त",
+                    },
+                    {
+                        sanskrit: "सर्वशः, इन्द्रियाणि",
+                        meaning: "सब प्रकार से, इन्द्रियाँ",
+                    },
+                    {
+                        sanskrit: "इन्द्रिय-अर्थेभ्यः",
+                        meaning: "इन्द्रिय विषयों से",
+                    },
+                    {
+                        sanskrit: "तस्य",
+                        meaning: "उस व्यक्ति की",
+                    },
+                    {
+                        sanskrit: "प्रज्ञा",
+                        meaning: "दिव्य ज्ञान",
+                    },
+                    {
+                        sanskrit: "प्रतिष्ठिता",
+                        meaning: "स्थिर रहना",
+                    },
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "इसलिए हे महाबाहु। जो मनुष्य इन्द्रियों के विषय भोगों से विरक्त है, वह दृढ़ता से दिव्य ज्ञान में स्थापित है (यानि उसकी बुद्धि स्थिर है)।",
+                meaningInEnglish: "Therefore, O mighty armed Arjuna, one whose senses are fully withdrawn from the sense-objects is firmly established in divine wisdom.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 69,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["या निशा सर्वभूतानां तस्यां जागर्ति संयमी ।", "यस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः ॥69॥"],
+                romanSloka: ["yā niśā sarva-bhūtānāṁ tasyāṁ jāgarti saṁyamī", "yasyāṁ jāgrati bhūtāni sā niśā paśyato muneḥ"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "या, निशा",
+                        meaning: "जिसे, रात्रि",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: " सर्व, भूतानाम्",
+                        meaning: "सब, सभी जीवः",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "तस्याम्",
+                        meaning: "उसमें",
+                    },
+                    {
+                        sanskrit: "जागर्ति",
+                        meaning: "जागता रहता है",
+                    },
+                    {
+                        sanskrit: "संयमी, यस्याम्",
+                        meaning: "आत्मसंयमी, जिसमें",
+                    },
+                    {
+                        sanskrit: "जाग्रति",
+                        meaning: "जागते हैं",
+                    },
+                    {
+                        sanskrit: "भूतानि",
+                        meaning: "सभी जीव",
+                    },
+                    {
+                        sanskrit: "सा, निशा",
+                        meaning: "वह, रात्रि",
+                    },
+                    {
+                        sanskrit: "पश्यतः, मुनेः",
+                        meaning: "देखना, मुनि",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "सम्पूर्ण प्राणियों के लिए जो रात (परमात्मासे विमुखता) है, उसमें संयमी मनुष्य जागता है, और जिसे सब लोग दिन समझते हैं (भोग और संग्रहमें लगे रहते हैं), वह तत्वज्ञानी मुनिकी दृष्टिमें रात है।",
+                meaningInEnglish: "What is considered day by all is the night of ignorance for the self-controlled and what is night for all living beings is day for the introspective sages.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 70,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["आपूर्यमाणमचलप्रतिष्ठं समुद्रमापः प्रविशन्ति यद्वत् ।", "तद्वत्कामा यं प्रविशन्ति सर्वे स शान्तिमाजोति न कामकामी ॥70॥"],
+                romanSloka: ["āpūryamāṇam acala-pratiṣṭhaṁ samudram āpaḥ praviśanti yadvat", "tadvat kāmā yaṁ praviśanti sarve sa śāntim āpnoti na kāma-kāmī"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
+                        sanskrit: "आपूर्यमाणम्",
+                        meaning: "सभी ओर से जलमग्न",
+                    },
+                    {
+                        sanskrit: "अचल-प्रतिष्ठम्",
+                        meaning: "विक्षुब्ध न होना",
+                    },
+                    {
+                        sanskrit: "समुद्रम्",
+                        meaning: "समुद्र में",
+                    },
+                    {
+                        sanskrit: "आपः, प्रविशन्ति",
+                        meaning: "जल, प्रवेश करती हैं",
+                    },
+                    {
+                        sanskrit: "यद्वत्, तद्वत्",
+                        meaning: "जिस प्रकार, उसी प्रकार",
+                    },
+                    {
+                        sanskrit: "काम-कामनाएँ यम्-जिसमें; प्रविशन्ति–प्रवेश करती हैं;",
                         meaning: "",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "सर्वे, सः",
+                        meaning: "सभी, वह व्यक्ति;",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
-                    }
+                        sanskrit: "शन्तिम्",
+                        meaning: "शान्ति",
+                    },
+                    {
+                        sanskrit: "आप्नोति",
+                        meaning: "प्राप्त करता है",
+                    },
+                    {
+                        sanskrit: "न, कामकामी",
+                        meaning: "नहीं, कामनाओं को तुष्ट करने वाला",
+                    },
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "जिस प्रकार से अनेक नदियों के जल अचल प्रतिष्ठा वाले समुद्र में उसे विचलित किये बिना ही उसमे समा जाते हैं, उसी प्रकार से  सम्पूर्ण भोग-पदार्थ जिस संयमी मनुष्य में विकार उत्पन्न किये बिना ही उसमे समा जाते हैं, वही मनुष्य पुरुष शान्ति प्राप्त करता है, भोगों की कामना करने वाला पुरुष नहीं।",
+                meaningInEnglish: "Such a sage who is steadfast in facing the constant flow of desires and who does not strive to satisfy them achieves peace. He remains unaffected, just as the ocean remains calm as rivers enter into it.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 71,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः ।", "निर्ममो निरहङ्कारः स शान्तिमधिगच्छति ॥71॥"],
+                romanSloka: ["vihāya kāmān yaḥ sarvān pumāṁś carati niḥspṛhaḥ", "nirmamo nirahaṅkāraḥ sa śāntim adhigacchati"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "विहाय",
+                        meaning: "त्याग कर",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "कामान्",
+                        meaning: "भौतिक इच्छाएँ",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "यः, सर्वान्",
+                        meaning: "जो, समस्त",
+                    },
+                    {
+                        sanskrit: "पुमान्",
+                        meaning: "पुरुष",
+                    },
+                    {
+                        sanskrit: "चरति, निःस्पृहः",
+                        meaning: "रहता है, कामना रहित",
+                    },
+                    {
+                        sanskrit: "निर्ममाः",
+                        meaning: "स्वामित्व की भावना से रहित",
+                    },
+                    {
+                        sanskrit: "निरहंकारः",
+                        meaning: "अहंकार रहित",
+                    },
+                    {
+                        sanskrit: "सः, शान्तिम्",
+                        meaning: "वह, पूर्ण शान्ति को",
+                    },
+                    {
+                        sanskrit: "अधिगच्छति",
+                        meaning: "प्राप्त करता है",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "जो पुरुष सम्पूर्ण कामनाओं को त्याग कर ममता भाव रहित, अहंकार रहित और स्वार्थ रहित हुआ विचरण करता है, वही शान्ति प्राप्त करता है।",
+                meaningInEnglish: "Only one who abandons all desire for sense-indulgence, who lives free from possessiveness and is free of false ego can attain peace.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
             {
                 slokaNumber: 72,
                 uvach: "",
-                sanskritSloka: ["", ""],
-                romanSloka: ["", ""],
+                sanskritSloka: ["एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति ।", "स्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति ॥72॥"],
+                romanSloka: ["eṣā brāhmī sthitiḥ pārtha naināṁ prāpya vimuhyati", "sthitvāsyām anta-kāle’pi brahma-nirvāṇam ṛcchati"],
                 wordsMeaning: [
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "एषा",
+                        meaning: "ऐसे",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "ब्राह्मी-स्थितिः",
+                        meaning: "भगवदप्राप्ति की अवस्था",
                     },
                     {
-                        sanskrit: "",
-                        meaning: "",
+                        sanskrit: "पार्थ",
+                        meaning: "पृथापुत्र, अर्जुन",
+                    },
+                    {
+                        sanskrit: "न, एनाम्",
+                        meaning: "कभी नहीं, इसको",
+                    },
+                    {
+                        sanskrit: "प्राप्य",
+                        meaning: "प्राप्त करके",
+                    },
+                    {
+                        sanskrit: "विमुह्यति",
+                        meaning: "मोहित होता है",
+                    },
+                    {
+                        sanskrit: "स्थित्वा",
+                        meaning: "स्थित होकर",
+                    },
+                    {
+                        sanskrit: "अस्याम्",
+                        meaning: "इसमें",
+                    },
+                    {
+                        sanskrit: "अन्तकाले",
+                        meaning: "मृत्यु के समय",
+                    },
+                    {
+                        sanskrit: "अपि, ब्रह्म-निवाणम्",
+                        meaning: "भी, माया से मुक्ति",
+                    },
+                    {
+                        sanskrit: "ऋच्छति",
+                        meaning: "प्राप्त करता है",
                     }
                 ],
-                meaningInHindi: "",
-                meaningInEnglish: '',
+                meaningInHindi: "हे पार्थ! ऐसी अवस्था में रहने वाली प्रबुद्ध आत्मा जब ब्रह्मज्ञान प्राप्त कर लेती है, वह फिर कभी भ्रमित नहीं होती तब मृत्यु के समय भी इस दिव्य चेतना में स्थित सिद्ध पुरुष जन्म और मृत्यु के बंधन से मुक्त हो जाता है और भगवान के परम धाम में प्रवेश करता है।",
+                meaningInEnglish: "O Pārtha, having attained realisation of the Absolute Truth one is never bewildered. If one is situated in this state at the time of death, one attains brahma-nirvāṇam, the abode of pure consciousness, and all suffering ceases.",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
             },
@@ -3235,3 +3388,16 @@ const Chapter2: {[ChapterIndexType.Chapter2]: ChapterInterface } = {
 };
 
 export default Chapter2;
+
+/*
+Nadhi standard (AC3 - 2380)       ------------- [14June(Wed)]       
+Nadhi family  (nonAC4 - 2660, AC4-3360) ------- [21June(Wed), 25June(Sun), 26June(Mon)]  
+Aalayam Standard (AC3 - 2380)------------------ [30June(Fri)]
+Nadhi Executive  (nonAC3 - 3080, AC3-3920)----- [26June(Mon)]
+Nalanda Deluxe (NonAc3 - 4060) ---------------- [only monday tuesday available]
+
+30 min walk
+Shivapadam 4 faimily (nonAc4-2660, AC4-3360)--- [16June(Fri), 25June(sun)]
+Shivapadam 3 Standard (AC3 - 2380)------------- Available from 11 to 24 & 4 to 9
+Shivapadam 4 Standard (AC3 - 2380) ------------ Available from 11 to 24
+*/
