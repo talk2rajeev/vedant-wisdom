@@ -27,6 +27,7 @@ interface VerseInterface {
     uvach: string,
     sanskritSloka: Array<string>,
     romanSloka: Array<string>,
+    notClear?: boolean,
     wordsMeaning: Array<WordsMeaningType>,
     meaningInHindi: string,
     meaningInEnglish: string,
