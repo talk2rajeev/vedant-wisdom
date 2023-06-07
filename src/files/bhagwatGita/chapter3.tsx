@@ -671,6 +671,51 @@ const Chapter3: {[ChapterIndexType.Chapter3]: ChapterInterface } = {
                 meaningInEnglish: "",
                 meaningInGujrati: "",
                 meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 15,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                notClear: true,
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: "",
+                meaningInGujrati: "",
+                meaningInMarathi: "",
             }
         ]
     }
