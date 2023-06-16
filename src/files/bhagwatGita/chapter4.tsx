@@ -174,6 +174,78 @@ const Chapter4: {[ChapterIndexType.Chapter4]: ChapterInterface } = {
                 meaningInEnglish: '',
                 meaningInGujrati: "",
                 meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 8,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 9,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
+            },
+            {
+                slokaNumber: 10,
+                uvach: "",
+                sanskritSloka: ["", ""],
+                romanSloka: ["", ""],
+                wordsMeaning: [
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    },
+                    {
+                        sanskrit: "",
+                        meaning: "",
+                    }
+                ],
+                meaningInHindi: "",
+                meaningInEnglish: '',
+                meaningInGujrati: "",
+                meaningInMarathi: "",
             }
         ]
     }
